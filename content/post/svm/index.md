@@ -75,7 +75,7 @@ This means that no new global variables can be added at runtime. The global vari
 (Maybe there are workarounds in some languages, but let's just accept that the premise is sound for argument's sake.)
 
 Similarly, in SVM, we assume that each smart-contract program is aware, during its compile-time, of its storage needs.
-One program may require 5 variables of **32 bits** each (20 bytes in total), while another program may use 2 booleans (1 byte each)and 4 integers of **64 bits** resulting in **2 + 4 * 8 = 34** bytes.
+One program may require 5 variables of **32 bits** each (20 bytes in total), while another program may use 2 booleans (1 byte each) and 4 integers of **64 bits** resulting in **2 + 4 * 8 = 34** bytes.
 
 Now, from the **pages storage** point of view, there are neither variables nor slices of bytes.
 From the **pages storage** point of view, there are only pages. Each page is a constant size (SVM is currently configured for a page size of **4096 bytes**).
