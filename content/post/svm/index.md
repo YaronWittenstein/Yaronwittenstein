@@ -70,8 +70,8 @@ The **key-value store** serves as a companion for other **contract storage** com
 <br/>
 ### Pages Storage
 
-In any standard strongly typed programming language, the global variables are known ahead of runtime, during compile-time.
-This means that no new global variables can be added at runtime. The global variables live throughout the lifetime of the program.
+In any standard strongly-typed programming language, the global variables are known ahead of runtime, during compile-time.
+This means that no new global variables can be added at runtime. The global variables are present throughout the lifetime of the program.
 (Maybe there are workarounds in some languages, but let's just accept that the premise is sound for argument's sake.)
 
 Similarly, in SVM, we assume that each smart-contract program is aware, during its compile-time, of its storage needs.
@@ -97,7 +97,7 @@ The **page hash** is derived from the contract account address, its page index, 
 The **page cache** is a caching layer on top of **pages storage**. If during a program run we ask to load a page more than once, then only the first time will result in a disk hit (i.e. the Operating System will read the system-call, because as the Operating System has its own page cache, it will not physically hit the disk).
 
 Once a running program issues a write-operation, we will mark the page as dirty. Committing the dirty pages
-via the **page cache** takes place only after the smart contract finished its running. If the smart contract fails, we discard the dirty pages.
+via the **page cache** takes place only after the smart contract has finished its run. If the smart contract fails, we discard the dirty pages.
 The **page cache** interface isn't able to access the smart-contracts code
 
 ![svm-pages-before][svm-pages-before]
@@ -106,7 +106,7 @@ The **page cache** interface isn't able to access the smart-contracts code
 ![svm-pages-after][svm-pages-after]
 
 
-The smart-contract only talks directly to the **page slice cache** which we'll explain next.
+The smart-contract only talks directly to the **page slice cache**, which we'll explain next.
 
 
 ### Page Slice Cache
@@ -114,7 +114,7 @@ The smart-contract only talks directly to the **page slice cache** which we'll e
 The **page slice cache** is the top-level abstraction in the hierarchy. SVM smart-contracts talk directly only to the **page slice cache** (**page slice** for short).
 We'll refer often to both **page slice** and **contract storage** interchangeably.
 
-A running program trying to read a variable will translate to ask SVM for the corresponding page-slice, which is an array of bytes representing that variable.
+A running program trying to read a variable will translate to asking the SVM for the corresponding page-slice, which is an array of bytes representing that variable.
 A variable is an abstraction for running programs. There is no such thing as a variable for the **contract storage**, only **page slices**.
 
 Each **page slice** has a sequential index, local to the program, starting at zero.
@@ -124,10 +124,7 @@ I say "compiled program" because a compiler may decide to reorder variables as a
 If **slice #0** of a program represents a boolean and **slice #1** a **32 bit** integer, we say that **slice #0** is located under **page #0, offset=0, length=1**
 and that **slice #1** resides at **page #1, offset=1, length=4**.
 
-So SVM programs deal with **page slices**. When we want to read **slice #0 offset=0, length=1** for the first time, this request will translate to asking
-the **page cache** for **page #0** which will result in a cache miss. Then, it'll delegate the page load request to the underlying **pages storage**.
-The **pages storage** will infer the desired **page hash** given the current running **contract address** and **contract state**
-and proceed to ask **kv** store for the actual fetch.
+So SVM programs deal with **page slices**. When we want to read **slice #0 offset=0, length=1** for the first time, this request will translate to asking the **page cache** for **page #0** which will result in a cache miss. Then, it'll delegate the page load request to the underlying **pages storage**. The **pages storage** will infer the desired **page hash**, based on the current running **contract address** and **contract state**, and proceed to ask **kv** store for the actual fetch.
 
 When SVM overrides a **page slice**, it will first make sure it's been loaded, meaning the associated **page** to that **page slice** should be loaded.
 Then we'll mark the **page slice** as dirty. When committing smart-contract changes upon successful execution, we will ask the **page slice storage** to
@@ -141,18 +138,18 @@ for each committed dirty page and calculate the new **contract state**, returnin
 
 ### SVM Registers
 
-SVM registers are non-persistent ephemeral fixed-sized buffers used for the alleviation of running smart-contracts.
-Each running SVM program can take advantage of these buffers, instead of defaulting to ask the runtime for more temporary memory cells, or for the use of the runtime stack. Each running SVM program is currently initialized with fixed registers settings of various sizes.
+SVM registers are non-persistent, ephemeral, fixed-sized buffers that make smart contracts run more smoothly.
+Each running SVM  program can take advantage of these buffers when it would otherwise ask the runtime for more temporary memory cells, or use the runtime stack. Each running SVM program is currently initialized with their registers’ settings fixed at various sizes.
 
-Additionally, using the registers API can add some readability to the program's WebAssembly code.
+Additionally, using the registers' API can add some readability to the program's WebAssembly code.
 For example, let's assume our full-node is using **20 bytes (<=> 160 bits)** for account addresses and that a balance
 is represented as **i64** (which is a WebAssembly primitive).
 
-If we'd like to ask the full-node for a balance given its account address under a register, we might come up with runtime vmcall like
+If we'd like to ask the full-node for a balance, given its account address under a register, we might come up with runtime vmcall like
 **svm_get_balance_from_reg(160, 1) -> i64**<br/><br/>meaning:
 _"read **register #1** of type **160 bits** for the desired account address and return its balance as an **i64** integer"._
 
-Currently, the SVM registers settings for each running program consist of:
+Currently, the SVM registers' settings for each running program consist of:
 
 * 16 registers of **32 bits**
 * 16 registers of **64 bits**
@@ -162,7 +159,7 @@ Currently, the SVM registers settings for each running program consist of:
 
 These numbers are of course subject to change between SVM versions.
 
-Another future initiative we may implement is adding the required registers settings necessary to run to the contract program metadata.
+Another future initiative we may implement is adding the required registers' settings necessary to run to the contract program metadata.
 That way, when we compile a high-level programming language targeted to the SVM flavored WebAssembly (see the [SMESH](#smesh) section later), we'll decide as part of the compilation process how many registers we'd like to have and how many of each type.
 
 ![svm-registers][svm-registers]
@@ -177,8 +174,8 @@ The Runtime API is a gateway from which SVM can be seen as a black box.
 
 ### Deployment
 
-So a new smart-contract program has been born and it's being broadcast to the network as part of a **contract deployment** network transaction.
-Hopefully, it'll be mined and get inserted into the chain (mesh in Spacemesh's case).
+So a new smart contract program has been born, and it's being broadcast to the network as part of a **contract deployment** network transaction.
+Hopefully, it'll be mined and get inserted into the chain (or 'mesh', in Spacemesh's case).
 
 Now, the process for the actual contract deployment within a full-node involves:
 
@@ -223,16 +220,16 @@ Otherwise, we discard the storage pending changes and remain with the same **con
 
 ## Runtime C-API & Golang binding
 
-[wasmer][wasmer] and therefore SVM is written in Rust.
+[wasmer][wasmer], and therefore SVM, is written in Rust.
 Thankfully Rust has FFI bindings to C ABI. This allows Rust to call C and vice versa.
 We care about C calling Rust functionality. [wasmer][wasmer] comes with its own C-API out of the box.
 SVM has its own FFI API exposed (using the **wasmer c-api** internally).
 
-Spacemesh full-node is written in Golang which can interface with C ABI code using **cgo**.
+Spacemesh full-node is written in Golang, which can interface with C ABI code using **cgo**.
 So in order to integrate SVM with the Spacemesh full-node, we should introduce a glue layer of Spacemesh full-node **cgo**
 to SVM Runtime C-API.
 
-Luckily, [wasmer][wasmer] has a Golang client, [go-ext-wasm][go-ext-wasm] and there is now a [go-ext-wasm Spacemesh fork][go-ext-wasm Spacemesh]
+Luckily, [wasmer][wasmer] has a Golang client, [go-ext-wasm][go-ext-wasm], and there is now a [go-ext-wasm Spacemesh fork][go-ext-wasm Spacemesh]
 that adds that glue layer for SVM's needs.
 
 ![svm-c-api][svm-c-api]
@@ -247,8 +244,8 @@ So here's a brief about the future of SVM:
 
 ### Storage Unbounded Data-Structures
 
-The current SVM only supports fixed-sized storage variables. There is no support for unbounded data-structures.
-We'd like to add gradually support for these data-structures:
+The current SVM only supports fixed-size storage variables. There is no support for unbounded data-structures.
+We'd like to gradually add support for these data-structures:
 
 * list
 * map
@@ -257,18 +254,17 @@ We'd like to add gradually support for these data-structures:
 
 Each unbounded data-structure will manage its own state.
 The root **contract storage** will store these data-structures **state** in the same way
-it stores booleans/integers. It's like having a reference type variable. Since a reference/data-structure state will be of a fixed-size, it can work.
+it stores booleans/integers. It's like having a reference type variable. This will be possible because the reference/data-structure state will be of a fixed size.
 
-Having these unbounded data-structures adds complexity to the *contract storage** which will have to additionally track the changes of each unbounded data-structure.
+Having these unbounded data-structures adds complexity to the *contract storage**, which will have to additionally track the changes of each unbounded data-structure.
 
-Committing **contract storage** changes will now first require computing each unbounded data-structure's new state, and updating the **contract storage**
-matching **page slice**. Only after that, can we perform a batch commit of all the storage changes in one shot.
+Committing **contract storage** changes will now first require computing each unbounded data-structure's new state, and updating the **contract storage** along with its
+matching **page slice**. Only after that can we perform a batch commit of all the storage changes in one shot.
 
-Actually, this is a recursive process since an unbounded data-structure may hold unbounded data-structures too.
-Say, we have a list of **maps**, or a **map** from **string** to **list**. It means we'll need to traverse first the most internal unbounded data-structures
-and then, each will notify its parent about its new state and so on until it reaches the top-level **contract storage** (what we have today).
+Actually, this is a recursive process, since an unbounded data-structure may also hold unbounded data-structures.
+For example: say we have a list of **maps**, or a **map** from **string** to **list**. This means we'll need to traverse the innermost unbounded data-structures first, setting off a chain reaction whereby each data-structure notifies its parent about its new state -- until finally reaching the top level contract storage (what we have today).
 
-We need to do more research on how to represent each unbounded data-structure. We may end up having a [MPT][mpt] Ethereum-style for each
+We need to do more research on how to represent each unbounded data-structure. We may end up having an [MPT][mpt] Ethereum-style for each
 such data-structure. Maybe different data-structures will have different methods for managing their states.
 
 
@@ -280,15 +276,15 @@ We are still thinking of how to make the gas metering more elegant if possible. 
 
 ### Contract to Contract Calls
 
-We'll want to have an explicit distinction between a contract calling another contract and one using another library/package/dependency.
+We'll want to have an explicit distinction between a contract calling another contract, as opposed to using another library/package/dependency.
 As long a program relies on libraries, it will not issue a call to other accounts.
-In all the rest of cases, we do want the option to explicitly call another contract, resulting in the spawn of a new SVM instance.
+In every other case, we want to retain the ability to explicitly call another contract, resulting in the spawn of a new SVM instance.
 There is more info about the using dependencies here: [Code Reuse](#code-reuse).
 
 
 ### Structured Events with expiration
 
-We want to be able to add structured events for easier searching and we'd like to set an expiration on them in order to save disk space.
+We want to be able to add structured events for easier searching, and we'd like to set an expiration on them in order to save disk space.
 If a program desires permanent events, the solution is to use a general **contract storage** variable.
 (see [Storage Unbounded Data-Structures](#storage-unbounded-data-structures) above).
 
@@ -302,18 +298,18 @@ We'd like SVM programs to be able to use other packages of code. SVM smart contr
 These packages may not be associated with other contracts accounts (as we are not sure how it will be represented yet), but they still must be stored on-chain.
 It's like having access to **RubyGems/npm/crates.io** or other package managers accessible on the chain. (documentation or debugging info will be stored off-chain).
 
-I know there is an early-stage work being done on WebAssembly modules interoperability. A few weeks ago, Lin Clark published  a great article about [WebAssembly Interface Types][WebAssembly Interface Types]. This seems to be a big step in that direction.
+I know there is early-stage work being done on the interoperability of WebAssembly modules. A few weeks ago, Lin Clark published  a great article about [WebAssembly Interface Types][WebAssembly Interface Types]. This seems to be a big step in that direction.
 
-I can imagine feeding a _wasmer_ module with its dependencies modules in, and compile it natively under one executable unit of code.
-Or maybe instead of having one compiled module, we could tell _wasmer_ when we build the **import object**, that we're interested not only in the predefined runtime vmcalls, but also in the functions that exist in other WebAssembly modules, serving as dependencies. In such a case we could look at programs as importing runtime dynamic vmcalls.
+I can imagine feeding a _wasmer_ module along with its dependencies modules in, and compiling it natively under one executable unit of code.
+Or maybe instead of having one compiled module, we can tell _wasmer_ that, when we build the **import object**, we're interested not only in the predefined runtime vmcalls, but also in the functions that exist in other WebAssembly modules, serving as dependencies. In such a case we could look at programs as importing runtime dynamic vmcalls.
 
 This idea is analogous to having an operating system pre-compiled with built-ins (like system-calls) vs. dynamically loading kernel modules at runtime.
 
 
 ### SMESH
 
-The puzzle will never be complete without having a high-level friendly programming-language that will compile to SVM WebAssembly code.
-(i.e WebAssembly using the SVM runtime vmcalls). Initial planning for this future programming-language under the name _SMESH_.
+The puzzle will never be complete without having a high-level-friendly programming language that will compile to SVM WebAssembly code.
+(i.e WebAssembly using the SVM runtime vmcalls). Initial planning is already underway for this future programming language, under the name _SMESH_.
 The actual work on SMESH will probably start before reaching all the SVM milestones described above.
 I've given a talk about the motivation for SMESH [here][Spacemesh smart contracts research].
 
@@ -321,15 +317,15 @@ I've given a talk about the motivation for SMESH [here][Spacemesh smart contract
 ## Summary
 
 In this article, we reviewed the work being done so far for **SVM - Spacemesh Virtual Machine**, and the motivation behind it.
-Then, we talked about the next steps for SVM and mentioned SMESH, the future high-level programming-language that will compile to SVM WebAssembly code.
+Then, we talked about the next steps for SVM and mentioned SMESH, the future high-level programming language that will compile to SVM WebAssembly code.
 
 In order to fulfill these ambitious goals, we've made room for more people to join.
 
-So if you are a Rust developer interested in compilation and programming-languages please don't be shy and reach out using any of the various communication methods available, including but not limited to:
+So if you are a Rust developer interested in compilation and programming languages, please don't be shy! Reach out using any of the various communication methods available, including but not limited to:
 
 [Spacemesh contact page][spacemesh contact page]
 
-or you can send me directly an email: _yaron.wittenstein@gmail.com_
+or you can send me an email directly: _yaron.wittenstein@gmail.com_
 
 If you're interested in contributing to SVM, please take a look at the [SVM issues][svm issues] page.
 Please contact us before starting any work, so that we can get on the same page.
