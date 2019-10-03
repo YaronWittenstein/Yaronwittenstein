@@ -262,7 +262,7 @@ Committing **contract storage** changes will now first require computing each un
 matching **page slice**. Only after that can we perform a batch commit of all the storage changes in one shot.
 
 Actually, this is a recursive process, since an unbounded data-structure may also hold unbounded data-structures.
-For example: say we have a list of **maps**, or a **map** from **string** to **list**. This means we'll need to traverse the innermost unbounded data-structures first, setting off a chain reaction whereby each data-structure notifies its parent about its new state -- until finally reaching the top level contract storage (what we have today).
+For example: say we have a list of **maps**, or a **map** from **string** to **list**. This means we'll need to traverse the innermost unbounded data-structures first, setting off a chain reaction whereby each data-structure notifies its parent about its new state -- until finally reaching the top-level contract storage (what we have today).
 
 We need to do more research on how to represent each unbounded data-structure. We may end up having an [MPT][mpt] Ethereum-style for each
 such data-structure. Maybe different data-structures will have different methods for managing their states.
@@ -279,7 +279,7 @@ We are still thinking of how to make the gas metering more elegant if possible. 
 We'll want to have an explicit distinction between a contract calling another contract, as opposed to using another library/package/dependency.
 As long a program relies on libraries, it will not issue a call to other accounts.
 In every other case, we want to retain the ability to explicitly call another contract, resulting in the spawn of a new SVM instance.
-There is more info about the using dependencies here: [Code Reuse](#code-reuse).
+There is more info about using dependencies here: [Code Reuse](#code-reuse).
 
 
 ### Structured Events with expiration
