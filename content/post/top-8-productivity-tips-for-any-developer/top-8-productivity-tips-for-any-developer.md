@@ -162,12 +162,12 @@ My text expander software for Mac is [aText][aText]. You probably guessed right 
 
 * **Command Line**
 
-In the command-line, I use many abbreviations aliases for longer commands (defined in my `.zshrc` dot file).
+In the command-line, I use many abbreviations aliases for longer commands (defined in my **.zshrc** dot file).
 
-For example: Instead of writing `git reset HEAD --hard` for a local Git repository, I just write `grhh`.
+For example: Instead of writing **git reset HEAD --hard** for a local Git repository, I just write **grhh**.
 
-If I need to merge branch `develop` onto the current branch, I just type `gmd`.
-Or instead of opening vim with the `vim` command, I just insert `v`.
+If I need to merge branch **develop** onto the current branch, I just type **gmd**.
+Or instead of opening vim with the **vim** command, I just insert **v**.
 
 * **Side Note**
 

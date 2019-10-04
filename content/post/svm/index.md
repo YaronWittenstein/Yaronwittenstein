@@ -2,6 +2,7 @@
 title: "SVM"
 date: 2019-09-27T21:10:25+03:00
 tags: ["spacemesh"]
+draft: true
 type: "post"
 ---
 

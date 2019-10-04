@@ -68,7 +68,7 @@ The innovative key-value database having so many data-structures.
 The most loved database in *Stack Overflow survey* for the last 3 years
 <br/>
 <br/>
-**Kafka**
+**10. Kafka**
 <br/>
 Distributed commit log that serves as the single point of truth of a system data. It makes it very easy to add/remove independent producers/consumers for our system architecture.
 Thanks to Kafka it's easy to select a checkpoint and *“re-play”* historical data.
