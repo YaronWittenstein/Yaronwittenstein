@@ -302,7 +302,7 @@ It's like having access to **RubyGems/npm/crates.io** or other package managers 
 
 I know there is early-stage work being done on the interoperability of WebAssembly modules. A few weeks ago, Lin Clark published  a great article about [WebAssembly Interface Types][WebAssembly Interface Types]. This seems to be a big step in that direction.
 
-I can imagine feeding a _wasmer_ module along with its dependencies modules in, and compiling it natively under one executable unit of code.
+I can imagine feeding a _wasmer_ module along with its dependencies modules and compiling it natively under one executable unit of code.
 Or maybe instead of having one compiled module, we can tell _wasmer_ that, when we build the **import object**, we're interested not only in the predefined runtime vmcalls, but also in the functions that exist in other WebAssembly modules, serving as dependencies. In such a case we could look at programs as importing runtime dynamic vmcalls.
 
 This idea is analogous to having an operating system with pre-compiled built-ins (like system-calls) vs. dynamically loading kernel modules at runtime.
