@@ -260,7 +260,7 @@ And Speaking on long-term use, I'm a long-time avid user of [evernote][evernote]
 Whatever works for you, just make sure you don't overload your brain with information, you can let someone else store for you.
 
 Knowledge Management can't be complete without mentioning a backup platform Dropbox/iCloud/GoogleDrive style.
-Anything mentioned in this article is encouraged to be backed-up. Some of the apps have a `Connect-with` to a Cloud-provider integration,
+Anything mentioned in this article is encouraged to be backed-up. Some of the apps have a **Connect-with** to a Cloud-provider integration,
 thus making the backup process smooth.
 
 <br/>
