@@ -11,7 +11,7 @@ This blog post intends to give a high-level overview of [Spacemesh's][spacemesh]
  <br>
 
 What is SVM?
-SVM is an acronym for "Spacmesh Virtual Machine." Under the hood, it is based on [wasmer][wasmer] WebAssembly runtime technology.
+SVM is an acronym for "Spacemesh Virtual Machine." Under the hood, it is based on [wasmer][wasmer] WebAssembly runtime technology.
 This article assumes basic knowledge about what WebAssembly is, and related concepts like: _host, module, import object, instance_.
 
 If you're not familiar with these, I highly recommend reading some of the links under [WebAssembly Articles](#webassembly-articles) at the end of this post.
@@ -28,7 +28,7 @@ WebAssembly programs can call the host (a.k.a VM/runtime) for invoking functions
 Security is critical for running a smart contract under a full-node.
 WebAssembly programs run within a sandbox environment by design. This is another big point in favor of using WebAssembly.
 
-SVM is essentially taking [wasmer][wasmer] which is a general-purpose WebAssembly runtime and extending and tailoring it to suit Spacemesh's needs.
+SVM is essentially taking [wasmer][wasmer] which is a general-purpose WebAssembly runtime, then extending and tailoring it to suit Spacemesh's needs.
 
 In point of fact, SVM could be leveraged by other blockchain projects that would like to have WebAssembly-based smart-contracts.
 
