@@ -295,8 +295,7 @@ If a program desires permanent events, the solution is to use a general **contra
 ### Code Reuse
 
 One of the big must-haves for SVM runtime is the ability to let programs reuse code written by other people.
-We'd like SVM programs to be able to use other packages of code. SVM smart contracts should be able to call not only runtime builtin vmcalls, but also other packages loaded upon instantiation. Part of these packages may be written in any programming language compiled to WebAssembly.
-(see also [SMESH](#smesh)).
+We'd like SVM programs to be able to use other packages of code. SVM smart contracts should be able to call not only runtime built-in vmcalls, but also other packages loaded upon instantiation. Part of these packages may be written in any programming language compiled to WebAssembly (see also [SMESH](#smesh)).
 
 These packages may not be associated with other contracts accounts (as we are not sure how it will be represented yet), but they still must be stored on-chain.
 It's like having access to **RubyGems/npm/crates.io** or other package managers accessible on the chain. (documentation or debugging info will be stored off-chain).
@@ -306,7 +305,7 @@ I know there is early-stage work being done on the interoperability of WebAssemb
 I can imagine feeding a _wasmer_ module along with its dependencies modules in, and compiling it natively under one executable unit of code.
 Or maybe instead of having one compiled module, we can tell _wasmer_ that, when we build the **import object**, we're interested not only in the predefined runtime vmcalls, but also in the functions that exist in other WebAssembly modules, serving as dependencies. In such a case we could look at programs as importing runtime dynamic vmcalls.
 
-This idea is analogous to having an operating system pre-compiled with built-ins (like system-calls) vs. dynamically loading kernel modules at runtime.
+This idea is analogous to having an operating system with pre-compiled built-ins (like system-calls) vs. dynamically loading kernel modules at runtime.
 
 
 ### SMESH
