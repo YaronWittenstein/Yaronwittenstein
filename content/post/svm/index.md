@@ -5,6 +5,8 @@ tags: ["spacemesh"]
 type: "post"
 ---
 
+![svm-logo][svm-logo]
+
 This blog post intends to give a high-level overview of [Spacemesh's][spacemesh] new [SVM][svm] project and a brief overview of its future.
  <br>
 
@@ -368,6 +370,7 @@ We also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: for c
 [spacemesh contact page]: https://spacemesh.io/contact/
 [svm issues]: https://github.com/spacemeshos/svm/issues
 
+[svm-logo]: images/svm-logo.png
 [svm-kv]: images/svm-kv.png
 [svm-contract]: images/svm-contract.png
 [svm-pages-before]: images/svm-pages-before.png
