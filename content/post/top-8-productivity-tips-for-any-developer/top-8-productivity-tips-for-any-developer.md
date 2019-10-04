@@ -162,12 +162,12 @@ My text expander software for Mac is [aText][aText]. You probably guessed right 
 
 * **Command Line**
 
-In the command-line, I use many abbreviations aliases for longer commands (defined in my `.zshrc` dot file).
+In the command-line, I use many abbreviations aliases for longer commands (defined in my **.zshrc** dot file).
 
-For example: Instead of writing `git reset HEAD --hard` for a local Git repository, I just write `grhh`.
+For example: Instead of writing **git reset HEAD --hard** for a local Git repository, I just write **grhh**.
 
-If I need to merge branch `develop` onto the current branch, I just type `gmd`.
-Or instead of opening vim with the `vim` command, I just insert `v`.
+If I need to merge branch **develop** onto the current branch, I just type **gmd**.
+Or instead of opening vim with the **vim** command, I just insert **v**.
 
 * **Side Note**
 
@@ -184,6 +184,7 @@ People are flooded with data. And we're the programmers are no exception to that
 In order to shorten the search time looking for a piece of information, we must have good search tooling.
 
 What do we search?
+
 * **Files / Directories / Apps**
 
 Well, that's relevant for any computer user. Search is the most used feature of [Alfred][Alfred].
@@ -260,7 +261,7 @@ And Speaking on long-term use, I'm a long-time avid user of [evernote][evernote]
 Whatever works for you, just make sure you don't overload your brain with information, you can let someone else store for you.
 
 Knowledge Management can't be complete without mentioning a backup platform Dropbox/iCloud/GoogleDrive style.
-Anything mentioned in this article is encouraged to be backed-up. Some of the apps have a `Connect-with` to a Cloud-provider integration,
+Anything mentioned in this article is encouraged to be backed-up. Some of the apps have a **Connect-with** to a Cloud-provider integration,
 thus making the backup process smooth.
 
 <br/>
