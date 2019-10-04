@@ -206,7 +206,7 @@ A smart contract execution transaction will contain:
 The Runtime will:
 
 * Load the contract WebAssembly code from the **contract store**
-* Compile it to native code, called a**WebAssembly module** - thank you [wasmer][wasmer]!
+* Compile it to native code, called a **WebAssembly module** - thank you [wasmer][wasmer]!
 * Create a WebAssembly **import object** with all SVM built-in vmcalls (storage/register/full-node)
 
 The **import object** will be initialized with the **contract address** and **contract state** provided by the full-node.
@@ -258,7 +258,7 @@ Each unbounded data-structure will manage its own state.
 The root **contract storage** will store these data-structures **state** in the same way
 it stores booleans/integers. It's like having a reference type variable. This will be possible because the reference/data-structure state will be of a fixed size.
 
-Having these unbounded data-structures adds complexity to the *contract storage**, which will have to additionally track the changes of each unbounded data-structure.
+Having these unbounded data-structures adds complexity to the **contract storage**, which will have to additionally track the changes of each unbounded data-structure.
 
 Committing **contract storage** changes will now first require computing each unbounded data-structure's new state, and updating the **contract storage** along with its
 matching **page slice**. Only after that can we perform a batch commit of all the storage changes in one shot.
