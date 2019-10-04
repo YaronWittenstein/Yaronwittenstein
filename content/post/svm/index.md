@@ -43,7 +43,7 @@ Now that we are all aligned with what SVM is trying to accomplish, let's talk ab
 
 Each smart-contract has its own internal persistent storage.
 Without having disk persistence, we would not be able to run stateful programs.
-This would leave us with a feeble and trivial contracts solution.
+This would leave us with a feeble and trivial smart contracts solution.
 
 Since we're in the blockchain world, we need to be able to sync starting from a given snapshot point in time. Hence the contract storage is also snapshot-oriented.
 It means that operations performed on them will need an explicit context. We call that context/snapshot the **contract state**.
