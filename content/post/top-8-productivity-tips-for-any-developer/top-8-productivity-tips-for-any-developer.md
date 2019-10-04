@@ -184,6 +184,7 @@ People are flooded with data. And we're the programmers are no exception to that
 In order to shorten the search time looking for a piece of information, we must have good search tooling.
 
 What do we search?
+
 * **Files / Directories / Apps**
 
 Well, that's relevant for any computer user. Search is the most used feature of [Alfred][Alfred].
