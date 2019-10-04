@@ -50,7 +50,7 @@ It means that operations performed on them will need an explicit context. We cal
 
 The **contract state** is derived from its underlying data, deterministically of course... more on this later.
 
-The **contract storage** abstractions can be viewed hierarchically, with `kv` being the most low-level abstraction and **page slice cache** the most high-level
+The **contract storage** abstractions can be viewed hierarchically, with **key-value** being the most low-level abstraction and **page slice cache** the most high-level
 abstraction.
 
 Let's dig a bit deeper...
