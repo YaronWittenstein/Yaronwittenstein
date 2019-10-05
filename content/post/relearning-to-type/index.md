@@ -207,7 +207,7 @@ Thad made my life much easier when navigating.
 <br/><br/>
 ## Was it worth it?
 
-In one word YES!
+In one word: YES!
 <br/>
 in two words: FUCKING YES!
 
