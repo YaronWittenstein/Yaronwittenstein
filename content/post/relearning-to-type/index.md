@@ -29,7 +29,7 @@ Look at your shiny QWERTY keyboard lying beneath your hands.
 <br/><br/>
 Ever since reading that, I had an image stuck in my head of myself working with my Mac having a 19th-century keyboard layout.
 <br/>
-<img src="images/typing-qwerty.png" width=33%/>
+<img src="images/typing-qwerty-small.png"/>
 
 
 There are many stories on the Web around QWERTY being designed to slow down the typists.
@@ -91,7 +91,7 @@ The problem was that I wasn't yet fluent with Colemak either. You could imagine 
 It's like having a split-brain. But not that kind of split-brain in the context of a [distributed-system][distributed-system-brain-split],
 but literally a physical one.
 
-<img src="images/brain-split.png" width=50%/>
+<img src="images/split-brain-small.png"/>
 <br/>
 When that crisis emerged I was reading half-way through a book called [Ultralearning][Ultralearning Book Site] in my spare time.
 This book is thought-provocative regarding how to learn more efficiently in less time. One of the techniques discussed in the book is going cold-turkey
@@ -110,11 +110,11 @@ As for the _Ultralearning book_, I won't say more in this post but to encourage 
 I'm a Mac user. Surprisingly, macOS comes with Colemak support built-in.
 In order to configure Colemak, just go to **System Preferences -> Keyboard**
 <br/><br/>
-<img src="images/colemak-config-1.png"/>
+<img src="images/colemak-config-1-small.png"/>
 <br/><br/>
 Now, click on the **+** button in order to add a new input source and search for Colemak and click on **Add** (as illustrated).
 <br/><br/>
-<img src="images/colemak-config-2.png"/>
+<img src="images/colemak-config-2-small.png"/>
 <br/><br/>
 If you're a Linux user, I've read it has Colemak out of the box too.
 <br/>
@@ -138,7 +138,7 @@ I admit I've even considered abandoning this and conclude the experiment as a fa
 But I'm not the kind of person who gives up so quickly.
 I kept reciting in my head the good-old ["Never, never, never give up"][never-give-up] Churchiill's quote.
 
-After each back-down thought came a new wave of resurgence. I kept saying to myself that I need to stay in the game for at least 3 days.
+After each back-down thought, came a new wave of resurgence. I kept saying to myself that I need to stay in the game for at least 3 days.
 I had the hope that things will start to flow once my subconscious mind will take charge.
 In moments like that, you really appreciate the human brain and the power of our subconscious in our daily habits.
 
@@ -146,7 +146,7 @@ Also, my power brain energy battery depleted very fast, since I had to think abo
 So I took many breaks during the workday in order to recharge. After 30 minutes of work, I felt the same as sweating after a gym workout.
 
 <br/>
-<img src="images/typing-colemak-sad.png" width=33%/>
+<img src="images/typing-colemak-sad-small.png"/>
 <br/><br/>
 
 ### The third day
@@ -163,7 +163,7 @@ after the other my hands sometimes auto-magically located themselves as-if back 
 <br/>It made me understand that I need also to practice letter tuples specifically.
 
 
-<img src="images/typing-colemak-worried.png" width=33%/>
+<img src="images/typing-colemak-worried-small.png"/>
 <br/><br/>
 
 ### The first two weeks
@@ -172,7 +172,7 @@ I've managed to keep it on. Day after day, it became easier to adapt to Colemak 
 Each day I got better. My subconscious has taken control of my typing back again.
 I was much less frustrated and exhausted. I knew it was only a matter of days until I'll stop thinking about my typing at all.
 <br/><br/>
-<img src="images/typing-colemak-optimistic.png" width=33%/>
+<img src="images/typing-colemak-optimistic-small.png"/>
 <br/><br/>
 ### The first month
 
@@ -187,7 +187,7 @@ _typeracer_ throws at you different texts to type each session, so it's a more a
 for practicing subsets of the Colemak layout. Part of the practicing I emphasize typing at the fastest pace I can,
 and others on doing typing slower but trying to avoid mistakes as much as possible.
 
-<img src="images/typing-colemak-happy.png" width=33%/>
+<img src="images/typing-colemak-happy-small.png"/>
 <br/><br/>
 
 ## What about vim?
@@ -251,6 +251,4 @@ If you suffer from [RSI][RSI], or looking for QWERTY alternatives you should con
 [Ultralearning Book Site]: https://www.scotthyoung.com/blog/ultralearning/
 [typeracer]: https://play.typeracer.com/
 [Colemak]: https://colemak.com/
-[Colemak Layout]: https://colemak.com/wiki/images/6/6c/Colemak2.png
-[Learn-Unlearn-Relearn]: http://www.how-matters.org/wp-content/uploads/2017/01/relearn.png
 [The Importance of Unlearning]: https://gryphon.dev/2019/06/27/the-importance-of-unlearning/
