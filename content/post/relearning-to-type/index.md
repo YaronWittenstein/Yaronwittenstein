@@ -25,9 +25,9 @@ Man, forget about home-electricity and computers,<br/>
 People were still horse-riding since they had no cars.
 
 Look at your shiny QWERTY keyboard lying beneath your hands.
-<br/>You are looking at a layout of more than 140 year old!
+<br/>You are looking at a layout of more than 140 years old!
 <br/><br/>
-Ever since reading that, I had an image stuck in my head of myself working with my Mac having a 19th century keyboard layout.
+Ever since reading that, I had an image stuck in my head of myself working with my Mac having a 19th-century keyboard layout.
 <br/>
 <img src="images/typing-qwerty.png" width=33%/>
 
@@ -50,7 +50,7 @@ I know I did and I didn't like that at all.
 <br/>I've always known there were other keyboards layouts alternatives.
 <br/>I even knew that the 2nd most popular alternative to QWERTY was [Dvorak][Dvorak].
 <br/><br/>However, I just never found a good excuse to try to learn a Dvorak.
-Learning Dvorak seemed like the only valid alternative but it seemed an impossible endeavour. The learning curve appeared too steep.
+Learning Dvorak seemed like the only valid alternative but it seemed an impossible endeavor. The learning curve appeared too steep.
 <br/>How could I do that without sacrificing my productivity for months?
 
 In order to go for Dvorak, I had to have a very good incentive that will persuade me.
@@ -58,7 +58,7 @@ In order to go for Dvorak, I had to have a very good incentive that will persuad
 <br/><br/>
 ## When?
 
-About one year ago I've coincidentally came across a relatively new (invented in 2006 Shai Coleman) keyboard layout called [Colemak][Colemak] which is considered
+About one year ago I've coincidentally come across a relatively new (invented in 2006 Shai Coleman) keyboard layout called [Colemak][Colemak] which is considered
 to be now the 3rd most popular keyboard layout after QWERTY and Dvorak.
 <br/><br/>
 After doing some research about Colemak it felt like a different story than Dvorak, and the key reason is that
@@ -95,14 +95,14 @@ but literally a physical one.
 <br/>
 When that crisis emerged I was reading half-way through a book called [Ultralearning][Ultralearning Book Site] in my spare time.
 This book is thought-provocative regarding how to learn more efficiently in less time. One of the techniques discussed in the book is going cold-turkey
-and embracing the accompanied frustrations when facing hurdles.
+and embracing the accompanying frustrations when facing hurdles.
 <br/>
 This book definitely gave me sort of confirmation that it's time to discard QWERTY
-and start Colemak only. The other option was to give up the Colemak training and to strengthen my QWERTY again. That alternative was out of question.
+and start Colemak only. The other option was to give up the Colemak training and to strengthen my QWERTY again. That alternative was out of the question.
 <br/><br/>
 I knew it's now or never. I've decided I'm all-in.
 <br/>
-As for the _Ultralearning book_, I won't say more in this post but to encourage you go and read it!
+As for the _Ultralearning book_, I won't say more in this post but to encourage you to go and read it!
 <br/><br/>
 
 ## Making the swap
@@ -132,18 +132,18 @@ I kept saying to myself _"What have I done?"_ or _"Maybe QWERTY isn't that bad a
 There were even dreadful moments that I had frightening thoughts I'll never be able to do any work ever
 (at least not in the pace I was used to).
 
-I admit, I've even considered abandoning this and conclude the experiment as a failure
+I admit I've even considered abandoning this and conclude the experiment as a failure
 (but at least the patient survived...).
 
 But I'm not the kind of person who gives up so quickly.
 I kept reciting in my head the good-old ["Never, never, never give up"][never-give-up] Churchiill's quote.
 
-After each back down thought came a new wave of resurgence. I kept saying to myself that I need to stay in the game at least 3 days.
+After each back-down thought came a new wave of resurgence. I kept saying to myself that I need to stay in the game for at least 3 days.
 I had the hope that things will start to flow once my subconscious mind will take charge.
-In moments like that you really appreciate the human brain and the power of our subconscious in our daily habits.
+In moments like that, you really appreciate the human brain and the power of our subconscious in our daily habits.
 
 Also, my power brain energy battery depleted very fast, since I had to think about things I was always taking for granted.
-So I took many breaks during the workday in order to recharge. After 30 minutes of work I felt the same as sweating after a gym workout.
+So I took many breaks during the workday in order to recharge. After 30 minutes of work, I felt the same as sweating after a gym workout.
 
 <br/>
 <img src="images/typing-colemak-sad.png" width=33%/>
@@ -151,11 +151,11 @@ So I took many breaks during the workday in order to recharge. After 30 minutes 
 
 ### The third day
 
-On the third day things finally started to click. I was much more capable of working. I didn't feel lost as I did in the first 2 days, but I still
+On the third day, things finally started to click. I was much more capable of working. I didn't feel lost as I did in the first 2 days, but I still
 had to exert a lot of mental energy in order to type. On one hand I was half-optimistic but on the other hand, I was also half-worried about this adventure.
 I kept praying I'll be able to ride out these days.
 
-One of the shocking things I came to understand when transitioning to Colemak were that our subconscious stores many-many different neurons pathways
+One of the shocking things I came to understand when transitioning to Colemak was that our subconscious stores many-many different neurons pathways
 besides "_where letter **X** is located ?_" on the layout.
 <br/><br/>
 It means that I can blindly type each alphabetical letter, but when trying to type a pair of letters one
@@ -169,7 +169,7 @@ after the other my hands sometimes auto-magically located themselves as-if back 
 ### The first two weeks
 
 I've managed to keep it on. Day after day, it became easier to adapt to Colemak and my confidence increased.
-Each day I got better. My subconscious has taken control on my typing back again.
+Each day I got better. My subconscious has taken control of my typing back again.
 I was much less frustrated and exhausted. I knew it was only a matter of days until I'll stop thinking about my typing at all.
 <br/><br/>
 <img src="images/typing-colemak-optimistic.png" width=33%/>
@@ -177,14 +177,14 @@ I was much less frustrated and exhausted. I knew it was only a matter of days un
 ### The first month
 
 Now I'm about a month since making this big move. I have undertaken a challenge I was very concerned about its outcome.
-Happily, I call it a success now. I feel much more enjoyment while I type.
+Happily, I call it a success now. I feel much more enjoyable while I type.
 My hands don't move so much as in QWERTY and the typing is effortless as expected.
 I still have some specific elements to perfect, but overall I feel happy with the way I type right now.
 
 Additionally, I keep practicing [Type Fu][Type Fu] and I'm also able to type in the range of 50-70 words-per-minute on [typeracer][typeracer].
 <br/>
 _typeracer_ throws at you different texts to type each session, so it's a more accurate benchmark than _Type Fu_ which I consider great
-for practicing subsets of the Colemak layout. Part of the practicing I emphasize typing in the fastest pace I can,
+for practicing subsets of the Colemak layout. Part of the practicing I emphasize typing at the fastest pace I can,
 and others on doing typing slower but trying to avoid mistakes as much as possible.
 
 <img src="images/typing-colemak-happy.png" width=33%/>
@@ -200,7 +200,7 @@ vim specific pathways I'll have to reconstruct.
 For example, copying the current word in vim normal mode is **yw**. My brain had a pathway just for that. My hands knew what to go when I want
 to copy a word. But now, **y** has moved to another position. I had to rewire the **yw** muscle memory.
 <br/>
-Some people edit theirs vim settings with many Colemak definitions to ease the move to Colemak.
+Some people edit their vim settings with many Colemak definitions to ease the move to Colemak.
 I've decided I don't want to do that. I wanted to keep thinking about the mnemonics commands of vim.
 The only change to my vim config was remapping the letter **n** to **j** when in normal and visual modes. (QWERTY letter **j** is remapped to letter **n** in Colemak).
 Thad made my life much easier when navigating.
@@ -217,14 +217,14 @@ The motivation wasn't to type faster than QWERTY but to make typing more fun and
 <br/><br/>
 I may type faster now than I did with Colemak, and even if not it will happen in the future as one of the side-effects of using Colemak.
 
-Learning Colemak reminds me on the feelings after I had when picking up vim. vim as Colemak, had a steep learning curve, but once,
-I've overcame the initial bump, it was a huge productivity boost.
+Learning Colemak reminds me of the feelings after I had when picking up vim. vim as Colemak, had a steep learning curve, but once,
+I've overcome the initial bump, it was a huge productivity boost.
 <br/><br/>
 Besides that, relearning to type is a very rewarding challenge. It requires you to [unlearn][The Importance of Unlearning]
-the way you're used to type.
+the way you're used to typing.
 <br/><br/>
 Rewiring that part of the brain was nerve-wracking, frustrating, exhausting but eventually totally worth it.
-Our brains is flexible and has amazing abilities to adapt to changes. I really think that anyone should pick once in a while some
+Our brain is flexible and has amazing abilities to adapt to changes. I really think that anyone should pick once in a while some
 challenges that will force their brain to stretch and transform.
 <br/><br/>
 If you suffer from [RSI][RSI], or looking for QWERTY alternatives you should consider [Colemak][Colemak]
