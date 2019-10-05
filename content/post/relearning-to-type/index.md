@@ -182,7 +182,7 @@ My hands don't move so much as in QWERTY and the typing is effortless as expecte
 I still have some specific elements to perfect, but overall I feel happy with the way I type right now.
 
 Additionally, I keep practicing [Type Fu][Type Fu] and I'm also able to type in the range of 50-70 words-per-minute on [typeracer][typeracer].
-<br/>
+<br/><br/>
 _typeracer_ throws at you different texts to type each session, so it's a more accurate benchmark than _Type Fu_ which I consider great
 for practicing subsets of the Colemak layout. Part of the practicing I emphasize typing at the fastest pace I can,
 and others on doing typing slower but trying to avoid mistakes as much as possible.
@@ -217,7 +217,7 @@ The motivation wasn't to type faster than QWERTY but to make typing more fun and
 <br/><br/>
 I may type faster now than I did with Colemak, and even if not it will happen in the future as one of the side-effects of using Colemak.
 
-Learning Colemak reminds me of the feelings after I had when picking up vim. vim as Colemak, had a steep learning curve, but once,
+Learning Colemak reminds me of the feelings I had when picking up vim. vim as Colemak, had a steep learning curve, but once,
 I've overcome the initial bump, it was a huge productivity boost.
 <br/><br/>
 Besides that, relearning to type is a very rewarding challenge. It requires you to [unlearn][The Importance of Unlearning]
