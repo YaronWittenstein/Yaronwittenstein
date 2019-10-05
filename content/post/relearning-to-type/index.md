@@ -96,7 +96,7 @@ but literally a physical one.
 When that crisis emerged I was reading half-way through a book called [Ultralearning][Ultralearning Book Site] in my spare time.
 This book is thought-provocative regarding how to learn more efficiently in less time. One of the techniques discussed in the book is going cold-turkey
 and embracing the accompanying frustrations when facing hurdles.
-<br/>
+<br/></br>
 This book definitely gave me sort of confirmation that it's time to discard QWERTY
 and start Colemak only. The other option was to give up the Colemak training and to strengthen my QWERTY again. That alternative was out of the question.
 <br/><br/>
@@ -199,7 +199,7 @@ vim specific pathways I'll have to reconstruct.
 
 For example, copying the current word in vim normal mode is **yw**. My brain had a pathway just for that. My hands knew what to go when I want
 to copy a word. But now, **y** has moved to another position. I had to rewire the **yw** muscle memory.
-<br/>
+<br/><br/>
 Some people edit their vim settings with many Colemak definitions to ease the move to Colemak.
 I've decided I don't want to do that. I wanted to keep thinking about the mnemonics commands of vim.
 The only change to my vim config was remapping the letter **n** to **j** when in normal and visual modes. (QWERTY letter **j** is remapped to letter **n** in Colemak).
