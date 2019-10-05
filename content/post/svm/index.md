@@ -29,7 +29,7 @@ WebAssembly programs can call the host (a.k.a VM/runtime) for invoking functions
 Security is critical for running a smart contract under a full-node.
 WebAssembly programs run within a sandbox environment by design. This is another big point in favor of using WebAssembly.
 
-SVM is essentially taking [wasmer][wasmer] which is a general-purpose WebAssembly runtime, then extending and tailoring it to suit Spacemesh's needs.
+SVM is essentially taking _wasmer_ which is a general-purpose WebAssembly runtime, then extending and tailoring it to suit Spacemesh's needs.
 
 In point of fact, SVM could be leveraged by other blockchain projects that would like to have WebAssembly-based smart-contracts.
 
@@ -207,12 +207,12 @@ A smart contract execution transaction will contain:
 The Runtime will:
 
 * Load the contract WebAssembly code from the **contract store**
-* Compile it to native code, called a **WebAssembly module** - thank you [wasmer][wasmer]!
+* Compile it to native code, called a **WebAssembly module** - thank you _wasmer_!
 * Create a WebAssembly **import object** with all SVM built-in vmcalls (storage/register/full-node)
 
 The **import object** will be initialized with the **contract address** and **contract state** provided by the full-node.
 
-* Instantiate a new SVM instance, which is to say instantiate a [wasmer][wasmer] instance, with the crafted **import object**.
+* Instantiate a new SVM instance, which is to say instantiate a _wasmer_ instance, with the crafted **import object**.
 * Call the desired function with its given arguments.
 * Return a **receipt**. For now, it will only say whether the program execution succeeded or failed.
 
@@ -225,14 +225,14 @@ Otherwise, we discard the storage pending changes and remain with the same **con
 
 [wasmer][wasmer], and therefore SVM, is written in Rust.
 Thankfully Rust has FFI bindings to C ABI. This allows Rust to call C and vice versa.
-We care about C calling Rust functionality. [wasmer][wasmer] comes with its own C-API out of the box.
+We care about C calling Rust functionality. _wasmer_ comes with its own C-API out of the box.
 SVM has its own FFI API exposed (using the **wasmer c-api** internally).
 
 Spacemesh full-node is written in Golang, which can interface with C ABI code using **cgo**.
 So in order to integrate SVM with the Spacemesh full-node, we should introduce a glue layer of Spacemesh full-node **cgo**
 to SVM Runtime C-API.
 
-Luckily, [wasmer][wasmer] has a Golang client, [go-ext-wasm][go-ext-wasm], and there is now a [go-ext-wasm Spacemesh fork][go-ext-wasm Spacemesh]
+Luckily, _wasmer_ has a Golang client, [go-ext-wasm][go-ext-wasm], and there is now a [go-ext-wasm Spacemesh fork][go-ext-wasm Spacemesh]
 that adds that glue layer for SVM's needs.
 
 ![svm-c-api][svm-c-api]
