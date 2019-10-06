@@ -58,8 +58,7 @@ In order to go for Dvorak, I had to have a very good incentive that will persuad
 <br/><br/>
 ## When?
 
-About one year ago I've coincidentally come across a relatively new (invented in 2006 Shai Coleman) keyboard layout called [Colemak][Colemak] which is considered
-to be now the 3rd most popular keyboard layout after QWERTY and Dvorak.
+About one year ago I've coincidentally come across a relatively new (invented in 2006 Shai Coleman) keyboard layout called [Colemak][Colemak] which is considered now the 3rd most popular keyboard layout after QWERTY and Dvorak.
 <br/><br/>
 After doing some research about Colemak it felt like a different story than Dvorak, and the key reason is that
 **Colemak has only 17 moved keys in comparison to QWERTY!**
@@ -207,7 +206,7 @@ Thad made my life much easier when navigating.
 <br/><br/>
 ## Was it worth it?
 
-In one word YES!
+In one word: YES!
 <br/>
 in two words: FUCKING YES!
 
