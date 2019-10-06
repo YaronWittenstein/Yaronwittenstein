@@ -1,6 +1,6 @@
 ---
 title: "SVM"
-date: 2019-09-27T21:10:25+03:00
+date: 2019-10-0615:00:00+03:00
 tags: ["spacemesh"]
 type: "post"
 ---
