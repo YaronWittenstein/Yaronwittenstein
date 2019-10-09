@@ -22,26 +22,30 @@ enableEmoji = true
     post = "/:year/:month/:day/:title/"
     page = "/:title/"
 [[menu.main]]
+    name = "Subscribe"
+    url = "/subscribe"
+    weight = 1
+[[menu.main]]
     name = "About"
     url = "/about"
-    weight = 1
+    weight = 2
 [[menu.main]]
     name = "Blog"
     url = "/"
-    weight = 2
+    weight = 3
 [[menu.main]]
     name = "Newsletter"
     url = "https://read-it-or-throw-it.com"
-    weight = 3
+    weight = 4
 [[menu.main]]
     name = "Talks"
     url = "/talks"
-    weight = 4
+    weight = 5
 [[menu.main]]
     name = "GitHub"
     url = "https://github.com/yaronwittenstein"
-    weight = 5
+    weight = 6
 [[menu.main]]
     name = "Twitter"
     url = "https://twitter.com/RealWittenstein"
-    weight = 6
+    weight = 7
