@@ -18,7 +18,7 @@ I work at [spacemesh][spacemesh] on the Smart-Contracts infrastructure,<br/>
 where I code mostly in Rust (and a bit of Golang and C)
 <br/>
 <br/>
-I'm currently working on the [svm][svm] project.
+I'm currently working on the [SVM][SVM] project.
 
 If you'd like to contact me,
 <br/>
@@ -26,4 +26,4 @@ please email me at **yaron.wittenstein@gmail.com**
 
 
 [spacemesh]: http://spacemesh.io
-[svm]: https://github.com/spacemeshos/svm
+[SVM]: https://github.com/spacemeshos/svm
