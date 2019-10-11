@@ -35,7 +35,7 @@ enableEmoji = true
     weight = 3
 [[menu.main]]
     name = "Newsletter"
-    url = "http://read-it-or-throw-it.blogspot.com"
+    url = "https://read-it-or-throw-it.blogspot.com"
     weight = 4
 [[menu.main]]
     name = "Talks"
