@@ -10,7 +10,7 @@ type: "post"
 
 ## Short History
 
-More than 99% of computer users use the QWERTY layout, bud did you know that the QWERTY layout was introduced in 1878?
+More than 99% of computer users use the QWERTY layout, but did you know that the QWERTY layout was introduced in 1878?
 <br/>
 <br/>
 Yes, it's not a typo. It's **1878**! The 19th century.
