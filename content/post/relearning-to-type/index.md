@@ -135,7 +135,7 @@ I admit I've even considered abandoning this and conclude the experiment as a fa
 (but at least the patient survived...).
 
 But I'm not the kind of person who gives up so quickly.
-I kept reciting in my head the good-old ["Never, never, never give up"][never-give-up] Churchiill's quote.
+I kept reciting in my head the good-old ["Never, never, never give up"][never-give-up] Churchill's quote.
 
 After each back-down thought, came a new wave of resurgence. I kept saying to myself that I need to stay in the game for at least 3 days.
 I had the hope that things will start to flow once my subconscious mind will take charge.
@@ -196,7 +196,7 @@ If you're not a vim user, please feel free to skip to the next paragraph, **"Was
 Being a vim user didn't help me. Similarly, to the neurons pathways for pairs of letters I've described above, I've found my muscle memory had many
 vim specific pathways I'll have to reconstruct.
 
-For example, copying the current word in vim normal mode is **yw**. My brain had a pathway just for that. My hands knew what to go when I want
+For example, copying the current word in vim normal mode is **yw**. My brain had a pathway just for that. My hands knew where to go when I want
 to copy a word. But now, **y** has moved to another position. I had to rewire the **yw** muscle memory.
 <br/><br/>
 Some people edit their vim settings with many Colemak definitions to ease the move to Colemak.
@@ -210,13 +210,13 @@ In one word: YES!
 <br/>
 in two words: FUCKING YES!
 
-QWERTY typing never felt elegant for me. If always felt like something just isn't right.
+QWERTY typing never felt elegant for me. It always felt like something just isn't right.
 Typing is supposed to be fun, and with Colemak it's much more fun.
 The motivation wasn't to type faster than QWERTY but to make typing more fun and less effortless.
 <br/><br/>
-I may type faster now than I did with Colemak, and even if not it will happen in the future as one of the side-effects of using Colemak.
+I may type faster now than I did with Colemak, and even if not, it will happen in the future as one of the side-effects of using Colemak.
 
-Learning Colemak reminds me of the feelings I had when picking up vim. vim as Colemak, had a steep learning curve, but once,
+Learning Colemak reminds me of the feelings I had when picking up vim. vim, as Colemak, had a steep learning curve, but once
 I've overcome the initial bump, it was a huge productivity boost.
 <br/><br/>
 Besides that, relearning to type is a very rewarding challenge. It requires you to [unlearn][The Importance of Unlearning]
