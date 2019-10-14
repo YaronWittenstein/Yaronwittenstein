@@ -212,7 +212,7 @@ in two words: FUCKING YES!
 
 QWERTY typing never felt elegant for me. It always felt like something just isn't right.
 Typing is supposed to be fun, and with Colemak it's much more fun.
-The motivation wasn't to type faster than QWERTY but to make typing more fun and less effortless.
+The motivation wasn't to type faster than QWERTY but to make typing more fun and less effortful.
 <br/><br/>
 I may type faster now than I did with Colemak, and even if not, it will happen in the future as one of the side-effects of using Colemak.
 
