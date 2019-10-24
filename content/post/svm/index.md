@@ -367,7 +367,7 @@ We also provide [gitcoin][spacemesh gitcoin] bounties :moneybag::moneybag: for c
 [mpt]: https://medium.com/codechain/modified-merkle-patricia-trie-how-ethereum-saves-a-state-e6d7555078dd
 [halting problem]: https://en.wikipedia.org/wiki/Halting_problem
 [spacemesh contact page]: https://spacemesh.io/contact/
-[svm issues]: https://github.com/spacemeshos/svm/issues
+[svm issues]: https://github.com/spacemeshos/svm/labels/good%20first%20issue
 
 [svm-logo]: images/svm-logo.png
 [svm-kv]: images/svm-kv.png
