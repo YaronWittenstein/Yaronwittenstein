@@ -40,6 +40,12 @@ I was ready to embark on this new journey, with much excitement and some fears h
 
 ### **Rust**
 
+So 2019 was the year I started working as a Rust programmer. Rust is known for having a steep learning curve but in the end of the day it's worth it.
+These days Rust is heavily used in Blockchain projects. New databases are being written in it. Games companies start using it.
+
+We see even whale companies like Amazon, Microsoft, Google, Dropbox betting on Rust. It's seems like a new era.
+I think that the turning point for many Rust users is that historically...
+
 ### **Compilation**
 
 ### **Relearninig to type**
