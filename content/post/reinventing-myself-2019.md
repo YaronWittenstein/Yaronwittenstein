@@ -10,25 +10,35 @@ draft: true
 The end of 2019 is right near the corner, and I thought it would be the right time for me to reflect over my professional progress over the last year,
 and write a post about it.
 
-### **Rust**
-In December 2018, I've started a new job at a company called [spacemesh][spacemesh]. spacemesh is about...
-After working for more than 4 years as a Ruby developer on a social platform, I was looking for a position that will enforce me to get out of
-my comfort zone and push me to my limits.
+### **New Job**
+
+In December 2018, after I've left my previous job after working for more than 4 years as a Ruby developer on a social platform,
+I was looking for a position that will enforce me to get out of my comfort zone and push me to my limits.
 <br/>
 Somewhere at 2015, I've read about a relatively new programming-language called Rust developed in Mozilla.
 From a first glance, the syntax was a bit awkward and I've chosen not to pursue with researching it.
 
-Fast-forward to the end of 2016, I've watched [this introduction talk][rust-intro-talk] about Rust, but again didn't deepened my interest yet.
-It wasn't until 2018 that I finally resolved that it's not just another new trendy programming-language, but something different, disruptive that must be learned.
+It wasn't until 2018 that it finally struck me that Rust is not just another new trendy programming-language, but something different, disruptive that must be learned.
 I finally understood what the hype was all about. And I really wanted to work with this programming-language sometime.
 
-So when I was seeking a new job my first priority was to be a full-time Rust position. Since it's been (and still is) in the early-adopters stage, there weren't not many
-vacancies, and of course not in Israel which is a small country. Therefore, I've searched for a Rust remote position.
+So when I was seeking a new job my first priority was to a full-time Rust position. Since the language has been (and still is) in its early-adopters stage,
+there weren't not many vacancies, let alone in Israel which is a small country. Therefore, I've looked for a Rust remote position.
 
-Unsurprisingly, there weren't many remote options too, but luckily I've stumbled upon a small remote jobs website that had an open position in NYC.
-The name of the company was spacemesh, where I work now. The funny thing is that spacemesh is an Israeli company that looked for people outside of Israel too.
+Unsurprisingly, there weren't many remote options either, but luckily I've stumbled upon a small remote jobs website that had an open position in NYC.
+The name of the company was [spacemesh][spacemesh], where I work now. The funny thing is that spacemesh is an Israeli company that looked for people outside of Israel too.
+spacemesh is about...
 
+Besides only knowing the very basics with Rust and having no hands-on Rust experience, this position was for developing Smart-Contracts infrastructure.
+So having some compilation knowledge was was also required. Besides, doing a Compilers course more than 10 years ago I didn't have any knowledge whatsoever.
+Actually, I had no knowledge about Blockchain or Smart-Contracts.
 
+<br/>
+Obviously, this position seemed like one that will demand me to go out of my comfort zone and be in many terms a Rookie - that was perfect for me.
+Luckily for me I got the chance and got this position!
+<br/>
+I was ready to embark on this new journey, with much excitement and some fears how things will turn.
+
+### **Rust**
 
 ### **Compilation**
 
