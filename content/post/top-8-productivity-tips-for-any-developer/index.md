@@ -7,8 +7,6 @@ type: "post"
 
 ![Headline][Headline]
 
-<br/>
-
 One of the subjects I've always been very passionate about is productivity.
 Looking for ways to do more in less time and effort is a matter of high importance.
 Saving many tiny-energy exertions across a workday adds up to a significant energy saver in total.
