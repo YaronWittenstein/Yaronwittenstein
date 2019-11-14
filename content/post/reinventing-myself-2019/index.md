@@ -1,6 +1,6 @@
 ---
 title: "Reinventing Myself 2019"
-date: 2019-09-30T12:00:34+03:00
+date: 2019-11-11T17:00:00+03:00
 draft: true
 ---
 
@@ -77,22 +77,48 @@ This year I've read a lot of Open-Source code. This is undoubtedly something I'd
 <br/>
 ### **Working on my English**
 
-There's a well known quote saying:
+This year I've worked hard on my English vocabulary, hoping that having a richer dictionary will give me a boost while working.
+It might sounds weird for you, but actually I do think that it helped me so far.
 
-_There are only two hard things in Computer Science: cache invalidation and naming things._
+First of all, a considerable amount of development-time is communicating what we did/doing/will be doing.
+We write emails, Slack with other people, write comments on PRs and of course we document our code.
+Being able to deliver you message is critical.
+<br/>
+Secondly, there's a well known quote saying:
+<br/>
+_There are only two hard things in Computer Science: cache invalidation and naming things_
 _- Phil Karlton_
 <br/>
-
-This year I've worked hard on my English vocabulary, hoping that having a broader glossary.
-
-
+Naming things right is crucial to writing good code. A good code should be explicit and express its intent clearly.
+Without good names for functions/classes/modules/variables the readability of the code will suffer.
+<br/>
+<br/>
 ### **Speaking**
 
+I've done more than handful for talks until today, but never done one away from home (not in Israel).
+On June, it was my first time speaking aboard. It was a very refreshing experience and I will have more chances in the future.
+The talk was related to my research on the future of Smart Contracts using WebAssembly for spacemesh.
+talk-link: TBD
+<br/>
+<br/>
 ### **Blogging**
 
+Starting my new blog this year was a very important thing for me. I wanted to do that for a lot of time, and I'm really happy
+I've done this step. I wish myself that I'll be able to be persistent and publish occasionally articles people will find useful.
+<br/>
+<br/>
 ### **Other**
-* Playing Chess
-* Jumping Rope
+<br/>
+<br/>
+Besides, the professional stuff outlined in this post I've played a lot of chess games online.
+I'm not a good chess player and actually I don't really target to be one.
+<br/>
+Besides the fun of playing chess, I've found that it helps me stay in focus.
+Since each chess games is unique, I encounter boards layouts I've seen before and it requires me to think fast in new ways.
+
+Lastly, this year I didn't do enough Sports as I hoped.
+However, I've read that rope-jumping is one of the most effective aerobic exercises.
+I've started doing rope-jumping workouts and I must say it was surprisingly fun. It also exhausts me way faster that running.
 
 
 ### **Summary**
