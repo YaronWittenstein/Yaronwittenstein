@@ -21,6 +21,18 @@ From a first glance, the syntax was a bit awkward and I've chosen not to pursue 
 
 It wasn't until 2018 that it finally struck me that Rust is not just another new trendy programming-language, but something different, disruptive that must be learned.
 I finally understood what the hype was all about. And I really wanted to work with this programming-language sometime.
+
+What I really liked about Rust was that on one hand Rust is a system programming-language, so it's inclined to serve as an alternative to traditional languages such as C and C++.
+But on the other hand Rust, has has many high-level abstractions that are usually found at more high-level programming-languages running having a runtime.
+(functional, futures, meta-programming, traits, and more). So Rust is a very versatile language. You can virtually build with it anything. Not only low-level programs
+(operating-systems, compilers, databases, games-engines, text-editors etc), but also Web applications, command-line utilities or any script that would otherwise be coded
+in python/ruby/shell script.
+<br/>
+
+The other game-changer of Rust is safety. Rust unique ownership model accompanied with awesome compilation error messages brings a lot of confidence to the developer.
+It more than just develop happiness. It's developer confidence. A lot of the pain is taken care of thanks to the Rust compiler.
+Many safety (memory-leaks, bad memory access, race-conditions) pitfalls get caught in compilation time.
+
 <br/>
 When I was searching a now job, I really wanted that position to involve programming in Rust to some extent.
 Rust has been (and still is) in its early-adopters stage, so there weren't not many vacancies, let alone in Israel which is a small country.
