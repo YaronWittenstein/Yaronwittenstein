@@ -39,6 +39,8 @@ Luckily, I got the chance and got this position!
 
 I was ready to embark on this new journey, with much excitement and some fears how things will turn.
 
+<img src="images/comfort-zone-to-danger-zone.png"/>
+
 ### **Rust**
 So 2019 was the year I started working as a Rust programmer. Rust is known for having a steep learning curve but in the end of the day, I truly think it does worth it.
 
@@ -56,6 +58,8 @@ It's way more than just develop happiness. It's developer confidence.
 
 A lot of the pain is taken care of thanks to the Rust compiler.
 Many safety (memory-leaks, bad memory access, race-conditions) pitfalls get caught in compilation time.
+
+<img src="images/rust-charts.png"/>
 
 These days Rust is heavily used in Blockchain projects. New databases are being written in it. Games companies start using it and many deep-tech companies
 use Rust as part of their tech-stack.
@@ -131,7 +135,7 @@ I've started doing rope-jumping workouts and I must say it was super hard. It ex
 
 ### **Summary**
 I feel that reinvented myself in many ways this year. The last time I've felt that was when around 5 years ago when
-transforming from a .NET developer (Windows of course) to a Mac user, programming in Ruby in vim.
+transforming from a .NET developer (Windows and Visual Studio of course) to a Mac user, programming in Ruby using vim.
 
 Learning is a life-long unbounded journey. I have in my mind where I'd like to move forward in 2020.
 Hopefully, I will be fulfill at least half of my ambitions.
