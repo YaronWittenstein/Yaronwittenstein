@@ -9,6 +9,7 @@ draft: true
 <br/>
 The end of 2019 is right near the corner, and I thought it would be the right time for me to reflect over my professional progress over the last year.
 <br/>
+<br/>
 ### **New Job**
 The first major change for me in 2019 was starting a new job.
 <br/>In December 2018, after I've left my previous job after working for more than 4 years as a Ruby developer on a social platform,
@@ -40,7 +41,8 @@ Luckily, I got the chance and got this position!
 I was ready to embark on this new journey, with much excitement and some fears how things will turn.
 
 <img src="images/comfort-zone-to-danger-zone.png"/>
-
+<br/>
+<br/>
 ### **Rust**
 So 2019 was the year I started working as a Rust programmer. Rust is known for having a steep learning curve but in the end of the day, I truly think it does worth it.
 
@@ -66,7 +68,8 @@ use Rust as part of their tech-stack.
 
 Not only that, but whale companies like Amazon, Microsoft, Google, Dropbox and more are betting on Rust. It's seems like a new era.
 I think that the turning point for many Rust users is that historically TBD
-
+<br/>
+<br/>
 ### **Compilation**
 As part of my job, I've immersed myself in the fascinating world of compilers in general and specifically WebAssembly.
 I still have a long way to go, but I did manage to build a very basic programming-language that runs in interpreted mode.
@@ -76,21 +79,23 @@ In the last months of this year I've reached the first milestone of SVM - the ru
 its Smart-Contracts. More on SVM can be read here TBD
 
 As a bonus, I've made some small contributions to wasmer.
-
+<br/>
+<br/>
 ### **Relearning to type**
 I've written about my learning to type in Colemak in this post. Apart from the obvious productivity boost of using a more ergonomic keyboard-layout, there is the mental side
 of muscle memory rewiring. Taking this challenge was not easy but very rewarding. I'd recommend anyone to try out sometime to try this or something else similar
 that will make them relearn a daily activity that he/she is doing in an autopilot mode.
-
+<br/>
+<br/>
 ### **Reading code**
 I've always loved reading beautiful pieces of code. Learning how other people think, how they approach a given problem.
 
 Observing elegant abstractions that simplify problems that seem intractable is a real joy.
 This year I've read a lot of Open-Source code. This is undoubtedly something I'd like to continue doing and at greater scale in the future.
 
-Learning from others is a super important for getting better.
-[Here's a very nice recommend article](ultralearning-environments)
-
+Learning from others is a super important for getting better. [Here's a very nice recommend article][ultralearning-environments]
+<br/>
+<br/>
 ### **Working on my English**
 This year I've worked hard on my English vocabulary, hoping that having a richer dictionary will give me a boost while working.
 In the last 6 months I practiced daily [Supermemo][supermemo] (see also: [Spaced Repetition][spaced-repetition]).
@@ -105,22 +110,25 @@ _There are only two hard things in Computer Science: cache invalidation and nami
 <br/>
 _- Phil Karlton_
 
-Naming things right is crucial to writing good code. Good code should be explicit and express its intent clearly.
-Without good names for functions/classes/modules/variables the readability of the code will suffer.
+Naming things right is crucial to writing good code.
+<br/>Good code should be explicit and express its intent clearly.
+<br/><br/>Without good names for functions/classes/modules/variables the readability of the code will suffer.
 Having a richer vocabulary makes the task for naming much more effective.
-
+<br/>
+<br/>
 ### **Speaking**
-
 I've done more than handful for talks until this year, but I've never had one away from home (not in Israel).
 On June, it was my first time speaking aboard. It was a very refreshing experience and hopefully I will have more chances in the future.
 
 The talk was related to my research on the future of Smart Contracts using WebAssembly for spacemesh.
 talk-link: TBD
-
+<br/>
+<br/>
 ### **Blogging**
 Starting my new blog was something I really wanted do that for a long time, and I'm really happy I've taken this step.
 I wish myself that I'll be able to be persistent and publish occasionally articles people will find useful.
-
+<br/>
+<br/>
 ### **Other**
 I've played a lot of online chess games this year. I'm not a good chess player and actually I don't even intend to be one.
 
@@ -131,13 +139,14 @@ Lastly, this year I didn't do enough Sports as I hoped.
 However, I've read that rope-jumping is one of the most effective aerobic exercises.
 
 I've started doing rope-jumping workouts and I must say it was super hard. It exhausts me way faster than running.
-
-
+<br/>
 ### **Summary**
 I feel that reinvented myself in many ways this year. The last time I've felt that was when around 5 years ago when
 transforming from a .NET developer (Windows and Visual Studio of course) to a Mac user, programming in Ruby using vim.
 
-Learning is a life-long unbounded journey. I have in my mind where I'd like to move forward in 2020.
+Learning is a life-long unbounded journey.
+<br/>
+I have in my mind where I'd like to move forward in 2020.
 Hopefully, I will be fulfill at least half of my ambitions.
 
 
