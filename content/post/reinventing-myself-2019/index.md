@@ -11,6 +11,7 @@ The end of 2019 is right near the corner, and I thought it would be the right ti
 <br/>
 <br/>
 ### **New Job**
+
 The first major change for me in 2019 was starting a new job.
 <br/>In December 2018, after I've left my previous job after working for more than 4 years as a Ruby developer on a social platform,
 I was looking for a position that will enforce me to get out of my comfort zone and push me to my limits.
@@ -128,17 +129,6 @@ talk-link: TBD
 Starting my new blog was something I really wanted do that for a long time, and I'm really happy I've taken this step.
 I wish myself that I'll be able to be persistent and publish occasionally articles people will find useful.
 <br/>
-<br/>
-### **Other**
-I've played a lot of online chess games this year. I'm not a good chess player and actually I don't even intend to be one.
-
-Outside of the fun of playing chess, I've found that it helps me stay in focus.
-Since each chess games is unique, I encounter boards layouts I've never seen before and it requires me to think fast in new ways.
-
-Lastly, this year I didn't do enough Sports as I hoped.
-However, I've read that rope-jumping is one of the most effective aerobic exercises.
-
-I've started doing rope-jumping workouts and I must say it was super hard. It exhausts me way faster than running.
 <br/>
 ### **Summary**
 I feel that reinvented myself in many ways this year. The last time I've felt that was when around 5 years ago when
