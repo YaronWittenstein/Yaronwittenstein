@@ -21,10 +21,10 @@ enableEmoji = true
 [permalinks]
     post = "/:year/:month/:day/:title/"
     page = "/:title/"
-# [[menu.main]]
-#     name = "Subscribe"
-#     url = "/subscribe"
-#     weight = 1
+[[menu.main]]
+    name = "Subscribe"
+    url = "/subscribe"
+    weight = 1
 [[menu.main]]
     name = "About"
     url = "/about"
