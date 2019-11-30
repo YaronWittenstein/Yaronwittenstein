@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
 title = "gryphon.dev"
-theme = "hugo-cards"
+theme = "hugo-lithium-theme"
 googleAnalytics = "UA-148359158-1"
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]

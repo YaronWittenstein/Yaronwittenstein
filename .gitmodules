@@ -1,3 +1,6 @@
 [submodule "themes/hugo-cards"]
 	path = themes/hugo-cards
 	url = https://github.com/YaronWittenstein/hugo-cards
+[submodule "themes/hugo-lithium-theme"]
+	path = themes/hugo-lithium-theme
+	url = https://github.com/YaronWittenstein/hugo-lithium-theme
