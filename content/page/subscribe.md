@@ -1,6 +1,6 @@
 ---
 title: "Subscribe"
-date: 2019-10-09T22:37:39+03:00
+date: 2019-11-30T13:00:00+03:00
 type: "subscribe"
 ---
 <!-- Begin Mailchimp Signup Form -->
