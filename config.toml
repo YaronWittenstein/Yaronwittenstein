@@ -1,7 +1,7 @@
 baseURL = "/"
 languageCode = "en-us"
-title = "Yaron Wittenstein's Personal Site"
-theme = "hugo-lithium-theme"
+title = "gryphon.dev"
+theme = "hugo-cards"
 googleAnalytics = "UA-148359158-1"
 disqusShortname = ""
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
