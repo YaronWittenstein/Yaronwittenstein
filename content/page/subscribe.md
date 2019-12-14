@@ -1,8 +1,7 @@
 ---
 title: "Subscribe"
-date: 2019-10-09T22:37:39+03:00
+date: 2019-11-30T13:00:00+03:00
 type: "subscribe"
-draft: true
 ---
 <!-- Begin Mailchimp Signup Form -->
 <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
