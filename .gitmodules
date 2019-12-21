@@ -1,6 +1,4 @@
+
 [submodule "themes/hugo-lithium-theme"]
 	path = themes/hugo-lithium-theme
-	url = https://github.com/jrutheiser/hugo-lithium-theme
-[submodule "themes/ghostwriter"]
-	path = themes/ghostwriter
-	url = https://github.com/jbub/ghostwriter
+	url = git@github.com:YaronWittenstein/hugo-lithium-theme.git
