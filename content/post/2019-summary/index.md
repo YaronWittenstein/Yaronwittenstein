@@ -1,7 +1,6 @@
 ---
 title: "2019 Summary"
 date: 2019-12-21T17:00:00+03:00
-draft: true
 ---
 
 ![headline][headline]
