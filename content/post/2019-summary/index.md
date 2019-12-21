@@ -1,6 +1,6 @@
 ---
 title: "2019 Summary"
-date: 2019-11-11T17:00:00+03:00
+date: 2019-12-21T17:00:00+03:00
 draft: true
 ---
 
@@ -13,7 +13,7 @@ The end of 2019 is right near the corner, and I thought it would be the right ti
 ### **New Job**
 
 The first major change for me in 2019 was starting a new job.
-<br/>In December 2018, after I've left my previous job after working for more than 4 years as a Ruby developer on a social platform,
+<br/>In December 2018, after I've left my previous job where I've been working for more than 4 years as a Ruby developer on a social platform,
 I was looking for a position that will enforce me to get out of my comfort zone and push me to my limits.
 <br/>
 
@@ -21,19 +21,22 @@ Somewhere at 2015, I've read about a relatively new programming-language called 
 From a first glance, the syntax was a bit awkward and I've chosen not to pursue with researching it.
 
 It wasn't until 2018 that it finally struck me that Rust is not just another new trendy programming-language, but something different, disruptive that must be learned.
-I finally understood what the hype was all about, and I really wanted to work with this programming-language sometime.
+I finally understood what the hype was all about, and I really wanted to work with this language sometime.
 
-When I was searching a now job, I really wanted that position to involve programming in Rust to some extent.
-Ideally, I wanted to a full-time Rust position.
+When I was seeking a now job, I really wanted that position to involve Rust programming, at least to some extent.
+Ideally, I wanted a full-time Rust position.
 The language has been (and still is) in its early-adopters stage,
 so I didn't find any full-time Rust development vacancy in Israel.
 Therefore, I've started looking for a Rust remote position.
 
 Unsurprisingly, there were scarcely remote options, but luckily I've stumbled upon a small remote jobs website that had an open position requiring Rust development primarily in NYC.
 <br/>
-The name of the company was [spacemesh][spacemesh], where I'm working now. The funny thing is that spacemesh is an Israeli company that looked for people outside of Israel too.
 <br/>
-spacemesh is about TBD
+The name of the company was [spacemesh][spacemesh], where I'm working now.
+spacemesh is about building a decentralized programmable cryptocurrency powered by a novel proof-of-space-time, race-free consensus protocol.
+<br/>
+<br/>
+The funny thing is that spacemesh is actually an Israeli company that looked for remote people too (outside of Israel).
 
 Besides only knowing the very basics of Rust and having no hands-on Rust experience, this position was about developing Smart-Contracts infrastructure.
 Meaning, having some compilation knowledge was also required. I did a Compilers course more than 10 years ago when I was a student, but otherwise I didn't have any knowledge whatsoever.
@@ -41,27 +44,30 @@ Actually, I had no knowledge about Blockchain or Smart-Contracts either.
 
 Obviously, this position seemed like one that will require me to go out of my comfort zone.
 In many terms it forced me to do a substantial start over, and that was perfect for me.
-Luckily, I got the chance and got this position!
+Luckily, I got the chance and was hired for this position!
 
 I was ready to embark on this new journey, with much excitement and some fears how things will turn.
-
+<br/>
+<br/>
 <img src="images/comfort-zone-to-danger-zone.png"/>
 <br/>
 <br/>
 ### **Rust**
+
 2019 was the year I started working as a Rust programmer. Rust is known for having a steep learning curve but in the end of the day, I truly think it does worth it.
 
 What I really liked about Rust was that on one hand Rust is a system programming-language, so it's inclined to serve as an alternative to languages such as C and C++.
 But on the other hand Rust, has many high-level abstractions that are typically found at more high-level (non system-programming) languages.
 
-Rust has a functional elements in its syntax, support futures, meta-programming, traits, and more.
+Rust has functional elements in its syntax, support for futures (a.k.a promises in other language), meta-programming, traits, and more.
+Not only that but Rust boasts of having many zero cost abstractions with execution times comparable to C and C++.
 
 So Rust is a very versatile language. You can virtually build with it anything. Not only low-level programs
 (operating-systems, compilers, databases, games-engines, text-editors etc), but also Web applications, command-line utilities or any script that would otherwise be coded
 in python/ruby/shell script.
 
 The other game-changer of Rust is safety. Rust unique ownership model accompanied with awesome compilation error messages brings a lot of confidence to the developer.
-It's way more than just develop happiness. It's developer confidence.
+It's way more than just developer happiness. It's about developer confidence.
 
 A lot of the pain is taken care of thanks to the Rust compiler.
 Many safety (memory-leaks, bad memory access, race-conditions) pitfalls get caught during compilation time.
@@ -73,15 +79,13 @@ use Rust as a key part of their tech-stack.
 
 Not only that, but whale companies like Amazon, Microsoft, Google, Dropbox and more are betting on Rust. It's seems like a new era.
 <br/>
-I think that the turning point for many Rust users is that historically TBD
-<br/>
 <br/>
 ### **Compilation**
 As part of my job, I've immersed myself in the fascinating world of compilers in general and specifically WebAssembly.
-I still have a long way to go, but I did manage to build a very basic programming-language that runs in interpreted mode.
+I still have a long way to go, but I did manage to build a very basic programming-language that runs within an interpreter.
 [Here is a link to the repository][tytle-repo].
 
-In the last months of this year I've reached the first milestone of SVM, the runtime based on wasmer that spacemesh will execute in the future
+In the last months of this year I've reached the first milestone of SVM, the runtime based on [wasmer][wasmer] that spacemesh will execute in the future
 its Smart-Contracts. More on SVM can be read [here][svm-post].
 
 As a bonus, I've even made some small contributions to [wasmer][wasmer-contrib].
@@ -107,7 +111,7 @@ Learning from others is a super important for getting better. [Here's a very nic
 ### **Working on my English**
 This year I've worked hard on my English vocabulary, hoping that having a richer dictionary will give me a boost while working.
 <br/>In the last 6 months or so, I've practiced on a daily basis my English using the [Supermemo][supermemo] app (see also: [Spaced Repetition][spaced-repetition]).
-<br/>At first glance, it might not seem that important, but I think that being articulate is a key requirement that anyone should aim to possess.
+<br/>I believe that being articulate is a key requirement that anyone should aim to possess.
 
 First of all, a considerable amount of development-time is about communicating what we did/doing/will be doing.
 We write emails, Slack with other people, write comments on PRs and of course we **document our code**.
@@ -137,7 +141,7 @@ I wish myself that I'll be able to be persistent and publish occasionally articl
 <br/>
 <br/>
 ### **Summary**
-That was a very productive year for me. The last time I've had such sharp career change around 5 years ago when
+That was a very productive year for me. The last time I've had such major career change was around 5 years ago when
 migrating from working as a .NET developer (Windows and Visual Studio of course) to a Mac user, programming in Ruby using vim.
 
 Learning is a life-long unbounded journey.
@@ -145,6 +149,9 @@ Learning is a life-long unbounded journey.
 I have in my mind where I'd like to move forward in 2020.
 <br/>
 Hopefully, I will be able to fulfill at least half of my ambitions.
+
+<br/>
+**I wish you a Happy New and Fulfilling Year!**
 
 <br/>
 See also:
@@ -159,6 +166,7 @@ See also:
 [spacemesh]: http://spacemesh.io
 [tytle-repo]: https://github.com/spacemeshos/tytle
 [svm-post]: https://gryphon.dev/2019/10/06/svm/
+[wasmer]: https://wasmer.io/
 [wasmer-contrib]: https://github.com/wasmerio/wasmer/commits?author=YaronWittenstein
 [supermemo]: https://supermemo.com
 [svm-talk]: https://www.youtube.com/watch?v=mcvBXQ0SWJM
