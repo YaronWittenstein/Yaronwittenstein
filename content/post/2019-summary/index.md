@@ -1,6 +1,6 @@
 ---
 title: "2019 Summary"
-date: 2019-12-21T17:00:00+03:00
+date: 2019-12-22T17:00:00+03:00
 ---
 
 ![headline][headline]
@@ -31,15 +31,15 @@ Therefore, I've started looking for a Rust remote position.
 Unsurprisingly, there were scarcely remote options, but luckily I've stumbled upon a small remote jobs website that had an open position requiring Rust development primarily in NYC.
 <br/>
 <br/>
-The name of the company was [spacemesh][spacemesh], where I'm working now.
-spacemesh is about building a decentralized programmable cryptocurrency powered by a novel proof-of-space-time, race-free consensus protocol.
+The name of the company was [Spacemesh][spacemesh], where I'm working now.
+Spacemesh is about building a decentralized programmable cryptocurrency powered by a novel proof-of-space-time, race-free consensus protocol.
 <br/>
 <br/>
-The funny thing is that spacemesh is actually an Israeli company that looked for remote people too (outside of Israel).
+The funny thing is that Spacemesh is actually an Israeli company that looked for remote people too (outside of Israel).
 
 Besides only knowing the very basics of Rust and having no hands-on Rust experience, this position was about developing Smart-Contracts infrastructure.
 Meaning, having some compilation knowledge was also required. I did a Compilers course more than 10 years ago when I was a student, but otherwise I didn't have any knowledge whatsoever.
-Actually, I had no knowledge about Blockchain or Smart-Contracts either.
+Actually, I had no deep knowledge about Blockchain or Smart-Contracts either.
 
 Obviously, this position seemed like one that will require me to go out of my comfort zone.
 In many terms it forced me to do a substantial start over, and that was perfect for me.
@@ -84,7 +84,7 @@ As part of my job, I've immersed myself in the fascinating world of compilers in
 I still have a long way to go, but I did manage to build a very basic programming-language that runs within an interpreter.
 [Here is a link to the repository][tytle-repo].
 
-In the last months of this year I've reached the first milestone of SVM, the runtime based on [wasmer][wasmer] that spacemesh will execute in the future
+In the last months of this year I've reached the first milestone of SVM, the runtime based on [wasmer][wasmer] that Spacemesh will execute in the future
 its Smart-Contracts. More on SVM can be read [here][svm-post].
 
 As a bonus, I've even made some small contributions to [wasmer][wasmer-contrib].
@@ -131,7 +131,7 @@ Having a richer vocabulary makes the naming things much more effective.
 I've done more than a handful of talks until this year, but I've never had one away from home (not in Israel).
 On June, it was my first time speaking aboard. It was a very refreshing experience and hopefully I will have more chances in the future.
 
-The talk was related to my research on the future of Smart Contracts using WebAssembly for spacemesh. If you're curious [here's the link][svm-talk] to the talk.
+The talk was related to my research on the future of Smart Contracts using WebAssembly for Spacemesh. If you're curious [here's the link][svm-talk] to the talk.
 <br/>
 <br/>
 ### **Blogging**
@@ -145,13 +145,11 @@ migrating from working as a .NET developer (Windows and Visual Studio of course)
 
 Learning is a life-long unbounded journey.
 <br/>
-I have in my mind where I'd like to move forward in 2020.
+I have in my mind where I'd like to move forward next year.
 <br/>
-Hopefully, I will be able to fulfill at least half of my ambitions.
-
 <br/>
 **I wish you a Happy New and Fulfilling Year!**
-
+<br/>
 <br/>
 See also:
 
