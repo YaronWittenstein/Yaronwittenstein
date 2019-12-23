@@ -58,7 +58,7 @@ I was ready to embark on this new journey, with much excitement and some fears h
 What I really liked about Rust was that on one hand Rust is a system programming-language, so it's inclined to serve as an alternative to languages such as C and C++.
 But on the other hand Rust, has many high-level abstractions that are typically found at more high-level (non system-programming) languages.
 
-Rust has functional elements in its syntax, support for futures (a.k.a promises in other language), meta-programming, traits, and more.
+Rust has functional elements in its syntax, support for futures (a.k.a promises in other languages), meta-programming, traits, and more.
 Not only that but Rust boasts of having many zero cost abstractions with execution times comparable to C and C++.
 
 So Rust is a very versatile language. You can virtually build with it anything. Not only low-level programs
