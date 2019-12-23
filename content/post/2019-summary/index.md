@@ -104,7 +104,7 @@ I've always loved reading beautiful pieces of code. Learning how other people th
 Observing elegant abstractions that simplify problems that seem intractable is a real joy.
 This year I've read a lot of Open-Source code. This is undoubtedly something I'd like to continue doing and at greater scale in the future.
 
-Learning from others is a super important for getting better. [Here's a very nice recommend article.][ultralearning-environments]
+Learning from others is a super important for getting better. [Here's a very nice recommended article.][ultralearning-environments]
 <br/>
 <br/>
 ### **Working on my English**
