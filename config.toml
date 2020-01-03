@@ -4,34 +4,18 @@ theme = "hugo-coder"
 languagecode = "en-us"
 defaultcontentlanguage = "en"
 
-disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
-enableEmoji = true
-
 paginate = 20
 canonifyurls = true
-
-pygmentsstyle = "friendly"
-pygmentscodefences = true
-pygmentscodefencesguesssyntax = true
 
 googleAnalytics = "UA-148359158-1"
 disqusShortname = ""
 
-[taxonomies]
-    category = "categories"
-    series = "series"
-    tag = "tags"
+enableGitInfo = true
+enableEmoji = true
 
-[privacy]
-    [privacy.googleAnalytics]
-        anonymizeIP = false
-        disable = false
-        respectDoNotTrack = false
-        useSessionStorage = false
-
-# [permalinks]
-#     posts = "/:year/:month/:day/:title/"
-#     page = "/:title/"
+pygmentsstyle = "friendly"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
 
 [params]
     author = "Yaron Wittenstein"
@@ -52,6 +36,22 @@ disqusShortname = ""
     enableTwitterShare = true
     enableLinkedInShare = true
 
+[permalinks]
+    posts = "/:year/:month/:day/:title/"
+    page = "/:title/"
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = false
+        disable = false
+        respectDoNotTrack = false
+        useSessionStorage = false
+
 [[params.social]]
     name = "Github"
     icon = "fab fa-github fa-2x"
@@ -63,24 +63,23 @@ disqusShortname = ""
     weight = 2
     url = "https://twitter.com/RealWittenstein"
 
-[menu]
-    [[menu.main]]
-        name = "Subscribe"
-        url = "/subscribe/"
-        weight = 1
-    [[menu.main]]
-        name = "About"
-        url = "/about/"
-        weight = 2
-    [[menu.main]]
-        name = "Blog"
-        url = "/posts/"
-        weight = 3
-    [[menu.main]]
-        name = "Newsletter"
-        url = "https://read-it-or-throw-it.blogspot.com"
-        weight = 4
-    [[menu.main]]
-        name = "Talks"
-        url = "/talks/"
-        weight = 5
+[[menu.main]]
+    name = "Subscribe"
+    url = "/subscribe/"
+    weight = 1
+[[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 2
+[[menu.main]]
+    name = "Blog"
+    url = "/posts/"
+    weight = 3
+[[menu.main]]
+    name = "Newsletter"
+    url = "https://read-it-or-throw-it.blogspot.com"
+    weight = 4
+[[menu.main]]
+    name = "Talks"
+    url = "/talks/"
+    weight = 5
