@@ -1,51 +1,86 @@
-baseURL = "/"
-languageCode = "en-us"
-title = "Yaron Wittenstein's Personal Site"
-theme = "hugo-lithium-theme"
-googleAnalytics = "UA-148359158-1"
-disqusShortname = ""
+baseurl = "/"
+title = "gryphon.dev"
+theme = "hugo-coder"
+languagecode = "en-us"
+defaultcontentlanguage = "en"
+
 disableKinds = ["taxonomy", "taxonomyTerm", "section", "404"]
 enableEmoji = true
 
+paginate = 20
+canonifyurls = true
+
+pygmentsstyle = "friendly"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+googleAnalytics = "UA-148359158-1"
+disqusShortname = ""
+
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
+
+[privacy]
+    [privacy.googleAnalytics]
+        anonymizeIP = false
+        disable = false
+        respectDoNotTrack = false
+        useSessionStorage = false
+
+# [permalinks]
+#     posts = "/:year/:month/:day/:title/"
+#     page = "/:title/"
+
 [params]
     author = "Yaron Wittenstein"
-    mainSections = ["post", "page"]
+    info = "A Passionate Coder"
     description = "Yaron Wittenstein's Personal Site"
+    keywords="blog,developer,personal"
+    avatarurl = "avatar.jpg"
+
+    mainSections = ["posts", "page"]
     favicon = "favicon.ico"
+    hidecredits = true
+    hidecopyright = true
+    rtl = false
+    math = true
+    inverted = false
+    itemscentered = true
 
-[params.logo]
-    url = "logo.png"
-    width = 100
-    height = 100
+    enableTwitterShare = true
+    enableLinkedInShare = true
 
-[permalinks]
-    post = "/:year/:month/:day/:title/"
-    page = "/:title/"
-[[menu.main]]
-    name = "Subscribe"
-    url = "/subscribe"
+[[params.social]]
+    name = "Github"
+    icon = "fab fa-github fa-2x"
     weight = 1
-[[menu.main]]
-    name = "About"
-    url = "/about"
-    weight = 2
-[[menu.main]]
-    name = "Blog"
-    url = "/"
-    weight = 3
-[[menu.main]]
-    name = "Newsletter"
-    url = "https://read-it-or-throw-it.blogspot.com"
-    weight = 4
-[[menu.main]]
-    name = "Talks"
-    url = "/talks"
-    weight = 5
-[[menu.main]]
-    name = "GitHub"
     url = "https://github.com/yaronwittenstein"
-    weight = 6
-[[menu.main]]
+[[params.social]]
     name = "Twitter"
+    icon = "fab fa-twitter fa-2x"
+    weight = 2
     url = "https://twitter.com/RealWittenstein"
-    weight = 7
+
+[menu]
+    [[menu.main]]
+        name = "Subscribe"
+        url = "/subscribe/"
+        weight = 1
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+    [[menu.main]]
+        name = "Blog"
+        url = "/posts/"
+        weight = 3
+    [[menu.main]]
+        name = "Newsletter"
+        url = "https://read-it-or-throw-it.blogspot.com"
+        weight = 4
+    [[menu.main]]
+        name = "Talks"
+        url = "/talks/"
+        weight = 5
