@@ -2,7 +2,6 @@
 title: "Top 8 Productivity Tips for Any Developer"
 date: 2019-08-21T17:15:00+03:00
 tags: ["productivity"]
-type: "post"
 ---
 
 ![Headline][Headline]

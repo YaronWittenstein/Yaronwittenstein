@@ -2,7 +2,6 @@
 title: "SVM"
 date: 2019-10-06T13:00:00+03:00
 tags: ["spacemesh"]
-type: "post"
 ---
 
 ![svm-logo][svm-logo]

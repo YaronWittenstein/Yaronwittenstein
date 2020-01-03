@@ -2,7 +2,6 @@
 title: "Relearning to Type"
 date: 2019-10-04T17:00:00+03:00
 tags: ["productivity"]
-type: "post"
 ---
 
 ![Headline][Headline]
