@@ -51,13 +51,32 @@ That isolation, will yield us client-server architecture for the plugins system.
 since they will will talk in RPC to the vim-core.
 
 That seemed very promising but instead the community has been polarized into vim and neovim users.
+Instead of joining forces, there are now plugins targeted only for one editor. Other plugins target both, sometimes at the expense of increased maintenance.
+Things may worsen in the feature as each editor roadmap will steer into different directions. 
+
+The above made me reserach whether I should be on vim or neovim for the long-term.
+In parallel, I've researched more about emacs and its exensiblity features which is famous for.
+emacs is being extended by a lisp dialect called emacs-lisp, or elisp for short.
+Using lisp for writing a bit of code was very appealing. Not only it looks beautiful (way more than VimScript) but emacs itself is super extensible.
+The concepts of keymaps, commands, buffers, regions, modes, hooks just clicked. It just felt right.
+But with all due respect for the above, vim modal-editing is invincible.
+
+emacs has a very popular vim emulation called `evil` (branded as `The extensible vi layer for Emacs`).
+I was skeptical at first, but gave it a try. And it was surprisingly very smooth, like using vim inside emacs without really knowing emacs.
+The more I played with it and the more research I've done into emacs plugins I got convinced that I'd like to make the switch into emacs backed by evil.
+Instead of choosing vim vs neovim, I've decided to learn elisp so that I'll have more control over my IDE.
+
+## Making the switch
+
+Recently, I've finally made this transition. So far I'm very pleased with this change. I've learned the basics of emacs-lisp by solving a few vimgolf puzzles
+in emacs-lisp ([repository link][vimgolf.el]) and reading documentation. My emacs configuration is pretty minimal right now as I'm still making my first steps
+but I expect it to grow over time ([repository link][dotemacs]).
 
 
-
-
-
-
-
+Today, I don't see vim and emacs as enemies anymore. 
+<br/>I belive that each one can learn from the other.
+<br/>
+### I actually think that vim and emacs can be BFF.
 
 ![bff-image][bff-image]
 
