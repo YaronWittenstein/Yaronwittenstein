@@ -1,6 +1,6 @@
 ---
 title: "Vim and Emacs can be BFF"
-date: 2020-02-07T09:46:44+02:00
+date: 2020-02-07T17:00:00+02:00
 tags: ["productivity"]
 type: "post"
 draft: true
@@ -9,7 +9,7 @@ draft: true
 ## Short History
 
 The year was 1976.
-<br/>The two most gigantic text-editors the universe has ever known sprang into existence.
+<br/>The two most gigantic IDEs the universe has ever known sprang into existence.
 Subsequently, one of history's most ruthless wars has started.
 
 On one side stood vi (succeeded later by vim) -</br> a small and agile text-editor based on modal-editing.
@@ -17,9 +17,9 @@ On one side stood vi (succeeded later by vim) -</br> a small and agile text-edit
 <br/>
 On the other side of the battlefield stood emacs -</br> a tall and stout operating-system having a feeble text-editor (some argue it had no text-editor at all...). 
 
-Who will ascend the throne and be the best text-editor has ever lived?
+Who will ascend the throne and be the best IDE that has ever lived?
 
-The years have passed, and new wanna-be text-editors rivals were born.
+The years have passed, and new wanna-be best-IDE rivals were born.
 <br/>
 A partial list contain names you may have heard of such as: SublimeText, Atom, VSCode and IntelliJ.
 
@@ -36,9 +36,9 @@ It was all a matter of time until some official collaboration will occur.
 ## My turning point
 
 I've been a vim user for a couple of years and as much as I loved (and still do) vim, its extensibility has always bothered me.
-Vim plugins are written in Vimscript, which is notoriously known for being an inelegant language.
+Traditionally (see neovim later) vim plugins are written in Vimscript, which is notoriously known for being an inelegant language.
 
-I've never found a good excuse to go and learn it. It just didn't feel fun.
+I've never found a good excuse to go and learn it. It just didn't feel fun (more like half-backed cake).
 The community plugins creators is pretty concentrated around a small number of people. 
 I believe that VimScript is one of the primary reasons for that.
 </br>
@@ -61,10 +61,12 @@ Using lisp for writing a bit of code was very appealing. Not only it looks beaut
 The concepts of keymaps, commands, buffers, regions, modes, hooks just clicked. It just felt right.
 But with all due respect for the above, vim modal-editing is invincible.
 
-emacs has a very popular vim emulation called `evil` (branded as `The extensible vi layer for Emacs`).
-I was skeptical at first, but gave it a try. And it was surprisingly very smooth, like using vim inside emacs without really knowing emacs.
-The more I played with it and the more research I've done into emacs plugins I got convinced that I'd like to make the switch into emacs backed by evil.
-Instead of choosing vim vs neovim, I've decided to learn elisp so that I'll have more control over my IDE.
+emacs has a very popular vim emulation called **evil** (branded as **The extensible vi layer for Emacs**).
+I was skeptical at first, but gave it a try, and surprisingly things went smooth.
+It really felt like using vim inside emacs without actually really knowing emacs.
+The more I played with it, I got convinced that I'd like to make the switch into emacs backed by evil.
+Instead of choosing vim vs neovim, I've resolved that emacs is what I was looking for.
+
 
 ## Making the switch
 
