@@ -3,7 +3,6 @@ title: "Vim and Emacs can be BFF"
 date: 2020-02-07T17:00:00+02:00
 tags: ["productivity"]
 type: "post"
-draft: true
 ---
 
 ## Short History
