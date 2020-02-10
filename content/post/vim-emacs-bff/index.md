@@ -21,7 +21,7 @@ Who will ascend the throne and be the best IDE that has ever lived?
 The years have passed, and new wanna-be "the best IDE" rivals were born.
 A partial list contains names you may have heard of such as SublimeText, Atom, VSCode and, IntelliJ.
 
-They tried everything to get some traction. Trying to mimic elements of these the two giants was without substantial success.
+They tried everything to get some traction. Trying to mimic elements of these two giants was without substantial success.
 
 vim and emacs stayed in a league of their own and started to accept they are both here to stay and that no one will be pronounced a winner. 
 Hatred has slowly (but steadily) declined and been substituted with mutual-respect. 
@@ -40,7 +40,7 @@ I've never found a good excuse to go and learn it. It just didn't feel fun (more
 The community plugins creators seemed concentrated around a small number of people, and I believe that VimScript is one of the primary reasons for that.
 
 Additionally, vim has been maintained by a single person - Bram Moolenaar.
-In a past interview, he has been asked 
+In a past interview, he has been asked: 
 _"How can the community ensure that the Vim project succeeds for the foreseeable future?"_ - and he answered with _"Keep me alive."_
 
 That attitude over the years was the trigger for a few people to fork vim in 2014 and start a big rewrite under the name [neovim][neovim].
