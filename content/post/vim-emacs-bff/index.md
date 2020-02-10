@@ -63,9 +63,9 @@ Instead of choosing vim vs neovim, I've resolved that emacs is what I was lookin
 
 In parallel, I've researched more about emacs and its extensibility features which are its forte.
 emacs is being extended by a lisp dialect called emacs-lisp, or elisp for short.
-Leveraging lisp for writing some code was very appealing too. 
+Leveraging lisp for extending my working environment was very appealing too. 
 Reading about "the emacs way" of doing things using keymaps, commands, buffers, regions, modes, hooks just clicked. It just felt right.
-But with all due respect emacs, without having evil I'd never considered moving to emacs.
+But with all due respect to emacs, without having evil I'd never considered moving to emacs.
 vim modal-editing is just invincible. 
 <br/>
 <br/>
