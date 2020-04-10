@@ -61,25 +61,40 @@ What's the 2nd parameter this common-library's function signature expects?
 Now, let's move on and talk about the more interesting category: Patterns.
 As opposed to factual data which is well-defined, patterns aren't.
 <br/>
-When I'm refering to a _Pattern_ here, I refer to a core solution technique which is relevant to a wide class of inputs (problems).
+When I'm refering to a _Pattern_ here, I refer to a core solution technique which is relevant to a wide class of inputs problems.
 If there is a problem with a unique (or rare) solution that isn't relevant to other similar problems then I'd not consider it as a Pattern.
 <br/>
 Even though, there is not a well-defined algorithm that given a problem's solution could say whether it's a common pattern or not,
 I'd still try my best to claim there is such a category.
 <br/>
-So instead of re-writing: "Problems having common solutions that can be reused in many places." I'd stick with the term a Pattern.
-I'm also aware that something one would consider a pattern wouldn't be regarded as one by another person. That's totaly fine.
-What's important that anyone will be able to execute its own classification and decide if he/she considers something as a pattern.
+So instead of writing: "Problems having common solutions that can be reused in many places." I'd stick with the term a Pattern.
+<br/>
+I'm also aware that something one would consider a pattern wouldn't be regarded as such by another person. That's totaly fine.
+What's important is that anyone will be able to execute its own classification and decide if he/she considers something as a pattern.
 <br/>
 
+So since it's individual, I'd give things I view as patterns:
+* Math - Prove that the root of 2 is a irrational number.
+<br/>
+The classic solution is to the above is prove by contradiction.
+I see it as a pattern since I can imagine many problems that would require me to use the solution.
+Maybe I'll need to prove that root of 5 isn't a rational number of perhaps use that root of 2 isn't a rational in the context
+of a Geometry problem. Anyhow, I'd categorize it as a pattern.
 
-* Math - Prove that the root of 2 is a irrational number. 
 * Chess - Given a board position, see how you can do matt in 2 moves.
+If the solution to a given a chess challenge it to sacrifice a chess item in order to win, I'd call it a pattern since there are for sure
+many similar board positions that will require me to sacrifice an item in order to make a progress/win/avoid immediate lose.
+
 * Programming - How you'd implement a Linked-List in C? 
+<!-- Maybe I don't need to implement a linked-list on my next task, but being able to delete an item from a Linked-List can strengthen the  -->
+<!-- the importance of checking edge-cases. Deleting a emi -->
+
 
 Our brain is very good at recognizing patterns. It can in a fraction of a second view an image and detect objects. 
 When it encounters a life-situation, it immediately loads memories from other past situations that have resemblence the current one.
 Sometimes our brain finds connections between things that seem unrelated and it takes us some time to figure out why it chose to. 
+The more we'll train our brains the better our toolbox will be expanded. It means we can solve not only more problems but also in more elegantly
+since we'll have more ways to approach them.
 
 <br/>
 <br/>
