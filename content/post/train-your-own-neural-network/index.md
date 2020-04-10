@@ -23,26 +23,28 @@ I'd like this article to focus on what I would call __Train Your Own Netural Tec
 The essence of _TYONT_ is making feeding your brain with tons of data relevant that you care about.
 I'd divide that into 2 categories: Factual and Pattern-Oriented.
 </br>
-_Factual_ data may 
+_Factual_ data that we care about may be general data or domain/profession specific data.
+</br>
+
+## General factual data:
+Examples for general data are:
+* Historical - When did the French revolution took place? Who was the president of the United-States during World War II?  
+* Wisdom Quotes - Remebering inspiring [quotes of Winston Churchill][churchill-quotes] such as 
+_"“Success is never found. Failure is never fatal. Courage is the only thing."_ 
+* Jokes - If you want to be the most funny guy in the room, you'd better own an arsenal of Jokes for almost any situation.
+* Vocabulary - Want to save time looking for the right word composing an email? Make sure you work on your vocabulary. 
+(there are many other advantages for having a broad vocabulary).
 
 
-## Factual Knowledge Training
+### Domain specific factual data:
+<br/>
+Since I'm a developer and this blog assumes its readers are too, I'll use Programming factual data here but you could easily see how it translates 
+to other professions.
 
-### General
-
-* Historical Anecdotes 
-
-* Wisdom Quotes
-
-* Jokes
-
-* Vocabulary 
-
-### Programming 
-
-* Shortcuts
-* Commands
-* Syntax 
+* Shortcuts - How do I re-open Chrome's last closed Tab? 
+* Commands - How do I discard the local git uncommitted changes via the command-line?
+* Syntax / Libraries - How do I create a new module in that language?
+What's the 2nd parameter this common-library's function signature expects?
 
 
 
@@ -61,6 +63,7 @@ _Factual_ data may
 
 
 ## Related Links:
+[churchill-quotes]: https://www.keepinspiring.me/winston-churchill-quotes/
 [ultralearning-environments]: https://www.scotthyoung.com/blog/2019/01/03/ultralearning-environments/
 [expertise-is-just-pattern-matching]: https://commoncog.com/blog/expertise-is-just-pattern-matching/
 [supermemo]: https://www.supermemo.com/
