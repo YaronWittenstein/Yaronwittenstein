@@ -17,7 +17,7 @@ Neither can we manually code a billion lines of code,
 speak fluently 100 different languages or paint million drawings. 
 <br/>
 <br/>
-However, we are still able to accomplish quite a lot.
+Yet, we are still able to accomplish quite a lot.
 <br/>
 Much more than we think we can. 
 <br/>
@@ -135,62 +135,91 @@ Our brain is very good at recognizing patterns. Given an image, it'll detect obj
 <br/>
 <br/>
 Math enthusiasts are able to receive a Math challenge and at once think of a few solving strategies that should be tackled and eliminate a dozen others.
-That's because they been years gathered years of accumulated problem-solving knowledge.
+That's because they have years of accumulated problem-solving knowledge.
 <br/>
 <br/>
-Profesional Chess players viewing a past game board will instantly infer a lot about it, weight trade-offs and have a gut feeling what are the best
-options for the next moves. That's thanks to years of training and encountering innumerous situtations.
+Profesional Chess players view a past game board will instantly infer a lot about it, weight trade-offs and have a gut feeling what are the best
+options for the next moves. That's owing to to years of playing and encountering innumerous situtations.
 <br/>
 <br/>
-Why a past game board and any arbitrary board positions? TBD
+Why a past game board and not any arbitrary board positions? TBD
 <br/>
 <br/>
-Experienced developers can start reading a high-quality code-base consisting of a few thousand lines of code and after a short while figure out their way through it.
-Then they can deduce what regions lack structure and require more refactoring, suggest architectural changes, and develop a feeling for the code.
+Experienced developers can start reading a high-quality codebase consisting of a few thousand lines of code and after a short while figure out 
+their way through it. Then, they can deduce what regions lack structure and require more refactoring, suggest architectural changes,
+and develop a feeling for the code.
 They can do that since they've read and written tons of code.
 <br/>
 <br/>
 Why high-quality code-base and not any random code-base? TBD
 <br/>
-The more we'll feed our brains with varied inputs the, our toolbox will be extended.
+<br/>
+The more we'll feed our brains with varied inputs the, the greater our toolbox will be become.
 It means we can solve not only more problems but also in more elegantly (and faster) since we'll have more options to choose from.
-
 <br/>
 <br/>
 ## How to Train?
-<br/>
 Now, how to _TYONT_?
 Again, let's split it into factual-data and _Patterns_.
 <br/>
-
-### Factual-data Training:
 <br/>
-In order to _TYONT_ with facts first you need to decide what you kind of information you want. 
-You may want to extend your vocabulary, learn a new language. Remember dates, people's names and list goes and on.
-My recommendation is to start with one or two topics only at first. Then you should use the [Spaced-repetition][spaced-repetition] technique
-in order to optimize the revisiting facts intervals. This will assist you with remembering the most in less time and retain it better. 
+### Factual-data Training:
+In order to _TYONT_ with facts, we first need to decide what you kind of information we want to remember. 
+We may want to extend your vocabulary, learn a new language, remember quotes and list goes and on.
+My advice is to start with one or two topics as most.
+<br/>
+Then you should use the [Spaced-repetition][spaced-repetition] technique
+in order to optimize what to study and when. This will assist you with remembering the most in less time and retain it better. 
+<br/>
 <br/>
 I think it's a shame that most people aren't familiar with Spaced-repetition. It's so powerful and rewarding. 
-I highly recommind using [anki][anki] for applying it. You can think about it as your agent that throws at you flash-cards with questions
-and asks you to review them. In order to make it as effective as you can, you're encouraged to create your own cards. It will assist with retaining the data.
+I highly recommend using [anki][anki] for applying it. You can think about it as your agent that throws at you flash-cards with questions
+and asks you to answer them. In order to make it as effective as you can, you're encouraged to create your own cards. 
+It will assist with retaining the data most effectively.
 <br/>
-In case you want to expand your vocabulary then [Super-Memo][supermemo] is the best Spaced-repetition resource I know of. 
-Not only it asks you to fill-in the missing words, you can check how to pronounce the word.
-What I also like is that the app offers as hints synonyms to the desired answer.
 <br/>
-Spaced-repetition can be super-effective for programmers. A classic use-case is making flash-card for short-cuts or CLI commands.
-Another good case is adding flashcards for Syntax that you feel you'd like to remember. It's true that we have Google and Stackoverflow and great
-IDEs extensions with auto-complete. But if you find yourself repeatedly looking for a method or standard-lib function that you did twice over the past week,
-it might be a good hint to go the extra mile and try to save the Googling for the next time. I personally strive to be able to write code in my daily job 
-knowing that I can go and open an empty text editor without any plugin and code. Don't get me wrong here please, we are paid to solve problems not memorize stuff 
-that can be picked up easily. I'm arguing that streamline common stuff that we repeatedly do. It's up to anyone to pin-point what are the stuff that seems to slow 
-him down. Moreover, I'd 
-
+In case you want to expand your vocabulary - [Super-Memo][supermemo] is the best Spaced-repetition resource I know of. 
+Not only it asks you a question - after you want to see the answer, it will pronounce it.
+The app offers as hints synonyms to the desired answer - another advantage of the app.
+<br/>
+<br/>
+Spaced-repetition can be super-effective for programmers as well. A classic use-case is making flash-cards for keyboard shortcuts or shell commands.
+Another good case is having flashcards for Syntax. It's true that we have Google and Stackoverflow and great IDEs extensions with auto-complete
+and such. However, if you find yourself looking again for a method/standard-library function that you did already twice over the past week - 
+it might be a good indiciationi to go the extra mile and try to save the Googling for the next time. 
+<br/>
+I personally strive to be able to write code in my daily job knowing that I can go and open an empty text editor without any plugin and code.
+Don't get me wrong here - we are paid to solve problems not memorize stuff that can be picked up easily.
+I'm suggesting that we're able streamlining common stuff that we repeatedly do. It's up to anyone to pin-point what's the stuff that seems to slow 
+him down. 
+<br/>
+Moreover, I'd argue that most devlopers are using a dominant programming-language in 80% of their work time and a handful of keyboard shortcuts 
+(or worse - using you the mouse). Imagine the ROI of boost the process of recalling a syntax/stdlib or shortcuts you're using on a daily basis.
+<br/>
+The real benefit won't be the time-savings - it'll be the context-switches reduction.
+You'll find yourself much less Googling, searching Stack-overlow and losing focus.
+<br/>
+Now that we've covered the Spaced-repetition based training -  we're left with the _Patterns Training_.
 
 <br/>
 <br/>
 ### Patterns Training
-TBD
+<br/>
+The answer to how to _TYONT_ using _Patterns Training_ is unsurprisingly less obvious. It's true that we can create a flash-cards for very-short math riddles in some cases, 
+or take a Chess board and turn it into a flashcard. That'll work in many cases, but not always.
+<br/>
+For example, let's return to improving at reading source code. 
+Flash-cards won't assist programmers here (mayn in learning shortcuts for better navigation). The path for getting better at such a skill should be by tailor it to your own needs.
+One plan can be to go over 1000 lines of code of a some GitHub project on a daily basis. That will surely make us better at reading code.
+<br/>
+But it should be more deliberately planned. Let's say that we want to improve code understanding of a specific domain that interests us.
+We could look for famous GitHub Open-Source projects in that domain. It's preferable that that code be written in programming-languages we know.
+Then we can pick one or two projects and start reading them. It's preferable that the tests will have some API documentation and of-course tests (otherwise, how did they become
+famous from the first place?).
+<br/>
+After being able to walk through 1-2 projects and 3rd one will become easier.
+
+
 
 
 <br/>
@@ -198,6 +227,7 @@ TBD
 <br/>
 Absolutely not. The article by no means tries to argue that anyone can be good a math, a professional chess player,
 world-class musician or a top-notch developer. You still need to have some talent TBD
+
 
 <br/>
 ### Related Links:
