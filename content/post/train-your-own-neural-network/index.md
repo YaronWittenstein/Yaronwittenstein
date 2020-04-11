@@ -24,8 +24,7 @@ Much more than we think we can.
 
 There is the classic saying that _"Practice makes Perfect"_. 
 <br/>This is partly true, because it's also that _"Practice also makes you Permanent"_.
-<br/>
-... deliberate practice rears it head. But there are manifold ways to practice deliberately. 
+TBD deliberate practice rears it head. But there are manifold ways to practice deliberately. 
 <br/><br/>
 I'd like this article to focus on what I would call _"Train Your Own Netural Technique"_ technique. Let's use the _TYONT_ for short for the rest of the post. 
 The essence of _TYONT_ is feeding your brain with tons of data relevant to things you care about.
@@ -117,21 +116,30 @@ of a Geometry problem.
 
 * Chess 
 <br/>
-Given the following board position - how can do matt in 2 moves?
+Given the following board position - how can you do matt in 2 moves?
 <br/>
 <br/>
 Why a _Pattern_? The solution to the above is to sacrifice a chess item in order to win, I'd call it a pattern since there are 
 endless similar board positions that will require me to sacrifice an item in order to make a progress/win/avoid immediate lose.
 
 * Programming - How you'd implement a Linked-List in C? 
-<!-- Maybe I don't need to implement a linked-list on my next task, but being able to delete an item from a Linked-List can strengthen the  -->
-<!-- the importance of checking edge-cases. Deleting a emi -->
+
+Why a _Pattern_? I won't need to implement a linked-list on my next task,
 
 <br/>
-Our brain is very good at recognizing patterns. It can in a fraction of a second view an image and detect objects. 
-When it encounters a life-situation, it immediately loads memories from other past situations that have resemblence the current one.
-Sometimes our brain finds connections between things that seem unrelated and it takes us some time to figure out why it chose to. 
-The more we'll train our brains the better our toolbox will be expanded. It means we can solve not only more problems but also in more elegantly
+Our brain is very good at recognizing patterns. Given an image, it'll detect objects in a fraction of a second. 
+<br/>
+Math enthusiastic can see a Math challenge and at once load a few solving strategies that should be tackled and eliminate a dozen others.
+<br/>
+Proffesional Chess players viewing a board position will instantly infer a lot about it. Weight trade-offs and have a gut feeling what are the best
+options for the next moves. That's thanks to years of training and encountering innumerous situtations.
+<br/>
+Skilled developers can start reading a high-quality code-base consisting of a few thousand lines of code and after a short while figure out their way inside it.
+Then they can deduce what regions lack structure, require more refactoring and have suggestions for architectural changes.
+
+
+The more we'll feed our brains with inputs the greater the odds it'll
+our toolbox will be expanded. It means we can solve not only more problems but also in more elegantly
 since we'll have more ways to approach them.
 
 <br/>
