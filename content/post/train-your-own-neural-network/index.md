@@ -183,48 +183,49 @@ Not only it asks you a question - after you want to see the answer, it will pron
 The app offers as hints synonyms to the desired answer - another advantage of the app.
 <br/>
 <br/>
-Spaced-repetition can be super-effective for programmers as well. A classic use-case is making flash-cards for keyboard shortcuts or shell commands.
+Spaced-repetition can be super-effective for programmers as well. A classic use-case is making flashcards for keyboard shortcuts or shell commands.
 Another good case is having flashcards for Syntax. It's true that we have Google and Stackoverflow and great IDEs extensions with auto-complete
 and such. However, if you find yourself looking again for a method/standard-library function that you did already twice over the past week - 
-it might be a good indiciationi to go the extra mile and try to save the Googling for the next time. 
+it might be a good indiciation to walk the extra mile and try to save the Googling for the next time. 
+<br/>
 <br/>
 I personally strive to be able to write code in my daily job knowing that I can go and open an empty text editor without any plugin and code.
 Don't get me wrong here - we are paid to solve problems not memorize stuff that can be picked up easily.
-I'm suggesting that we're able streamlining common stuff that we repeatedly do. It's up to anyone to pin-point what's the stuff that seems to slow 
-him down. 
+I'm suggesting that we're able to streamline common stuff that we repeatedly do. It's up to anyone to pin-point what's 
+the stuff that seems to slow him down. 
+<br/>
 <br/>
 Moreover, I'd argue that most devlopers are using a dominant programming-language in 80% of their work time and a handful of keyboard shortcuts 
 (or worse - using you the mouse). Imagine the ROI of boost the process of recalling a syntax/stdlib or shortcuts you're using on a daily basis.
-<br/>
 The real benefit won't be the time-savings - it'll be the context-switches reduction.
 You'll find yourself much less Googling, searching Stack-overlow and losing focus.
 <br/>
-Now that we've covered the Spaced-repetition based training -  we're left with the _Patterns Training_.
-
 <br/>
+Now that we've covered the Spaced-repetition based training -  we're left with the _Patterns Training_.
 <br/>
 ### Patterns Training
-<br/>
-The answer to how to _TYONT_ using _Patterns Training_ is unsurprisingly less obvious. It's true that we can create a flash-cards for very-short math riddles in some cases, 
+The answer to how to _TYONT_ using _Patterns Training_ is unsurprisingly less obvious.
+It's true that we can create a flashcards for very-short math riddles in some cases, 
 or take a Chess board and turn it into a flashcard. That'll work in many cases, but not always.
 <br/>
+<br/>
 For example, let's return to improving at reading source code. 
-Flash-cards won't assist programmers here (mayn in learning shortcuts for better navigation). The path for getting better at such a skill should be by tailor it to your own needs.
-One plan can be to go over 1000 lines of code of a some GitHub project on a daily basis. That will surely make us better at reading code.
+Flashcards won't assist programmers here (maybe in learning keyboard-shortcuts for cod navigation). 
+The path to getting better at such a skill should be to tailor it to your own needs.
+One idea can be commiting to reading 1000 lines-of-code of a GitHub project on a daily basis. 
+That will surely make us somewhat better at reading code.
 <br/>
-But it should be more deliberately planned. Let's say that we want to improve code understanding of a specific domain that interests us.
-We could look for famous GitHub Open-Source projects in that domain. It's preferable that that code be written in programming-languages we know.
-Then we can pick one or two projects and start reading them. It's preferable that the tests will have some API documentation and of-course tests (otherwise, how did they become
-famous from the first place?).
 <br/>
-After being able to walk through 1-2 projects and 3rd one will become easier.
+But you can _TYONT_ better. Let's instead be more specific. Say that we want to improve code understanding of a specific domain that interests us.
+We could look for famous GitHub Open-Source projects in that domain. It's preferable that code be written a in programming-languages we know.
+Then we can pick one or two projects and start reading them. 
+<br/>
+After managin to walk through 1-2 projects the 3rd one will become easier to grasp. We'll compare TBD ... 
 
-
-
+TBD: learning from others
 
 <br/>
 ## It that all?
-<br/>
 Absolutely not. The article by no means tries to argue that anyone can be good a math, a professional chess player,
 world-class musician or a top-notch developer. You still need to have some talent TBD
 
