@@ -102,14 +102,14 @@ I'm also aware that what one would consider a technique as a _Pattern_, another 
 What's important is that anyone will be able to execute his own classification and decide if he views it as a _Pattern_.
 <br/>
 
-Since it's an individual discernment - I'd like to give examples of stuff I'd call _Patterns_:
+Since it's an individual discernment - here are a few examples of stuff I'd call _Patterns_:
 
-* Math  
+* Math
 <br/>
 Prove that the root of 2 is a irrational number.
 <br/>
 <br/>
-Why a _Pattern_? The classic solution is to the above is prove by contradiction.
+Why a _Pattern_? - The classic solution is to the above is prove by contradiction.
 I see it as a pattern since I can imagine many problems that would require me to use the solution.
 Maybe I'll need to prove that root of 5 isn't a rational number of perhaps use that root of 2 isn't a rational in the context
 of a Geometry problem. 
@@ -119,49 +119,100 @@ of a Geometry problem.
 Given the following board position - how can you do matt in 2 moves?
 <br/>
 <br/>
-Why a _Pattern_? The solution to the above is to sacrifice a chess item in order to win, I'd call it a pattern since there are 
+Why a _Pattern_? - The solution to the above is to sacrifice a chess item in order to win, I'd call it a pattern since there are 
 endless similar board positions that will require me to sacrifice an item in order to make a progress/win/avoid immediate lose.
 
-* Programming - How you'd implement a Linked-List in C? 
+* Programming 
+<br/>
+How you'd implement a Linked-List in C? 
+<br/>
+<br/>
+Why a _Pattern_? - I won't need to implement a linked-list on my next task, TBD
 
-Why a _Pattern_? I won't need to implement a linked-list on my next task,
 
 <br/>
 Our brain is very good at recognizing patterns. Given an image, it'll detect objects in a fraction of a second. 
 <br/>
-Math enthusiastic can see a Math challenge and at once load a few solving strategies that should be tackled and eliminate a dozen others.
 <br/>
-Proffesional Chess players viewing a board position will instantly infer a lot about it. Weight trade-offs and have a gut feeling what are the best
+Math enthusiasts are able to receive a Math challenge and at once think of a few solving strategies that should be tackled and eliminate a dozen others.
+That's because they been years gathered years of accumulated problem-solving knowledge.
+<br/>
+<br/>
+Profesional Chess players viewing a past game board will instantly infer a lot about it, weight trade-offs and have a gut feeling what are the best
 options for the next moves. That's thanks to years of training and encountering innumerous situtations.
 <br/>
-Skilled developers can start reading a high-quality code-base consisting of a few thousand lines of code and after a short while figure out their way inside it.
-Then they can deduce what regions lack structure, require more refactoring and have suggestions for architectural changes.
-
-
-The more we'll feed our brains with inputs the greater the odds it'll
-our toolbox will be expanded. It means we can solve not only more problems but also in more elegantly
-since we'll have more ways to approach them.
+<br/>
+Why a past game board and any arbitrary board positions? TBD
+<br/>
+<br/>
+Experienced developers can start reading a high-quality code-base consisting of a few thousand lines of code and after a short while figure out their way through it.
+Then they can deduce what regions lack structure and require more refactoring, suggest architectural changes, and develop a feeling for the code.
+They can do that since they've read and written tons of code.
+<br/>
+<br/>
+Why high-quality code-base and not any random code-base? TBD
+<br/>
+The more we'll feed our brains with varied inputs the, our toolbox will be extended.
+It means we can solve not only more problems but also in more elegantly (and faster) since we'll have more options to choose from.
 
 <br/>
 <br/>
-## Patterns Training
+## How to Train?
+<br/>
+Now, how to _TYONT_?
+Again, let's split it into factual-data and _Patterns_.
+<br/>
 
-### Math 
+### Factual-data Training:
+<br/>
+In order to _TYONT_ with facts first you need to decide what you kind of information you want. 
+You may want to extend your vocabulary, learn a new language. Remember dates, people's names and list goes and on.
+My recommendation is to start with one or two topics only at first. Then you should use the [Spaced-repetition][spaced-repetition] technique
+in order to optimize the revisiting facts intervals. This will assist you with remembering the most in less time and retain it better. 
+<br/>
+I think it's a shame that most people aren't familiar with Spaced-repetition. It's so powerful and rewarding. 
+I highly recommind using [anki][anki] for applying it. You can think about it as your agent that throws at you flash-cards with questions
+and asks you to review them. In order to make it as effective as you can, you're encouraged to create your own cards. It will assist with retaining the data.
+<br/>
+In case you want to expand your vocabulary then [Super-Memo][supermemo] is the best Spaced-repetition resource I know of. 
+Not only it asks you to fill-in the missing words, you can check how to pronounce the word.
+What I also like is that the app offers as hints synonyms to the desired answer.
+<br/>
+Spaced-repetition can be super-effective for programmers. A classic use-case is making flash-card for short-cuts or CLI commands.
+Another good case is adding flashcards for Syntax that you feel you'd like to remember. It's true that we have Google and Stackoverflow and great
+IDEs extensions with auto-complete. But if you find yourself repeatedly looking for a method or standard-lib function that you did twice over the past week,
+it might be a good hint to go the extra mile and try to save the Googling for the next time. I personally strive to be able to write code in my daily job 
+knowing that I can go and open an empty text editor without any plugin and code. Don't get me wrong here please, we are paid to solve problems not memorize stuff 
+that can be picked up easily. I'm arguing that streamline common stuff that we repeatedly do. It's up to anyone to pin-point what are the stuff that seems to slow 
+him down. Moreover, I'd 
 
-### Programming
 
-### Chess
-
-
-## Knowledge Retention
-
+<br/>
+<br/>
+### Patterns Training
+TBD
 
 
+<br/>
+## It that all?
+<br/>
+Absolutely not. The article by no means tries to argue that anyone can be good a math, a professional chess player,
+world-class musician or a top-notch developer. You still need to have some talent TBD
 
-## Related Links:
+<br/>
+### Related Links:
+* [Expertise is ‘Just’ Pattern Matching][expertise-is-just-pattern-matching]
+* [Spaced repetition][spaced-repetition]
+* [Ultralearning Environments: Why Where You Learn Determines How Much You Learn][ultralearning-environments]
+* [Thesaurus][thesaurus]
+* [SuperMemo.com - Learn fast and forget about forgetting][supermemo]
+* [Execute Program - Learn programming tools fast. Then remember them][executeprogram]
+
+[spaced-repetition]: https://en.wikipedia.org/wiki/Spaced_repetition
 [churchill-quotes]: https://www.keepinspiring.me/winston-churchill-quotes/
 [ultralearning-environments]: https://www.scotthyoung.com/blog/2019/01/03/ultralearning-environments/
 [expertise-is-just-pattern-matching]: https://commoncog.com/blog/expertise-is-just-pattern-matching/
 [supermemo]: https://www.supermemo.com/
 [thesaurus]: https://www.thesaurus.com/
 [anki]: https://apps.ankiweb.net/ 
+[executeprogram]: https://www.executeprogram.com/
