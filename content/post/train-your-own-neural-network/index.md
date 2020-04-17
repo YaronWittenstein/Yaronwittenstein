@@ -229,7 +229,7 @@ Then we can pick one or two projects and start reading them.
 After managing to walk through 1-2 projects, the 3rd one will become easier to grasp. 
 We'll compare TBD styles...
 
-TBD: learning from others
+TBD: learning from others and get feedback.
 
 <br/><br/>
 This piece attempts to raise the awareness around the _TYONT_ technique.
@@ -250,14 +250,13 @@ Today, you can just go to [chess.com][chess-com] or a similar website and instan
 against millions of people or try solving some chess challenge.
 </br></br>
 Programmers in the past couldn't use Open-Source in their work, let alone read code by people outside.
-</br>
 Today, anyone has access to billions of lines of code.
 </br></br>
 Thanks to the internet, there's information access explosion.
 </br>
 One of the byproducts is that learning from others has never been easier. 
 </br>
-You can _TYONT_ and accomplish more than you think and have fun too.
+You can _TYONT_ and accomplish more than you think you can and as a bonus have fun too.
 </br></br>
 Let's Train Ours Own Neural Network! 😉
 
