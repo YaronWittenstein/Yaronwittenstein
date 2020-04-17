@@ -4,14 +4,14 @@ date: 2020-04-03T12:06:33+03:00
 type: "post"
 ---
 
-Using Machine-Learning and particularly Deep-Learning solutions in order to solve technical challenges are mentioned all over the place.
-<br/>
-That's thanks to having access to unprecedented of volumes data, hardware advancements and acadmeic progress.
-<br/>
+These days, using Machine-Learning and particularly Deep-Learning solutions in order to solve many technical challenges has become very popular.
+<br/><br/>
+That's mainly thanks to having access to unprecedented volumes of data, hardware advancements and acadmeic progress.
+<br/><br/>
 Many problems are tackled by modeling Neural-Networks, feeding them with tons of data and consequently they "learn" and turn artificially "smarter". 
 <br/><br/>
 While we, humans, are still smarter than our computers - we do suffer from an inferior processing speed of information.
-<br/>
+<br/><br/>
 We can't read a million books over the course of our lifetime. 
 <br/>
 Neither can we manually code a billion lines of code, 
@@ -22,10 +22,10 @@ speak fluently 100 different languages or paint million drawings.
 Yet, we are still able to accomplish quite a lot.
 <br/>
 Much more than we think we can. 
-<br/>
-
+<br/><br/>
 There is the classic saying that _"Practice makes Perfect"_. 
 <br/>This is partly true, because it's also that _"Practice also makes you Permanent"_.
+<br/><br/>
 TBD deliberate practice rears it head. But there are manifold ways to practice deliberately. 
 <br/><br/>
 I'd like this article to focus on what I would call _"Train Your Own Netural Technique"_ technique. Let's use the _TYONT_ for short for the rest of the post. 
