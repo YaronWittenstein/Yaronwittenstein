@@ -238,18 +238,28 @@ Its effectiveness doesn't get the place it deserves right now.
 </br>
 The article by no means argues that anyone can be good at math, a professional chess player,
 a world-class musician or a top-notch developer. 
+You still need to have some talent, passion, persistence and doing many other things in order to achieve greatness.
+</br></br>
+In the past a Math enthusiast could buy mostly the Math books available in his local-store.
+Maybe in some circumstances he could grab a book overseas - But how he would be familiar with the existing books? (There was no internet).
+Today, a Math enthusiast can go to _Amazon_ or similar and order any existing book.
+If there is an online content in language he doesn't speak - he can just you a translator.
+</br></br>
+If the past if you wanted to be good in Chess you had to have good teachers that will help you train.
+Today, you can just go to [chess.com][chess-com] or a similar website and instantly play for free 
+against millions of people or try solving some chess challenge.
+</br></br>
+Programmers in the past couldn't use Open-Source in their work, let alone read code by people outside.
 </br>
-You still need to have some talent, passion, persistence and doing many other things in order to acheive greatness.
+Today, anyone has access to billions of lines of code.
+</br></br>
+Thanks to the internet, there's information access explosion.
 </br>
+One of the byproducts is that learning from others has never been easier. 
 </br>
-While computers have more processing powers and have more available and accessible information.
-Math in the past ... today TBD
-Chess in the past ... today TBD
-Programmers in the past ... TBD
-
-Hopefully this text has given you another perspective of how to achieve more in less time.
-<br/>
-Let's Train Ours Own Neural Network ! 😉
+You can _TYONT_ and accomplish more than you think and have fun too.
+</br></br>
+Let's Train Ours Own Neural Network! 😉
 
 
 <br/>
@@ -269,3 +279,4 @@ Let's Train Ours Own Neural Network ! 😉
 [thesaurus]: https://www.thesaurus.com/
 [anki]: https://apps.ankiweb.net/ 
 [executeprogram]: https://www.executeprogram.com/
+[chess-com]: http://chess.com/
