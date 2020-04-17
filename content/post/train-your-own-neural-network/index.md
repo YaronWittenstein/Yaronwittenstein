@@ -22,24 +22,28 @@ speak fluently 100 different languages or paint million drawings.
 Yet, we are still able to accomplish quite a lot.
 <br/>
 Much more than we think we can. 
-<br/><br/>
+<br/><br/><br/>
 There is the classic saying that _"Practice makes Perfect"_. 
 <br/>This is partly true, because it's also that _"Practice also makes you Permanent"_.
 <br/><br/>
-TBD deliberate practice rears it head. But there are manifold ways to practice deliberately. 
+Now usually comes the part saying that we need do _deliberate practice_ consistently for many years.
+The thing is that there are manifold ways to practice deliberately. 
+It's much easier said than done, since there are an infinite ways to learn in a smart manner.
+There is no one size fits all formula for all domains. Also, people are different.
 <br/><br/>
-I'd like this article to focus on what I would call _"Train Your Own Netural Technique"_ technique. Let's use the _TYONT_ for short for the rest of the post. 
+I'd like this article to focus on a single _deliberate practice_ side - I  call it _"Train Your Own Netural Technique"_ technique. 
+<br/><br/>
+For brevity, I'll use _TYONT_ acronym for the rest of the post. 
+<br/>
 The essence of _TYONT_ is feeding your brain with tons of data relevant to things you care about.
-<br/>
-<br/>
-I'm dividing that data into 2 categories: Factual and Pattern-Oriented.
-<br/>
-<br/>
-First the _Factual data_ that we care about - it may be general or domain/profession specific data.
+<br/><br/>
+I'm dividing that training data into two categories: Factual and Pattern-Oriented.
+First, let's address data belonging to the _Factual_ category. 
+We'll differentiate between general data to domain-specific data.
 <br/><br/>
 
-### General factual data:
-This is straightforward - pieces of data that are mere facts.
+### Factual data - General:
+This is straightforward - we refer to pieces of data that are mere facts.
 #### Examples:
 
 * Historical 
@@ -50,13 +54,9 @@ Who was the president of the United-States during World War II?
 
 * Wisdom Quotes 
 <br/>
-Remembering inspiring [quotes of Winston Churchill][churchill-quotes] such as 
+Inspiring [quotes of Winston Churchill][churchill-quotes] such as 
 <br/>
 _"Success is never found. Failure is never fatal. Courage is the only thing."_ 
-
-* Jokes 
-<br/>
-If you want to be the most funny guy in the room, you'd better own an arsenal of Jokes for almost any situation.
 
 * Vocabulary 
 <br/>
