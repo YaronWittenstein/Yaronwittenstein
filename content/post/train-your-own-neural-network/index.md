@@ -26,9 +26,9 @@ Much more than we think we can.
 There is the classic saying that _"Practice makes Perfect"_. 
 <br/>This is partly true, because it's also that _"Practice also makes you Permanent"_.
 <br/><br/>
-Now usually comes the part saying that we need do _deliberate practice_ consistently for many years.
+Now usually comes the part saying that we need to do _deliberate practice_ consistently for many years.
 The thing is that there are manifold ways to practice deliberately. 
-It's much easier said than done, since there are an infinite ways to learn in a smart manner.
+It's much easier said than done, since there are an infinite number of ways to learn work smart.
 There is no one size fits all formula for all domains. Also, people are different.
 <br/><br/>
 I'd like this article to focus on a single _deliberate practice_ side - I  call it _"Train Your Own Netural Technique"_ technique. 
@@ -43,7 +43,7 @@ We'll differentiate between general data to domain-specific data.
 <br/><br/>
 
 ### Factual data - General:
-This is straightforward - we refer to pieces of data that are mere facts.
+This is straightforward - it's just pieces of data that are mere facts.
 #### Examples:
 
 * Historical 
@@ -60,12 +60,12 @@ _"Success is never found. Failure is never fatal. Courage is the only thing."_
 
 * Vocabulary 
 <br/>
-What's the meaning of TBD
+Give two synonyms to the word _decisive_
 
 <br/>
-### Domain-specific factual data:
-Since I'm a developer and this blog assumes its readers are too, I'll use programming factual data here but you could easily see how it translates 
-to other professions.
+### Factual data - Domain specific:
+Since I'm a developer and this blog assumes its readers are too, I'll use programming factual data here but you could see how it translates 
+to many other professions.
 
 * Shortcuts 
 <br/>
@@ -84,12 +84,12 @@ What's the 2nd parameter this common-library's function signature expects?
 <br/>
 
 ### Patterns:
-Now, let's move on and talk about the more interesting category: Patterns.
-As opposed to factual data which is well-defined, patterns aren't.
+Now, let's move on and talk about the more interesting category: _Patterns_.
+As opposed to factual data which is well-defined - _Patterns_ aren't so.
 <br/>
 When I'm refering to a _Pattern_ here, I refer to a core solution-technique which is relevant to a wide class of problems.
 <br/>
-If there is a problem with a unique (or rare) solution that isn't applicable to other similar - then I'd NOT consider it as a Pattern.
+If there is a problem with a unique (or rare) solution that isn't applicable to other similar cases - then I'd NOT consider it as a Pattern.
 <br/>
 <br/>
 Although there is not a well-defined algorithm that given a challenge, could say if its solutions consist of common techniques or not - 
@@ -98,38 +98,42 @@ I'd still try my best to argue there is place for having that category. Please b
 <br/>
 So instead of writing: _"Challenges having common solutions that can be reused in many places"_ - I'd stick with the term a _Pattern_.
 <br/>
-I'm also aware that what one would consider a technique as a _Pattern_, another person wouldn't - and that's totaly fine.
+I'm also aware that what one would consider a _Pattern_, another person wouldn't - and that's totaly fine.
 <br/>
 <br/>
-What's important is that anyone will be able to execute his own classification and decide if he views it as a _Pattern_.
+What's important is that anyone will be able to execute his own classification and decide if he views it as a _Pattern_ or not.
 <br/>
 
-Since it's an individual discernment - here are a few examples of stuff I'd call _Patterns_:
+Since it's an individual discernment - here are a few examples of stuff I'd regard as _Patterns_:
 
 * Math
 <br/>
 Prove that the root of 2 is a irrational number.
 <br/>
 <br/>
-Why a _Pattern_? - The classic solution is to the above is prove by contradiction.
-I see it as a pattern since I can imagine many problems that would require me to use the solution.
-Maybe I'll need to prove that root of 5 isn't a rational number of perhaps use that root of 2 isn't a rational in the context
-of a Geometry problem. 
+Why a _Pattern_? - The classic solution to the above is prove by contradiction. 
+We assume there exists two numbers natural 𝜨 and 𝜧  having no common divisors such that 𝜨 / M = √2
+<br/>
+TBD
+
+I see it as a pattern since I can imagine many problems that would require me to use a similar proving technique.
 
 * Chess 
 <br/>
 Given the following board position - how can you do matt in 2 moves?
 <br/>
+TBD
 <br/>
-Why a _Pattern_? - The solution to the above is to sacrifice a chess item in order to win, I'd call it a pattern since there are 
+<br/>
+Why a _Pattern_? - The solution to the above is to sacrifice a chess item in order to win. I'd call it a _Pattern_ since there are 
 endless similar board positions that will require me to sacrifice an item in order to make a progress/win/avoid immediate lose.
 
-* Programming 
+* Reading logging library source code
 <br/>
-How you'd implement a Linked-List in C? 
+TBD
 <br/>
 <br/>
-Why a _Pattern_? - I won't need to implement a linked-list on my next task, TBD
+Why a _Pattern_? 
 
 
 <br/>
@@ -141,7 +145,7 @@ That's because they have years of accumulated problem-solving knowledge.
 <br/>
 <br/>
 Profesional Chess players view a past game board will instantly infer a lot about it, weight trade-offs and have a gut feeling what are the best
-options for the next moves. That's owing to to years of playing and encountering innumerous situtations.
+options for next moves. That's owing to years of playing and encountering innumerous situtations.
 <br/>
 <br/>
 Why a past game board and not any arbitrary board positions? TBD
@@ -153,16 +157,16 @@ and develop a feeling for the code.
 They can do that since they've read and written tons of code.
 <br/>
 <br/>
-Why high-quality code-base and not any random code-base? TBD
+Why high-quality code-base and not any random codebase? TBD
 <br/>
 <br/>
-The more we'll feed our brains with varied inputs the, the greater our toolbox will be become.
-It means we can solve not only more problems but also in more elegantly (and faster) since we'll have more options to choose from.
+The more we'll feed our brains with varied inputs, the larger our toolbox will expand.
+It means we could solve not only more problems but also more elegantly (and faster) since we'll have more options to choose from.
 <br/>
 <br/>
 ## How to Train?
 Now, how to _TYONT_?
-Again, let's split it into factual-data and _Patterns_.
+Again, let's split it again into Factual-data and _Patterns_.
 <br/>
 <br/>
 ### Factual-data Training:
@@ -177,12 +181,12 @@ in order to optimize what to study and when. This will assist you with rememberi
 I think it's a shame that most people aren't familiar with Spaced-repetition. It's so powerful and rewarding. 
 I highly recommend using [anki][anki] for applying it. You can think about it as your agent that throws at you flash-cards with questions
 and asks you to answer them. In order to make it as effective as you can, you're encouraged to create your own cards. 
-It will assist with retaining the data most effectively.
+It will assist with remembering the data most effectively.
 <br/>
 <br/>
 In case you want to expand your vocabulary - [Super-Memo][supermemo] is the best Spaced-repetition resource I know of. 
 Not only it asks you a question - after you want to see the answer, it will pronounce it.
-The app offers as hints synonyms to the desired answer - another advantage of the app.
+Additionally, The app offers synonyms to the desired answer - another advantage of the app.
 <br/>
 <br/>
 Spaced-repetition can be super-effective for programmers as well. A classic use-case is making flashcards for keyboard shortcuts or shell commands.
@@ -191,28 +195,28 @@ and such. However, if you find yourself looking again for a method/standard-libr
 it might be a good indiciation to walk the extra mile and try to save the Googling for the next time. 
 <br/>
 <br/>
-I personally strive to be able to write code in my daily job knowing that I can go and open an empty text editor without any plugin and code.
+I personally strive to be able to write code in my daily job knowing that I'm able to go and open an empty text editor without any plugin and start coding.
 Don't get me wrong here - we are paid to solve problems not memorize stuff that can be picked up easily.
 I'm suggesting that we're able to streamline common stuff that we repeatedly do. It's up to anyone to pin-point what's 
 the stuff that seems to slow him down. 
 <br/>
 <br/>
 Moreover, I'd argue that most devlopers are using a dominant programming-language in 80% of their work time and a handful of keyboard shortcuts 
-(or worse - using you the mouse). Imagine the ROI of boost the process of recalling a syntax/stdlib or shortcuts you're using on a daily basis.
+(or worse - using you the mouse). Imagine the ROI for boosting the process of recalling a syntax/stdlib or shortcuts you're using on a daily basis.
 The real benefit won't be the time-savings - it'll be the context-switches reduction.
-You'll find yourself much less Googling, searching Stack-overlow and losing focus.
+You'll find yourself much less Googling, searching Stack-overlow and consequently gain more focus.
 <br/>
 <br/>
 Now that we've covered the Spaced-repetition based training -  we're left with the _Patterns Training_.
 <br/>
 ### Patterns Training
 The answer to how to _TYONT_ using _Patterns Training_ is unsurprisingly less obvious.
-It's true that we can create a flashcards for very-short math riddles in some cases, 
-or take a Chess board and turn it into a flashcard. That'll work in many cases, but not always.
+It's true that we can create flashcards for very-short math riddles in some cases, 
+or take a Chess board and turn it into a flashcard. That'll work in many cases, but not always - life isn't that simple.
 <br/>
 <br/>
 For example, let's return to improving at reading source code. 
-Flashcards won't assist programmers here (maybe in learning keyboard-shortcuts for cod navigation). 
+Flashcards won't assist programmers here (maybe in learning keyboard-shortcuts for code navigation). 
 The path to getting better at such a skill should be to tailor it to your own needs.
 One idea can be commiting to reading 1000 lines-of-code of a GitHub project on a daily basis. 
 That will surely make us somewhat better at reading code.
@@ -222,7 +226,8 @@ But you can _TYONT_ better. Let's instead be more specific. Say that we want to 
 We could look for famous GitHub Open-Source projects in that domain. It's preferable that code be written a in programming-languages we know.
 Then we can pick one or two projects and start reading them. 
 <br/>
-After managin to walk through 1-2 projects the 3rd one will become easier to grasp. We'll compare TBD ... 
+After managing to walk through 1-2 projects, the 3rd one will become easier to grasp. 
+We'll compare TBD styles...
 
 TBD: learning from others
 
@@ -236,7 +241,15 @@ a world-class musician or a top-notch developer.
 </br>
 You still need to have some talent, passion, persistence and doing many other things in order to acheive greatness.
 </br>
-Hopefully this text has given you another tool to equip your learning strategies.
+</br>
+While computers have more processing powers and have more available and accessible information.
+Math in the past ... today TBD
+Chess in the past ... today TBD
+Programmers in the past ... TBD
+
+Hopefully this text has given you another perspective of how to achieve more in less time.
+<br/>
+Let's Train Ours Own Neural Network ! 😉
 
 
 <br/>
