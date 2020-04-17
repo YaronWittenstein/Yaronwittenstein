@@ -4,11 +4,13 @@ date: 2020-04-03T12:06:33+03:00
 type: "post"
 ---
 
-These days applying Machine Learning and particularly Deep-Learning techiques in order to implement technical challenges are mentioned all over the place.
-Many problems are tackled by modeling Neural-Networks, feeding them with tons of data and consequently they "learn" 
-and turn artificially "smarter". Thanks to the progress of TBD
-
-We, Humans, have an inferior processing speed of information.
+Using Machine-Learning and particularly Deep-Learning solutions in order to solve technical challenges are mentioned all over the place.
+<br/>
+That's thanks to having access to unprecedented of volumes data, hardware advancements and acadmeic progress.
+<br/>
+Many problems are tackled by modeling Neural-Networks, feeding them with tons of data and consequently they "learn" and turn artificially "smarter". 
+<br/><br/>
+While we, humans, are still smarter than our computers - we do suffer from an inferior processing speed of information.
 <br/>
 We can't read a million books over the course of our lifetime. 
 <br/>
@@ -224,10 +226,17 @@ After managin to walk through 1-2 projects the 3rd one will become easier to gra
 
 TBD: learning from others
 
-<br/>
-## It that all?
-Absolutely not. The article by no means tries to argue that anyone can be good a math, a professional chess player,
-world-class musician or a top-notch developer. You still need to have some talent TBD
+<br/><br/>
+This piece attempts to raise the awareness around the _TYONT_ technique.
+</br>
+Its effectiveness doesn't get the place it deserves right now.
+</br>
+The article by no means argues that anyone can be good at math, a professional chess player,
+a world-class musician or a top-notch developer. 
+</br>
+You still need to have some talent, passion, persistence and doing many other things in order to acheive greatness.
+</br>
+Hopefully this text has given you another tool to equip your learning strategies.
 
 
 <br/>
