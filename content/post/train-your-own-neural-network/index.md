@@ -80,9 +80,10 @@ How do I discard the local git uncommitted changes via the command-line?
 How do I create a new module in that language?
 <br/>
 What's the 2nd parameter this common-library's function signature expects?
-<br/>
-<br/>
 
+<br/>
+![flashcards-image][flashcards-image]
+<br/>
 ### Patterns:
 Now, let's move on and talk about the more interesting category: _Patterns_.
 As opposed to factual data which is well-defined - _Patterns_ aren't so.
@@ -113,10 +114,11 @@ Prove that the root of 2 is a irrational number.
 <br/>
 Why a _Pattern_? - The classic solution to the above is prove by contradiction. 
 We assume there exists two numbers natural 𝜨 and 𝜧  having no common divisors such that 𝜨 / M = √2
+Eventually will get contradiction to the assumption that 𝜨 and 𝜧  having no common divisors and infer
+that the assumption for the existence of 𝜨 and 𝜧  doesn't hold true.
+([click here for the full proof][root-2-proof]).
 <br/>
-TBD
-
-I see it as a pattern since I can imagine many problems that would require me to use a similar proving technique.
+I see it as a pattern since I can imagine many problems that would require me to use a similar technique as we did with 𝜨 and 𝜧 .
 
 * Chess 
 <br/>
@@ -136,6 +138,7 @@ TBD
 Why a _Pattern_? 
 
 
+![patterns-image][patterns-image]
 <br/>
 Our brain is very good at recognizing patterns. Given an image, it'll detect objects in a fraction of a second. 
 <br/>
@@ -165,9 +168,11 @@ It means we could solve not only more problems but also more elegantly (and fast
 <br/>
 <br/>
 ## How to Train?
+
+![brain-image][brain-image]
+
 Now, how to _TYONT_?
 Again, let's split it again into Factual-data and _Patterns_.
-<br/>
 <br/>
 ### Factual-data Training:
 In order to _TYONT_ with facts, we first need to decide what you kind of information we want to remember. 
@@ -230,8 +235,7 @@ After managing to walk through 1-2 projects, the 3rd one will become easier to g
 We'll compare TBD styles...
 
 TBD: learning from others and get feedback.
-
-<br/><br/>
+<br/>
 This piece attempts to raise the awareness around the _TYONT_ technique.
 </br>
 Its effectiveness doesn't get the place it deserves right now.
@@ -270,6 +274,10 @@ Let's Train Ours Own Neural Network! 😉
 * [SuperMemo.com - Learn fast and forget about forgetting][supermemo]
 * [Execute Program - Learn programming tools fast. Then remember them][executeprogram]
 
+[brain-image]: images/brain.png
+[flashcards-image]: images/flashcards.png
+[patterns-image]: images/patterns.png
+
 [spaced-repetition]: https://en.wikipedia.org/wiki/Spaced_repetition
 [churchill-quotes]: https://www.keepinspiring.me/winston-churchill-quotes/
 [ultralearning-environments]: https://www.scotthyoung.com/blog/2019/01/03/ultralearning-environments/
@@ -279,3 +287,4 @@ Let's Train Ours Own Neural Network! 😉
 [anki]: https://apps.ankiweb.net/ 
 [executeprogram]: https://www.executeprogram.com/
 [chess-com]: http://chess.com/
+[root-2-proof]: https://www.homeschoolmath.net/teaching/proof_square_root_2_irrational.php
