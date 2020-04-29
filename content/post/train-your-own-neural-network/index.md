@@ -1,6 +1,6 @@
 ---
 title: "Train Your Own Neural Network"
-date: 2020-04-28T17:00:13+03:00
+date: 2020-04-29T17:00:13+03:00
 type: "post"
 ---
 
