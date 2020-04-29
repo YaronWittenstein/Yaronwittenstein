@@ -282,12 +282,9 @@ Programmers in the past couldn't use Open-Source in their work, let alone read c
 Today, anyone has access to billions of lines of code.
 </br></br>
 Thanks to the internet - we have access to an infinite volume of information.
-</br>
 One of the byproducts is that learning from others has never been easier. 
-</br>
-You can _TYONT_ and accomplish more than you think you can and as a bonus have fun too.
 </br></br>
-Let's Train Our Own Neural Network! 😉
+We can _TYONT_ and accomplish more than we think and as a bonus have fun too.
 
 
 <br/>
