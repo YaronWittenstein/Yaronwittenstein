@@ -198,37 +198,37 @@ Additionally, The app offers synonyms to the desired answer - another major adva
 Spaced-repetition can be super-effective for programmers as well. A classic use-case is making flashcards for keyboard shortcuts or shell commands.
 Another good usage is having flashcards for Syntax. It's true that we have _Google_ and _Stackoverflow_ and great IDEs extensions with auto-complete
 and such. However, if you find yourself looking yet again for a standard-library function that you did already twice over the past week - 
-it might be a good indiciation to walk the extra mile and try saving the next _Google_ visit.
+it might be a good indiciation to walk the extra mile and try saving the next hop to _Google_.
 <br/>
 <br/>
-I personally strive to be able to write code in my daily job knowing that I'm able to go and open an empty text editor without any plugin and start coding.
+I personally strive to know I'm able to open a text editor having no plugins and just start coding.
 Don't get me wrong here - we are paid to solve problems not memorize stuff that can be picked up easily.
 I'm suggesting that we're able to streamline common stuff that we repeatedly do. It's up to anyone to pin-point what's 
 the stuff that seems to slow him down. 
 <br/>
 <br/>
-Moreover, I'd argue that most devlopers are using a dominant programming-language in 80% of their work time and a handful of keyboard shortcuts 
-(or worse - using you the mouse). Imagine the ROI for boosting the process of recalling a syntax/stdlib or shortcuts you're using on a daily basis.
+Moreover, I'd argue that most devlopers are using a single dominant programming-language in at-least 80% of their time and a handful of keyboard shortcuts 
+(or worse - using the mouse). Imagine the ROI boost of being fulent with syntax or shortcuts you're using repeatedly on a daily basis.
 The real benefit won't be the time-savings - it'll be the context-switches reduction.
-You'll find yourself much less Googling, searching Stack-overlow and consequently gain more focus.
+You'll find yourself much less wandering and consequently staying in focus.
 <br/>
 <br/>
 Now that we've covered the Spaced-repetition based training -  we're left with the _Patterns Training_.
 <br/>
 ### Patterns Training
 The answer to how to _TYONT_ using _Patterns Training_ is unsurprisingly less obvious.
-It's true that we can create flashcards for very-short math riddles in some cases, 
-or take a Chess board and turn it into a flashcard. That'll work in many cases, but not always - life isn't that simple.
+It's true that we can create flashcards for math riddles in a few cases, 
+or take a Chess board and turn it into a flashcard. That'll be feasible, but not always - life isn't that simple.
 <br/>
 <br/>
-For example, let's return to improving at reading source code. 
+For example, let's return to reading source code. 
 Flashcards won't assist programmers here (maybe in learning keyboard-shortcuts for code navigation). 
 The path to getting better at such a skill should be to tailor it to your own needs.
 One idea can be commiting to reading 1000 lines-of-code of a GitHub project on a daily basis. 
 That will surely make us somewhat better at reading code.
 <br/>
 <br/>
-But you can _TYONT_ better. Let's instead be more specific. Say that we want to improve code understanding of a specific domain that interests us.
+But we can _TYONT_ better. Let's instead be more specific. Say that we want to improve code understanding of a specific domain that interests us.
 We could look for famous GitHub Open-Source projects in that domain. It's preferable that code be written a in programming-languages we know.
 Then we can pick one or two projects and start reading them. 
 <br/>
@@ -248,16 +248,16 @@ You still need to have some talent, passion, persistence and doing many other th
 In the past a Math enthusiast could buy mostly the Math books available in his local-store.
 Maybe in some circumstances he could grab a book overseas - But how he would be familiar with the existing books? (There was no internet).
 Today, a Math enthusiast can go to _Amazon_ or similar and order any existing book.
-If there is an online content in language he doesn't speak - he can just you a translator.
+If there is an online content in a foreign language - he can use translator.
 </br></br>
-If the past if you wanted to be good in Chess you had to have good teachers that will help you train.
-Today, you can just go to [chess.com][chess-com] or a similar website and instantly play for free 
-against millions of people or try solving some chess challenge.
+In the past if you wanted to be good at Chess you'd need access to good teachers.
+Today, you can just go to [chess.com][chess-com] or a similar website and play for free 
+against millions of people or try solving some chess challenges.
 </br></br>
 Programmers in the past couldn't use Open-Source in their work, let alone read code by people outside.
 Today, anyone has access to billions of lines of code.
 </br></br>
-Thanks to the internet, there's information access explosion.
+Thanks to the internet - we have access to an infinite volume of information.
 </br>
 One of the byproducts is that learning from others has never been easier. 
 </br>
