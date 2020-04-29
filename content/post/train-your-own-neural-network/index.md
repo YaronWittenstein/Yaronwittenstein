@@ -113,15 +113,16 @@ Why a _Pattern_? - The classic solution to the above is prove by contradiction.
 We assume there exists two natural numbers 𝜨 and 𝜧  having no common divisors such that 𝜨 / M = √2
 <br/>
 Building on top of this this - we'll eventually reach a dead-end to the assumption that 𝜨 and 𝜧  have no common divisors.
+<br/>
 ([click here for the full proof][root-2-proof]).
 <br/><br/>
 I see it as a _Pattern_ since I can imagine many Math problems that would require me to use a similar technique as we did here with 𝜨 and 𝜧 .
 
 * Chess 
 <br/>
- - _Given the following board position - how can you do matt in 2 moves?_
+ - _Given the following board position - how Black can win in 1 move?_
 <br/><br/>
-TBD
+![chess-puzzle-image][chess-puzzle-image]
 <br/>
 <br/>
 Why a _Pattern_? - The solution to the above is to sacrifice a chess item in order to win. I'd call it a _Pattern_ since there are 
@@ -147,13 +148,15 @@ you should expect to come across things such as:
 		* fault tolerance: Robust logging mechanism should guard against burst of logging. It'll use rate-limits of number of calls/sec. 
 		  If the logging is to a remote machine, it may have wrap the calls with a circuit-breaker.
 		  circuit-breaker, rate limit, memory limit)
-		* tests: it's always a good place to learn how to use the library's API and learn some tricks.
-		  How the library simulates logging failure? Maybe it'll use fuzzy-tests for detecting an edge-case bug.
+		* tests: it's always a good place to learn how to use the library's API and get ideas.
+		  <br/>
+		  _How the library simulates logging failure?_ 
+		  <br/>
+		  _Maybe it'll use fuzzy-tests for detecting an edge-case bug._
 
 <br/>
-
 ![patterns-image][patterns-image]
-<br/>
+<br/><br/>
 Our brain is very good at recognizing patterns. Given an image, it'll detect objects in a fraction of a second. 
 <br/>
 <br/>
@@ -292,6 +295,7 @@ Let's Train Our Own Neural Network! 😉
 [brain-image]: images/brain.png
 [flashcards-image]: images/flashcards.png
 [patterns-image]: images/patterns.png
+[chess-puzzle-image]: images/chess-puzzle.png
 
 [spaced-repetition]: https://en.wikipedia.org/wiki/Spaced_repetition
 [churchill-quotes]: https://www.keepinspiring.me/winston-churchill-quotes/
@@ -301,5 +305,6 @@ Let's Train Our Own Neural Network! 😉
 [thesaurus]: https://www.thesaurus.com/
 [anki]: https://apps.ankiweb.net/ 
 [executeprogram]: https://www.executeprogram.com/
+[chess-puzzle]: https://chesspuzzle.net/Puzzle/49337
 [chess-com]: http://chess.com/
 [root-2-proof]: https://www.homeschoolmath.net/teaching/proof_square_root_2_irrational.php
