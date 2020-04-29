@@ -4,7 +4,7 @@ date: 2020-04-03T12:06:33+03:00
 type: "post"
 ---
 
-These days, using Machine-Learning and particularly Deep-Learning solutions in order to solve many technical challenges has become very popular.
+These days, using Machine-Learning and particularly Deep-Learning solutions in order to solve many technical challenges has become a norm.
 <br/><br/>
 That's mainly thanks to having access to unprecedented volumes of data, hardware advancements and acadmeic progress.
 <br/><br/>
@@ -14,7 +14,7 @@ While we, humans, are still smarter than our computers - we do suffer from an in
 <br/><br/>
 We can't read a million books over the course of our lifetime. 
 <br/>
-Neither can we manually code a billion lines of code, 
+Neither can we write a billion lines of code, 
 <br/>
 speak fluently 100 different languages or paint million drawings. 
 <br/>
@@ -22,14 +22,14 @@ speak fluently 100 different languages or paint million drawings.
 Yet, we are still able to accomplish quite a lot.
 <br/>
 Much more than we think we can. 
-<br/><br/><br/>
+<br/><br/>
 There is the classic saying that _"Practice makes Perfect"_. 
 <br/>This is partly true, because it's also that _"Practice also makes you Permanent"_.
 <br/><br/>
-Now usually comes the part saying that we need to do _deliberate practice_ consistently for many years.
-The thing is that there are manifold ways to practice deliberately. 
-It's much easier said than done, since there are an infinite number of ways to learn work smart.
-There is no one size fits all formula for all domains. Also, people are different.
+Now usually comes the part saying that we need to do _Deliberate Practice_ consistently for many years.
+The thing is that there are multitude of ways to practice deliberately. 
+There is no one size fits all formula applicable to all domains. 
+And of course - people are different.
 <br/><br/>
 I'd like this article to focus on a single _deliberate practice_ side - I  call it _"Train Your Own Netural Technique"_ technique. 
 <br/><br/>
@@ -39,47 +39,45 @@ The essence of _TYONT_ is feeding your brain with tons of data relevant to thing
 <br/><br/>
 I'm dividing that training data into two categories: Factual and Pattern-Oriented.
 First, let's address data belonging to the _Factual_ category. 
-We'll differentiate between general data to domain-specific data.
+We'll differentiate between _general data_ to _domain-specific data_.
 <br/><br/>
 
-### Factual data - General:
-This is straightforward - it's just pieces of data that are mere facts.
+### Factual data - _General_:
+This is straightforward - it's pieces of data that are mere facts.
 #### Examples:
 
 * Historical 
 <br/>
-When did the French revolution took place?
+ - _When did the French revolution took place?_
 <br/>
-Who was the president of the United-States during World War II?  
+ - _Who was the president of the United-States during World War II?_
 
 * Wisdom Quotes 
 <br/>
-Inspiring [quotes of Winston Churchill][churchill-quotes] such as 
-<br/>
-_"Success is never found. Failure is never fatal. Courage is the only thing."_ 
+ - _"Success is never found. Failure is never fatal. Courage is the only thing. (Winston Churchill)"_  
+ - _"Education is what remains after one has forgotten what one has learned in school. (Albert Einstein)"_
 
 * Vocabulary 
 <br/>
-Give two synonyms to the word _decisive_
+ - _Give two synonyms to the word: decisive_
 
 <br/>
-### Factual data - Domain specific:
+### Factual data - _Domain specific_:
 Since I'm a developer and this blog assumes its readers are too, I'll use programming factual data here but you could see how it translates 
-to many other professions.
+to many other fields.
 
 * Shortcuts 
 <br/>
-How do I re-open Chrome's last closed Tab? 
+ - _How do I re-open Chrome's last closed Tab?_ 
 
 * Commands 
 <br/>
-How do I discard the local git uncommitted changes via the command-line?
+ - _How do I discard the local git uncommitted changes via the command-line?_
 
 * Syntax / Libraries 
 <br/>
-How do I create a new module in that language?
-<br/>
-What's the 2nd parameter this common-library's function signature expects?
+ - _How to create a new module in that language?_
+ - _What's the 2nd parameter this common-library's function signature expects?_
 
 <br/>
 ![flashcards-image][flashcards-image]
@@ -87,42 +85,42 @@ What's the 2nd parameter this common-library's function signature expects?
 ### Patterns:
 Now, let's move on and talk about the more interesting category: _Patterns_.
 As opposed to factual data which is well-defined - _Patterns_ aren't so.
+<br/><br/>
+When I'm refering to a _Pattern_ here, I refer to a core solution-technique relevant to a wide class of problems.
+<br/><br/>
+If there is a problem with a unique (or rare) solution that isn't translatable to other similar cases - then I'd NOT consider it as a _Pattern_.
 <br/>
-When I'm refering to a _Pattern_ here, I refer to a core solution-technique which is relevant to a wide class of problems.
 <br/>
-If there is a problem with a unique (or rare) solution that isn't applicable to other similar cases - then I'd NOT consider it as a Pattern.
-<br/>
-<br/>
-Although there is not a well-defined algorithm that given a challenge, could say if its solutions consist of common techniques or not - 
+Although there is no well-defined algorithm that given a challenge, could say if its solutions consist of common techniques or not - 
 I'd still try my best to argue there is place for having that category. Please bear with me. 
 <br/>
 <br/>
 So instead of writing: _"Challenges having common solutions that can be reused in many places"_ - I'd stick with the term a _Pattern_.
 <br/>
-I'm also aware that what one would consider a _Pattern_, another person wouldn't - and that's totaly fine.
+I'm also aware that what one would view as a _Pattern_, another person wouldn't - and that's totaly fine.
 <br/>
 <br/>
-What's important is that anyone will be able to execute his own classification and decide if he views it as a _Pattern_ or not.
+What's important is that anyone will be able to possess his own classification and decide if he regards it as a _Pattern_ (or not).
 <br/>
 
-Since it's an individual discernment - here are a few examples of stuff I'd regard as _Patterns_:
+Since it's an individual discernment - here are a few examples of stuff I'd call _Patterns_:
 
 * Math
 <br/>
-Prove that the root of 2 is a irrational number.
+ - _Prove that √2 is an irrational number._
 <br/>
 <br/>
 Why a _Pattern_? - The classic solution to the above is prove by contradiction. 
-We assume there exists two numbers natural 𝜨 and 𝜧  having no common divisors such that 𝜨 / M = √2
-Eventually will get contradiction to the assumption that 𝜨 and 𝜧  having no common divisors and infer
-that the assumption for the existence of 𝜨 and 𝜧  doesn't hold true.
-([click here for the full proof][root-2-proof]).
+We assume there exists two natural numbers 𝜨 and 𝜧  having no common divisors such that 𝜨 / M = √2
 <br/>
-I see it as a pattern since I can imagine many problems that would require me to use a similar technique as we did with 𝜨 and 𝜧 .
+Building on top of this this - we'll eventually reach a contradiction to the assumption that 𝜨 and 𝜧  have no common divisors.
+([click here for the full proof][root-2-proof]).
+<br/><br/>
+I see it as a _Pattern_ since I can imagine many Math problems that would require me to use a similar technique as we did here with 𝜨 and 𝜧 .
 
 * Chess 
 <br/>
-Given the following board position - how can you do matt in 2 moves?
+ - _Given the following board position - how can you do matt in 2 moves?_
 <br/>
 TBD
 <br/>
@@ -130,7 +128,9 @@ TBD
 Why a _Pattern_? - The solution to the above is to sacrifice a chess item in order to win. I'd call it a _Pattern_ since there are 
 endless similar board positions that will require me to sacrifice an item in order to make a progress/win/avoid immediate lose.
 
-* Reading logging library source code
+* Reading Code
+<br/>
+ - _Reading a logging library source code_
 <br/>
 TBD
 <br/>
@@ -143,40 +143,41 @@ Why a _Pattern_?
 Our brain is very good at recognizing patterns. Given an image, it'll detect objects in a fraction of a second. 
 <br/>
 <br/>
-Math enthusiasts are able to receive a Math challenge and at once think of a few solving strategies that should be tackled and eliminate a dozen others.
-That's because they have years of accumulated problem-solving knowledge.
+_Math enthusiasts_ are able to receive a Math challenge and at once think of a few solving strategies that should be 
+tackled and eliminate a couple of others. That's because they have years of accumulated problem-solving knowledge.
 <br/>
 <br/>
-Profesional Chess players view a past game board will instantly infer a lot about it, weight trade-offs and have a gut feeling what are the best
+_Profesional Chess players_ looking at a game board will instantly infer a lot about it, weight trade-offs and have a gut feeling what are the best
 options for next moves. That's owing to years of playing and encountering innumerous situtations.
 <br/>
 <br/>
 Why a past game board and not any arbitrary board positions? TBD
 <br/>
 <br/>
-Experienced developers can start reading a high-quality codebase consisting of a few thousand lines of code and after a short while figure out 
+_Experienced developers_ can start reading a high-quality codebase consisting of a few thousand lines of code and after a short while figure out 
 their way through it. Then, they can deduce what regions lack structure and require more refactoring, suggest architectural changes,
-and develop a feeling for the code.
+and have a mental model of the code inside the head.
 They can do that since they've read and written tons of code.
 <br/>
 <br/>
 Why high-quality code-base and not any random codebase? TBD
 <br/>
 <br/>
-The more we'll feed our brains with varied inputs, the larger our toolbox will expand.
-It means we could solve not only more problems but also more elegantly (and faster) since we'll have more options to choose from.
+The more we'll feed our brains with varied inputs - the larger our toolbox will expand.
+It means we could solve not only more problems but also more elegantly (and faster) since we'll have more choices to choose from.
 <br/>
 <br/>
 ## How to Train?
 
 ![brain-image][brain-image]
 
-Now, how to _TYONT_?
-Again, let's split it again into Factual-data and _Patterns_.
+So... how to _TYONT_?
 <br/>
-### Factual-data Training:
-In order to _TYONT_ with facts, we first need to decide what you kind of information we want to remember. 
-We may want to extend your vocabulary, learn a new language, remember quotes and list goes and on.
+Again, let's split it again into _Factual-data_ and _Patterns_.
+<br/>
+### _Factual-data_ Training:
+In order to _TYONT_ with facts, you first need to decide what you kind of information we want to remember. 
+You may want to extend your vocabulary, learn a new language, remember quotes and list goes and on.
 My advice is to start with one or two topics as most.
 <br/>
 Then you should use the [Spaced-repetition][spaced-repetition] technique
@@ -190,14 +191,14 @@ It will assist with remembering the data most effectively.
 <br/>
 <br/>
 In case you want to expand your vocabulary - [Super-Memo][supermemo] is the best Spaced-repetition resource I know of. 
-Not only it asks you a question - after you want to see the answer, it will pronounce it.
-Additionally, The app offers synonyms to the desired answer - another advantage of the app.
+Not only it asks you a question - after you ask to review the answer, it will pronounce it.
+Additionally, The app offers synonyms to the desired answer - another major advantage of this app.
 <br/>
 <br/>
 Spaced-repetition can be super-effective for programmers as well. A classic use-case is making flashcards for keyboard shortcuts or shell commands.
-Another good case is having flashcards for Syntax. It's true that we have Google and Stackoverflow and great IDEs extensions with auto-complete
-and such. However, if you find yourself looking again for a method/standard-library function that you did already twice over the past week - 
-it might be a good indiciation to walk the extra mile and try to save the Googling for the next time. 
+Another good usage is having flashcards for Syntax. It's true that we have _Google_ and _Stackoverflow_ and great IDEs extensions with auto-complete
+and such. However, if you find yourself looking yet again for a standard-library function that you did already twice over the past week - 
+it might be a good indiciation to walk the extra mile and try saving the next _Google_ visit.
 <br/>
 <br/>
 I personally strive to be able to write code in my daily job knowing that I'm able to go and open an empty text editor without any plugin and start coding.
@@ -262,7 +263,7 @@ One of the byproducts is that learning from others has never been easier.
 </br>
 You can _TYONT_ and accomplish more than you think you can and as a bonus have fun too.
 </br></br>
-Let's Train Ours Own Neural Network! 😉
+Let's Train Our Own Neural Network! 😉
 
 
 <br/>
