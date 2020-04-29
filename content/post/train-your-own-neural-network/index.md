@@ -235,28 +235,32 @@ That will surely make us somewhat better at reading code.
 <br/>
 <br/>
 But we can _TYONT_ better. Let's instead be more specific. Say that we want to improve code understanding of a specific domain that interests us.
-We could look for famous GitHub Open-Source projects in that domain. It's preferable that code was written using programming-languages we know.
+We could look for famous GitHub Open-Source projects in that domain. 
+<br/>
+It's preferable that code was written using programming-languages we know.
 Then we can pick one or two projects and start reading them. 
-<br/>
+<br/><br/>
 After managing to walk through 1-2 similar projects, the 3rd one will become easier to grasp. 
-It's important to see code written by different great developers. Programming is a craft and there's always 
-more than a single valid way to do stuff. Code projects associated with the same domain will usually have some overlap.
+It's important to review code written by different great developers. Programming is a craft and there's always 
+more than a single valid way to do stuff. 
+<br/><br/>
+Code projects associated with the same domain will usually have some overlap.
 It could be shared terminology, similar domain abstractions for representing things.
-<br/>
+<br/><br/>
 Sometimes the same problem could be tackled in completely different ways - this is very educating to see other ways
 of approaching the same problem. For example, one could solve a programming challenge of [Advent of Code][aoc] and then read a variety of solutions.
+<br/><br/>
 Further than that, reading solutions coded in different programming-language can assist with developing more mental models (i.e: _Patterns_).
 Thinking in more paradigms is a necessity to get better (both in writing but also in reading code).
-<br/>
-And of course - while reading high-quality code and planting more Patterns seeds inside our brain, we get to learn how to do code with style.
+<br/><br/>
+And of course - while reading high-quality code and planting more _Patterns_ seeds inside our brain, we get to learn how to do code with style.
 It means how to write more idiomatic code, structuring the code-base, naming things better, and more.
-<br/>
-<br/>
+<br/><br/>
 As a side-note: learning from others is one of the best ways to get better.
 <br/>
 Whether it's going over a Math challenges solution in a book, reading other people's code,
 having a real-person mentor that you can ask questions and similar - All these are super effective.
-<br/>
+<br/><br/>
 This piece attempts to raise awareness around the _TYONT_ technique.
 </br>
 Its effectiveness doesn't get the place it deserves right now.
