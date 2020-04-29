@@ -1,14 +1,14 @@
 ---
 title: "Train Your Own Neural Network"
-date: 2020-04-03T12:06:33+03:00
+date: 2020-04-28T17:00:13+03:00
 type: "post"
 ---
 
 These days, using Machine-Learning and particularly Deep-Learning solutions in order to solve many technical challenges has become a norm.
 <br/><br/>
-That's mainly thanks to having access to unprecedented volumes of data, hardware advancements and acadmeic progress.
+That's mainly thanks to having access to unprecedented volumes of data, hardware advancements, and academic progress.
 <br/><br/>
-Many problems are tackled by modeling Neural-Networks, feeding them with tons of data and consequently they "learn" and turn artificially "smarter". 
+Many problems are tackled by modeling Neural-Networks, feeding them with tons of data, and consequently they "learn" and turn artificially "smarter". 
 <br/><br/>
 While we, humans, are still smarter than our computers - we do suffer from an inferior processing speed of information.
 <br/><br/>
@@ -16,7 +16,7 @@ We can't read a million books over the course of our lifetime.
 <br/>
 Neither can we write a billion lines of code, 
 <br/>
-speak fluently 100 different languages or paint million drawings. 
+speak fluently 100 different languages or paint a million drawings. 
 <br/>
 <br/>
 Yet, we are still able to accomplish quite a lot.
@@ -24,16 +24,16 @@ Yet, we are still able to accomplish quite a lot.
 Much more than we think we can. 
 <br/><br/>
 There is the classic saying that _"Practice makes Perfect"_. 
-<br/>This is partly true, because it's also that _"Practice also makes you Permanent"_.
+<br/>This is partly true because it's also that _"Practice also makes you Permanent"_.
 <br/><br/>
 Now usually comes the part saying that we need to do _Deliberate Practice_ consistently for many years.
-The thing is that there are multitude of ways to practice deliberately. 
+The thing is that there is a multitude of ways to practice deliberately. 
 There is no one size fits all formula applicable to all domains. 
 And of course - people are different.
 <br/><br/>
-I'd like this article to focus on a single _deliberate practice_ side - I  call it _"Train Your Own Netural Technique"_ technique. 
+I'd like this article to focus on a single _deliberate practice_ side - I  call it the _"Train Your Own Neural Technique"_ technique. 
 <br/><br/>
-For brevity, I'll use _TYONT_ acronym for the rest of the post. 
+For brevity, I'll use the _TYONT_ acronym for the rest of the post. 
 <br/>
 The essence of _TYONT_ is feeding your brain with tons of data relevant to things you care about.
 <br/><br/>
@@ -48,7 +48,7 @@ This is straightforward - it's pieces of data that are mere facts.
 
 * Historical 
 <br/>
- - _When did the French revolution took place?_
+ - _When did the French Revolution take place?_
 <br/>
  - _Who was the president of the United-States during World War II?_
 
@@ -62,7 +62,7 @@ This is straightforward - it's pieces of data that are mere facts.
  - _Give two synonyms to the word: decisive_
 
 <br/>
-### Factual data - _Domain specific_:
+### Factual data - _Domain-specific_:
 Since I'm a developer and this blog assumes its readers are too, I'll use programming factual data here but you could see how it translates 
 to many other fields.
 
@@ -77,7 +77,7 @@ to many other fields.
 * Syntax / Libraries 
 <br/>
  - _How to create a new module in that language?_
- - _What's the 2nd parameter this common-library's function signature expects?_
+ - _What's the 2nd parameter this common library's function signature expects?_
 
 <br/>
 ![flashcards-image][flashcards-image]
@@ -86,18 +86,18 @@ to many other fields.
 Now, let's move on and talk about the more interesting category: _Patterns_.
 As opposed to factual data which is well-defined - _Patterns_ aren't so.
 <br/><br/>
-When I'm refering to a _Pattern_ here, I refer to a core solution-technique relevant to a wide class of problems.
+When I'm referring to a _Pattern_ here, I refer to a core solution-technique relevant to a wide class of problems.
 <br/><br/>
 If there is a problem with a unique (or rare) solution that isn't translatable to other similar cases - then I'd NOT consider it as a _Pattern_.
 <br/>
 <br/>
 Although there is no well-defined algorithm that given a challenge, could say if its solutions consist of common techniques or not - 
-I'd still try my best to argue there is place for having that category. Please bear with me. 
+I'd still try my best to argue there is a place for having that category. Please bear with me. 
 <br/>
 <br/>
 So instead of writing: _"Challenges having common solutions that can be reused in many places"_ - I'd stick with the term a _Pattern_.
 <br/>
-I'm also aware that what one would view as a _Pattern_, another person wouldn't - and that's totaly fine.
+I'm also aware that what one would view as a _Pattern_, another person wouldn't - and that's totally fine.
 <br/>
 <br/>
 What's important is that anyone will be able to possess his own classification and decide if he regards it as a _Pattern_ (or not).
@@ -109,14 +109,14 @@ Since it's an individual discernment - here are a few examples of stuff I'd call
 <br/>
  - _Prove that √2 is an irrational number._
 <br/><br/>
-Why a _Pattern_? - The classic solution to the above is prove by contradiction. 
-We assume there exists two natural numbers 𝜨 and 𝜧  having no common divisors such that 𝜨 / M = √2
+Why a _Pattern_? - The classic solution to the above is proved by contradiction. 
+We assume there exist two natural numbers 𝜨 and 𝜧  having no common divisors such that 𝜨 / M = √2
 <br/>
-Building on top of this this - we'll eventually reach a dead-end to the assumption that 𝜨 and 𝜧  have no common divisors.
+Building on top of this - we'll eventually reach a dead-end to the assumption that 𝜨 and 𝜧  have no common divisors.
 <br/>
 ([click here for the full proof][root-2-proof]).
 <br/><br/>
-I see it as a _Pattern_ since I can imagine many Math problems that would require me to use a similar technique as we did here with 𝜨 and 𝜧 .
+I see it as a _Pattern_ since I can imagine many Math problems that would require me to use a similar technique as we did here with 𝜨 and 𝜧..
 
 * Chess 
 <br/>
@@ -125,7 +125,7 @@ I see it as a _Pattern_ since I can imagine many Math problems that would requir
 ![chess-puzzle-image][chess-puzzle-image]
 <br/>
 <br/>
-Why a _Pattern_? - The solution to to this challege is pretty easy (you can try to solve it [here][chess-puzzle]).
+Why a _Pattern_? - The solution to this challenge is pretty easy (you can try to solve it [here][chess-puzzle]).
 I'd call it a _Pattern_ since there are tons of similar chess challenges that will require using the same way of thinking. 
 
 * Reading Code
@@ -133,20 +133,20 @@ I'd call it a _Pattern_ since there are tons of similar chess challenges that wi
  - _Given high-quality logging library source code having 3K LOC - understand its inner workings_
 <br/><br/>
 Why a _Pattern_? - Well, that's a bit obscure. Understanding a self-contained code-base such as a logging library
-entails a couple of things I'd categorize as _Pattern_. While thoroughly reading such infrastructure library 
+entails a couple of things I'd categorize as _Pattern_. While thoroughly reading such an infrastructure library 
 you should expect to come across things such as:
 <br/>
 		* buffering: a common technique is to collect some log-entries in-memory before flushing it to disk / sending it via a socket or similar.
-		* multi-threading: if the library internals can be accessed simultaneously from multiple-threads, we can see how the library 
+		* multi-threading: if the library internals can be accessed simultaneously from multiple threads, we can see how the library 
 		  protects critical sections and shared resources. Maybe it'll also have some threads in charge of deleting stale data 
-		  (for example log entries that are buffered for too long). Or, flushing data might involve transfering of data into some background thread.
-		* log-rotations: if we persist data to a file - we may need logic that will remove old data. Similary, if we limit each file for 10MB,
+		  (for example log entries that are buffered for too long). Or, flushing data might involve transferring of data into some background thread.
+		* log-rotations: if we persist data to a file - we may need logic that will remove old data. Similarly, if we limit each file for 10MB,
 	      the code will have to prune the eldest entries or do something else (like saving new data to new file).
-		* formatting: if the library expects structed-logs it might have code for formatting structs to strings.
-		* parsing: for raw data, we might have parsers that will validate it and transform it to some structured shape.
+		* formatting: if the library expects structured-logs it might have code for formatting structs to strings.
+		* parsing: for raw data, we might have parsers that will validate it and transform it into some structured shape.
 		* compile-time macros: in case we're compiling for production we'd like to omit tracing code.
-		* fault tolerance: Robust logging mechanism should guard against burst of logging. It'll use rate-limits of number of calls/sec. 
-		  If the logging is to a remote machine, it may have wrap the calls with a circuit-breaker.
+		* fault-tolerance: Robust logging mechanism should guard against a burst of logging. It'll rate-limits the number of calls/sec. 
+		  If the logging is to a remote machine, it may wrap the calls with a circuit-breaker.
 		  circuit-breaker, rate limit, memory limit)
 		* tests: it's always a good place to learn how to use the library's API and get ideas.
 		  <br/>
@@ -162,8 +162,8 @@ Our brain is very good at recognizing patterns. Given an image, it'll detect obj
 _Math enthusiasts_ are able to receive a Math challenge and at once think of a few solving strategies that should be 
 tackled and eliminate a couple of others. That's because they have years of accumulated problem-solving knowledge.
 <br/><br/>
-_Profesional Chess players_ looking at a game board will instantly infer a lot about it, weight trade-offs and have a gut feeling what are the best
-options for next moves. That's owing to years of playing and encountering innumerous situtations.
+_Professional Chess players_ looking at a game board will instantly infer a lot about it, weigh trade-offs, and have a gut feeling what are the best
+options for next moves. That's owing to years of playing and encountering in numerous situations.
 <br/><br/>
 _Experienced developers_ can start reading a high-quality codebase consisting of a few thousand lines of code and after a short while figure out 
 their way through it. Then, they can deduce what regions lack structure and require more refactoring, suggest architectural changes,
@@ -182,29 +182,29 @@ So... how to _TYONT_?
 Again, let's split it again into _Factual-data_ and _Patterns_.
 <br/>
 ### _Factual-data_ Training:
-In order to _TYONT_ with facts, you first need to decide what you kind of information we want to remember. 
+In order to _TYONT_ with facts, you first need to decide what kind of information we want to remember. 
 You may want to extend your vocabulary, learn a new language, remember quotes and list goes and on.
 My advice is to start with one or two topics as most.
 <br/>
 Then you should use the [Spaced-repetition][spaced-repetition] technique
-in order to optimize what to study and when. This will assist you with remembering the most in less time and retain it better. 
+in order to optimize what to study and when. This will assist you in remembering the most in less time and retain it better. 
 <br/>
 <br/>
 I think it's a shame that most people aren't familiar with Spaced-repetition. It's so powerful and rewarding. 
-I highly recommend using [anki][anki] for applying it. You can think about it as your agent that throws at you flash-cards with questions
+I highly recommend using [Anki][anki] for applying it. You can think about it as your agent that throws at you flash-cards with questions
 and asks you to answer them. In order to make it as effective as you can, you're encouraged to create your own cards. 
 It will assist with remembering the data most effectively.
 <br/>
 <br/>
 In case you want to expand your vocabulary - [Super-Memo][supermemo] is the best Spaced-repetition resource I know of. 
-Not only it asks you a question - after you ask to review the answer, it will pronounce it.
+Not only it asks you a question - after you ask to review the answer, but it will also pronounce it.
 Additionally, The app offers synonyms to the desired answer - another major advantage of this app.
 <br/>
 <br/>
 Spaced-repetition can be super-effective for programmers as well. A classic use-case is making flashcards for keyboard shortcuts or shell commands.
 Another good usage is having flashcards for Syntax. It's true that we have _Google_ and _Stackoverflow_ and great IDEs extensions with auto-complete
 and such. However, if you find yourself looking yet again for a standard-library function that you did already twice over the past week - 
-it might be a good indiciation to walk the extra mile and try saving the next hop to _Google_.
+it might be a good indication to walk the extra mile and try saving the next hop to _Google_.
 <br/>
 <br/>
 I personally strive to know I'm able to open a text editor having no plugins and just start coding.
@@ -213,8 +213,8 @@ I'm suggesting that we're able to streamline common stuff that we repeatedly do.
 the stuff that seems to slow him down. 
 <br/>
 <br/>
-Moreover, I'd argue that most devlopers are using a single dominant programming-language in at-least 80% of their time and a handful of keyboard shortcuts 
-(or worse - using the mouse). Imagine the ROI boost of being fulent with syntax or shortcuts you're using repeatedly on a daily basis.
+Moreover, I'd argue that most developers are using a single dominant programming-language in at-least 80% of their time and a handful of keyboard shortcuts 
+(or worse - using the mouse). Imagine the ROI boost of being fluent with syntax or shortcuts you're using repeatedly on a daily basis.
 The real benefit won't be the time-savings - it'll be the context-switches reduction.
 You'll find yourself much less wandering and consequently staying in focus.
 <br/>
@@ -224,23 +224,23 @@ Now that we've covered the Spaced-repetition based training -  we're left with t
 ### Patterns Training
 The answer to how to _TYONT_ using _Patterns Training_ is unsurprisingly less obvious.
 It's true that we can create flashcards for math riddles in a few cases, 
-or take a Chess board and turn it into a flashcard. That'll be feasible, but not always - life isn't that simple.
+or take a Chessboard and turn it into a flashcard. That'll be feasible, but not always - life isn't that simple.
 <br/>
 <br/>
 For example, let's return to reading source code. 
 Flashcards won't assist programmers here (maybe in learning keyboard-shortcuts for code navigation). 
-The path to getting better at such a skill should be to tailor it to your own needs.
-One idea can be commiting to reading 1000 lines-of-code of a GitHub project on a daily basis. 
+The path to getting better at such skill should be to tailor it to your own needs.
+One idea can be committing to reading 1000 lines-of-code of a GitHub project on a daily basis. 
 That will surely make us somewhat better at reading code.
 <br/>
 <br/>
 But we can _TYONT_ better. Let's instead be more specific. Say that we want to improve code understanding of a specific domain that interests us.
-We could look for famous GitHub Open-Source projects in that domain. It's preferable that code be written a in programming-languages we know.
+We could look for famous GitHub Open-Source projects in that domain. It's preferable that code is written using a programming-languages we know.
 Then we can pick one or two projects and start reading them. 
 <br/>
 After managing to walk through 1-2 similar projects, the 3rd one will become easier to grasp. 
-It's important to see code written byb different great developers. Programming is a craft and there's always 
-more than a single valid way to do stuff. Code projects associated with the same domain, will usually have some overlap.
+It's important to see code written by different great developers. Programming is a craft and there's always 
+more than a single valid way to do stuff. Code projects associated with the same domain will usually have some overlap.
 It could be shared terminology, similar domain abstractions for representing things.
 <br/>
 Sometimes the same problem could be tackled in a completely different ways - this is very educating to see completly other ways
