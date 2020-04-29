@@ -4,7 +4,7 @@ date: 2020-04-28T17:00:13+03:00
 type: "post"
 ---
 
-These days, using Machine-Learning and particularly Deep-Learning solutions in order to solve many technical challenges has become a norm.
+These days, using Machine-Learning and particularly Deep-Learning solutions to solve many technical challenges has become a norm.
 <br/><br/>
 That's mainly thanks to having access to unprecedented volumes of data, hardware advancements, and academic progress.
 <br/><br/>
@@ -12,7 +12,7 @@ Many problems are tackled by modeling Neural-Networks, feeding them with tons of
 <br/><br/>
 While we, humans, are still smarter than our computers - we do suffer from an inferior processing speed of information.
 <br/><br/>
-We can't read a million books over the course of our lifetime. 
+We can't read a million books over throughout our lifetime. 
 <br/>
 Neither can we write a billion lines of code, 
 <br/>
@@ -100,7 +100,7 @@ So instead of writing: _"Challenges having common solutions that can be reused i
 I'm also aware that what one would view as a _Pattern_, another person wouldn't - and that's totally fine.
 <br/>
 <br/>
-What's important is that anyone will be able to possess his own classification and decide if he regards it as a _Pattern_ (or not).
+What's important is that anyone will be able to possess his classification and decide if he regards it as a _Pattern_ (or not).
 <br/>
 
 Since it's an individual discernment - here are a few examples of stuff I'd call _Patterns_:
@@ -116,7 +116,7 @@ Building on top of this - we'll eventually reach a dead-end to the assumption th
 <br/>
 ([click here for the full proof][root-2-proof]).
 <br/><br/>
-I see it as a _Pattern_ since I can imagine many Math problems that would require me to use a similar technique as we did here with 𝜨 and 𝜧..
+I see it as a _Pattern_ since I can imagine many Math problems that would require me to use a similar technique as we did here with 𝜨 and 𝜧.
 
 * Chess 
 <br/>
@@ -141,7 +141,7 @@ you should expect to come across things such as:
 		  protects critical sections and shared resources. Maybe it'll also have some threads in charge of deleting stale data 
 		  (for example log entries that are buffered for too long). Or, flushing data might involve transferring of data into some background thread.
 		* log-rotations: if we persist data to a file - we may need logic that will remove old data. Similarly, if we limit each file for 10MB,
-	      the code will have to prune the eldest entries or do something else (like saving new data to new file).
+	      the code will have to prune the eldest entries or do something else (like saving new data to a new file).
 		* formatting: if the library expects structured-logs it might have code for formatting structs to strings.
 		* parsing: for raw data, we might have parsers that will validate it and transform it into some structured shape.
 		* compile-time macros: in case we're compiling for production we'd like to omit tracing code.
@@ -159,7 +159,7 @@ you should expect to come across things such as:
 <br/><br/>
 Our brain is very good at recognizing patterns. Given an image, it'll detect objects in a fraction of a second. 
 <br/><br/>
-_Math enthusiasts_ are able to receive a Math challenge and at once think of a few solving strategies that should be 
+_Math enthusiasts_ can receive a Math challenge and at once think of a few solving strategies that should be 
 tackled and eliminate a couple of others. That's because they have years of accumulated problem-solving knowledge.
 <br/><br/>
 _Professional Chess players_ looking at a game board will instantly infer a lot about it, weigh trade-offs, and have a gut feeling what are the best
@@ -179,20 +179,20 @@ It means we could solve not only more problems but also more elegantly (and fast
 
 So... how to _TYONT_?
 <br/>
-Again, let's split it again into _Factual-data_ and _Patterns_.
+Again, let's split it into _Factual-data_ and _Patterns_.
 <br/>
 ### _Factual-data_ Training:
 In order to _TYONT_ with facts, you first need to decide what kind of information we want to remember. 
 You may want to extend your vocabulary, learn a new language, remember quotes and list goes and on.
 My advice is to start with one or two topics as most.
 <br/>
-Then you should use the [Spaced-repetition][spaced-repetition] technique
-in order to optimize what to study and when. This will assist you in remembering the most in less time and retain it better. 
+Then you should use the [Spaced-repetition][spaced-repetition] technique to optimize what to study and when.
+This will assist you in remembering the most in less time and retain it better. 
 <br/>
 <br/>
 I think it's a shame that most people aren't familiar with Spaced-repetition. It's so powerful and rewarding. 
 I highly recommend using [Anki][anki] for applying it. You can think about it as your agent that throws at you flash-cards with questions
-and asks you to answer them. In order to make it as effective as you can, you're encouraged to create your own cards. 
+and asks you to answer them. To make it as effective as you can, you're encouraged to create your cards. 
 It will assist with remembering the data most effectively.
 <br/>
 <br/>
@@ -202,19 +202,19 @@ Additionally, The app offers synonyms to the desired answer - another major adva
 <br/>
 <br/>
 Spaced-repetition can be super-effective for programmers as well. A classic use-case is making flashcards for keyboard shortcuts or shell commands.
-Another good usage is having flashcards for Syntax. It's true that we have _Google_ and _Stackoverflow_ and great IDEs extensions with auto-complete
+Another good usage is having flashcards for Syntax. We indeed have _Google_ and _Stackoverflow_ and great IDEs extensions with auto-complete
 and such. However, if you find yourself looking yet again for a standard-library function that you did already twice over the past week - 
 it might be a good indication to walk the extra mile and try saving the next hop to _Google_.
 <br/>
 <br/>
-I personally strive to know I'm able to open a text editor having no plugins and just start coding.
+I strive to know I'm able to open a text editor having no plugins and just start coding.
 Don't get me wrong here - we are paid to solve problems not memorize stuff that can be picked up easily.
 I'm suggesting that we're able to streamline common stuff that we repeatedly do. It's up to anyone to pin-point what's 
 the stuff that seems to slow him down. 
 <br/>
 <br/>
 Moreover, I'd argue that most developers are using a single dominant programming-language in at-least 80% of their time and a handful of keyboard shortcuts 
-(or worse - using the mouse). Imagine the ROI boost of being fluent with syntax or shortcuts you're using repeatedly on a daily basis.
+(or worse - using the mouse). Imagine the ROI boost of being fluent with syntax or shortcuts you're using repeatedly daily.
 The real benefit won't be the time-savings - it'll be the context-switches reduction.
 You'll find yourself much less wandering and consequently staying in focus.
 <br/>
@@ -230,12 +230,12 @@ or take a Chessboard and turn it into a flashcard. That'll be feasible, but not 
 For example, let's return to reading source code. 
 Flashcards won't assist programmers here (maybe in learning keyboard-shortcuts for code navigation). 
 The path to getting better at such skill should be to tailor it to your own needs.
-One idea can be committing to reading 1000 lines-of-code of a GitHub project on a daily basis. 
+One idea can be committing to reading 1000 lines-of-code of a GitHub project daily,
 That will surely make us somewhat better at reading code.
 <br/>
 <br/>
 But we can _TYONT_ better. Let's instead be more specific. Say that we want to improve code understanding of a specific domain that interests us.
-We could look for famous GitHub Open-Source projects in that domain. It's preferable that code is written using a programming-languages we know.
+We could look for famous GitHub Open-Source projects in that domain. It's preferable that code was written using programming-languages we know.
 Then we can pick one or two projects and start reading them. 
 <br/>
 After managing to walk through 1-2 similar projects, the 3rd one will become easier to grasp. 
@@ -243,34 +243,34 @@ It's important to see code written by different great developers. Programming is
 more than a single valid way to do stuff. Code projects associated with the same domain will usually have some overlap.
 It could be shared terminology, similar domain abstractions for representing things.
 <br/>
-Sometimes the same problem could be tackled in a completely different ways - this is very educating to see completly other ways
+Sometimes the same problem could be tackled in completely different ways - this is very educating to see other ways
 of approaching the same problem. For example, one could solve a programming challenge of [Advent of Code][aoc] and then read a variety of solutions.
-Further than that, reading solutiosn coded in different programming-language can assist with developing more mental models (i.e: _Patterns_).
-Thinking in more pradigms is necessity in order to get better (both in writing but also in reading code).
+Further than that, reading solutions coded in different programming-language can assist with developing more mental models (i.e: _Patterns_).
+Thinking in more paradigms is a necessity to get better (both in writing but also in reading code).
 <br/>
-And of course - while reading high-quality code and planting more Patterns seeds inside our brain, we get to learn how to do thing with style.
-It means how to write more idiomatic code, structing the code-base, naming things better and more.
+And of course - while reading high-quality code and planting more Patterns seeds inside our brain, we get to learn how to do code with style.
+It means how to write more idiomatic code, structuring the code-base, naming things better, and more.
 <br/>
 <br/>
 As a side-note: learning from others is one of the best ways to get better.
 <br/>
-Whether its going over a Math challenges solution in a book, reading other people's code,
+Whether it's going over a Math challenges solution in a book, reading other people's code,
 having a real-person mentor that you can ask questions and similar - All these are super effective.
 <br/>
-This piece attempts to raise the awareness around the _TYONT_ technique.
+This piece attempts to raise awareness around the _TYONT_ technique.
 </br>
 Its effectiveness doesn't get the place it deserves right now.
 </br>
 The article by no means argues that anyone can be good at math, a professional chess player,
-a world-class musician or a top-notch developer. 
-You still need to have some talent, passion, persistence and doing many other things in order to achieve greatness.
+a world-class musician, or a top-notch developer. 
+You still need to have some talent, passion, persistence and doing many other things to achieve greatness.
 </br></br>
-In the past a Math enthusiast could buy mostly the Math books available in his local-store.
-Maybe in some circumstances he could grab a book overseas - But how he would be familiar with the existing books? (There was no internet).
+In the past, a Math enthusiast could buy mostly the Math books available in his local-store.
+Maybe in some circumstances, he could grab a book overseas - But how he would be familiar with the existing books? (There was no internet).
 Today, a Math enthusiast can go to _Amazon_ or similar and order any existing book.
-If there is an online content in a foreign language - he can use translator.
+If there is online content in a foreign language - he can use a translator.
 </br></br>
-In the past if you wanted to be good at Chess you'd need access to good teachers.
+In the past, if you wanted to be good at Chess you'd need access to good teachers.
 Today, you can just go to [chess.com][chess-com] or a similar website and play for free 
 against millions of people or try solving some chess challenges.
 </br></br>
