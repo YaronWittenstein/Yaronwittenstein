@@ -133,26 +133,33 @@ I'd call it a _Pattern_ since there are tons of similar chess challenges that wi
  - _Given high-quality logging library source code having 3K LOC - understand its inner workings_
 <br/><br/>
 Why a _Pattern_? - Well, that's a bit obscure. Understanding a self-contained code-base such as a logging library
-entails a couple of things I'd categorize as _Pattern_. While thoroughly reading such an infrastructure library 
-you should expect to come across things such as:
-<br/>
-		* buffering: a common technique is to collect some log-entries in-memory before flushing it to disk / sending it via a socket or similar.
+entails a couple of things I'd categorize as _Pattern_. It contains abstractions, mental-models that can be used in other places.
+<br/><br/>
+While thoroughly reading such an infrastructure library you should expect to come across things such as:
+<br/><br/>
+		* buffering: a common technique is to collect log-entries in-memory before flushing it to disk / sending it via a socket or similar.
+		  <br/><br/>
 		* multi-threading: if the library internals can be accessed simultaneously from multiple threads, we can see how the library 
-		  protects critical sections and shared resources. Maybe it'll also have some threads in charge of deleting stale data 
-		  (for example log entries that are buffered for too long). Or, flushing data might involve transferring of data into some background thread.
+		  protects critical sections and shared resources. Maybe it'll also have threads in charge of deleting stale data 
+		  (for example log entries that are buffered for too long). Or, flushing data might involve transferring data into some background thread.
+		  <br/><br/>
 		* log-rotations: if we persist data to a file - we may need logic that will remove old data. Similarly, if we limit each file for 10MB,
-	      the code will have to prune the eldest entries or do something else (like saving new data to a new file).
+	      the code will have to prune the oldest entries or do something else (like saving new data to a new file).
+		  <br/><br/>
 		* formatting: if the library expects structured-logs it might have code for formatting structs to strings.
+		  <br/><br/>
 		* parsing: for raw data, we might have parsers that will validate it and transform it into some structured shape.
+		  <br/><br/>
 		* compile-time macros: in case we're compiling for production we'd like to omit tracing code.
-		* fault-tolerance: Robust logging mechanism should guard against a burst of logging. It'll rate-limits the number of calls/sec. 
+		  <br/><br/>
+		* fault-tolerance: robust logging mechanism should guard against a burst of logging. It'll rate-limit the number of calls/sec. 
 		  If the logging is to a remote machine, it may wrap the calls with a circuit-breaker.
-		  circuit-breaker, rate limit, memory limit)
+		  <br/><br/>
 		* tests: it's always a good place to learn how to use the library's API and get ideas.
-		  <br/>
+		  <br/><br/>
 		  _How the library simulates logging failure?_ 
 		  <br/>
-		  _Maybe it'll use fuzzy-tests for detecting an edge-case bug._
+		  _How the library use fuzzing for detecting an edge-case bug._
 
 <br/>
 ![patterns-image][patterns-image]
