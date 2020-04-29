@@ -125,8 +125,8 @@ I see it as a _Pattern_ since I can imagine many Math problems that would requir
 ![chess-puzzle-image][chess-puzzle-image]
 <br/>
 <br/>
-Why a _Pattern_? - The solution to the above is to sacrifice a chess item in order to win. I'd call it a _Pattern_ since there are 
-endless similar board positions that will require me to sacrifice an item in order to make a progress/win/avoid immediate lose.
+Why a _Pattern_? - The solution to to this challege is pretty easy (you can try to solve it [here][chess-puzzle]).
+I'd call it a _Pattern_ since there are tons of similar chess challenges that will require using the same way of thinking. 
 
 * Reading Code
 <br/>
@@ -158,32 +158,21 @@ you should expect to come across things such as:
 ![patterns-image][patterns-image]
 <br/><br/>
 Our brain is very good at recognizing patterns. Given an image, it'll detect objects in a fraction of a second. 
-<br/>
-<br/>
+<br/><br/>
 _Math enthusiasts_ are able to receive a Math challenge and at once think of a few solving strategies that should be 
 tackled and eliminate a couple of others. That's because they have years of accumulated problem-solving knowledge.
-<br/>
-<br/>
+<br/><br/>
 _Profesional Chess players_ looking at a game board will instantly infer a lot about it, weight trade-offs and have a gut feeling what are the best
 options for next moves. That's owing to years of playing and encountering innumerous situtations.
-<br/>
-<br/>
-Why a past game board and not any arbitrary board positions? TBD
-<br/>
-<br/>
+<br/><br/>
 _Experienced developers_ can start reading a high-quality codebase consisting of a few thousand lines of code and after a short while figure out 
 their way through it. Then, they can deduce what regions lack structure and require more refactoring, suggest architectural changes,
 and have a mental model of the code inside the head.
 They can do that since they've read and written tons of code.
-<br/>
-<br/>
-Why high-quality code-base and not any random codebase? TBD
-<br/>
-<br/>
+<br/><br/>
 The more we'll feed our brains with varied inputs - the larger our toolbox will expand.
 It means we could solve not only more problems but also more elegantly (and faster) since we'll have more choices to choose from.
-<br/>
-<br/>
+<br/><br/>
 ## How to Train?
 
 ![brain-image][brain-image]
@@ -249,10 +238,24 @@ But we can _TYONT_ better. Let's instead be more specific. Say that we want to i
 We could look for famous GitHub Open-Source projects in that domain. It's preferable that code be written a in programming-languages we know.
 Then we can pick one or two projects and start reading them. 
 <br/>
-After managing to walk through 1-2 projects, the 3rd one will become easier to grasp. 
-We'll compare TBD styles...
-
-TBD: learning from others and get feedback.
+After managing to walk through 1-2 similar projects, the 3rd one will become easier to grasp. 
+It's important to see code written byb different great developers. Programming is a craft and there's always 
+more than a single valid way to do stuff. Code projects associated with the same domain, will usually have some overlap.
+It could be shared terminology, similar domain abstractions for representing things.
+<br/>
+Sometimes the same problem could be tackled in a completely different ways - this is very educating to see completly other ways
+of approaching the same problem. For example, one could solve a programming challenge of [Advent of Code][aoc] and then read a variety of solutions.
+Further than that, reading solutiosn coded in different programming-language can assist with developing more mental models (i.e: _Patterns_).
+Thinking in more pradigms is necessity in order to get better (both in writing but also in reading code).
+<br/>
+And of course - while reading high-quality code and planting more Patterns seeds inside our brain, we get to learn how to do thing with style.
+It means how to write more idiomatic code, structing the code-base, naming things better and more.
+<br/>
+<br/>
+As a side-note: learning from others is one of the best ways to get better.
+<br/>
+Whether its going over a Math challenges solution in a book, reading other people's code,
+having a real-person mentor that you can ask questions and similar - All these are super effective.
 <br/>
 This piece attempts to raise the awareness around the _TYONT_ technique.
 </br>
@@ -308,3 +311,4 @@ Let's Train Our Own Neural Network! 😉
 [chess-puzzle]: https://chesspuzzle.net/Puzzle/49337
 [chess-com]: http://chess.com/
 [root-2-proof]: https://www.homeschoolmath.net/teaching/proof_square_root_2_irrational.php
+[aoc]: https://adventofcode.com/
