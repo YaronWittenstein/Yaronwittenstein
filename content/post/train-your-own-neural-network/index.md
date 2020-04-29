@@ -108,12 +108,11 @@ Since it's an individual discernment - here are a few examples of stuff I'd call
 * Math
 <br/>
  - _Prove that √2 is an irrational number._
-<br/>
-<br/>
+<br/><br/>
 Why a _Pattern_? - The classic solution to the above is prove by contradiction. 
 We assume there exists two natural numbers 𝜨 and 𝜧  having no common divisors such that 𝜨 / M = √2
 <br/>
-Building on top of this this - we'll eventually reach a contradiction to the assumption that 𝜨 and 𝜧  have no common divisors.
+Building on top of this this - we'll eventually reach a dead-end to the assumption that 𝜨 and 𝜧  have no common divisors.
 ([click here for the full proof][root-2-proof]).
 <br/><br/>
 I see it as a _Pattern_ since I can imagine many Math problems that would require me to use a similar technique as we did here with 𝜨 and 𝜧 .
@@ -121,7 +120,7 @@ I see it as a _Pattern_ since I can imagine many Math problems that would requir
 * Chess 
 <br/>
  - _Given the following board position - how can you do matt in 2 moves?_
-<br/>
+<br/><br/>
 TBD
 <br/>
 <br/>
@@ -130,13 +129,28 @@ endless similar board positions that will require me to sacrifice an item in ord
 
 * Reading Code
 <br/>
- - _Reading a logging library source code_
+ - _Given high-quality logging library source code having 3K LOC - understand its inner workings_
+<br/><br/>
+Why a _Pattern_? - Well, that's a bit obscure. Understanding a self-contained code-base such as a logging library
+entails a couple of things I'd categorize as _Pattern_. While thoroughly reading such infrastructure library 
+you should expect to come across things such as:
 <br/>
-TBD
-<br/>
-<br/>
-Why a _Pattern_? 
+		* buffering: a common technique is to collect some log-entries in-memory before flushing it to disk / sending it via a socket or similar.
+		* multi-threading: if the library internals can be accessed simultaneously from multiple-threads, we can see how the library 
+		  protects critical sections and shared resources. Maybe it'll also have some threads in charge of deleting stale data 
+		  (for example log entries that are buffered for too long). Or, flushing data might involve transfering of data into some background thread.
+		* log-rotations: if we persist data to a file - we may need logic that will remove old data. Similary, if we limit each file for 10MB,
+	      the code will have to prune the eldest entries or do something else (like saving new data to new file).
+		* formatting: if the library expects structed-logs it might have code for formatting structs to strings.
+		* parsing: for raw data, we might have parsers that will validate it and transform it to some structured shape.
+		* compile-time macros: in case we're compiling for production we'd like to omit tracing code.
+		* fault tolerance: Robust logging mechanism should guard against burst of logging. It'll use rate-limits of number of calls/sec. 
+		  If the logging is to a remote machine, it may have wrap the calls with a circuit-breaker.
+		  circuit-breaker, rate limit, memory limit)
+		* tests: it's always a good place to learn how to use the library's API and learn some tricks.
+		  How the library simulates logging failure? Maybe it'll use fuzzy-tests for detecting an edge-case bug.
 
+<br/>
 
 ![patterns-image][patterns-image]
 <br/>
