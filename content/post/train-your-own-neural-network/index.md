@@ -302,6 +302,7 @@ We can _TYONT_ and accomplish more than we think and as a bonus have fun too.
 * [Thesaurus][thesaurus]
 * [SuperMemo.com - Learn fast and forget about forgetting][supermemo]
 * [Execute Program - Learn programming tools fast. Then remember them][executeprogram]
+* [20 Best Websites to Help Kids Learn From Home][kids-learn-from-home]
 
 [brain-image]: images/brain.png
 [flashcards-image]: images/flashcards.png
@@ -320,3 +321,4 @@ We can _TYONT_ and accomplish more than we think and as a bonus have fun too.
 [chess-com]: http://chess.com/
 [root-2-proof]: https://www.homeschoolmath.net/teaching/proof_square_root_2_irrational.php
 [aoc]: https://adventofcode.com/
+[kids-learn-from-home]: https://www.wizcase.com/blog/best-online-resources-to-help-kids-learn-from-home/
